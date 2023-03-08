@@ -110,15 +110,12 @@ header a {
 .introducao p {
     font-size: 40px;
     color: #33272A;
-    text-align: center;
 }
 
 @media (max-width: 1000px) {
     .introducao h1 {
         font-size: 60px;
     }
-
-
 }
 
 @media (max-width: 800px) {
@@ -137,13 +134,11 @@ header a {
     .introducao p {
         font-size: 28px;
         color: #33272A;
-        text-align: center;
     }
 
     .introducao h1 {
         font-size: 60px;
         color: #33272A;
-        text-align: center;
     }
 }
 
@@ -484,5 +479,3 @@ header a {
         text-align: center;
         text-transform: uppercase;
     }
-
-
