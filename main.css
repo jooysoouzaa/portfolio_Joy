@@ -204,7 +204,7 @@ header a {
     .empresa,
     .projeto,
     .faculdade {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -250,15 +250,21 @@ header a {
 
 @media (max-width:800px) {
 
-    .empresa-titulo,
     .projeto-titulo,
-    .experiencia-titulo,
     .formacao-titulo,
     .faculdade-titulo,
     .faculdade-tipo {
         font-size: 15px;
         letter-spacing: 0.5px;
+        
     }
+
+    .empresa-titulo,
+    .experiencia-titulo {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+   
 }
 
 .empresa-texto,
@@ -310,9 +316,6 @@ header a {
 
     }
 
-    .experiencia-texto {
-        font-size: 1.25rem;
-    }
 
     .projetos-texto {
         font-size: 1.25rem;
@@ -359,6 +362,8 @@ header a {
 .button:hover {
     background: #d23b689b;
 }
+
+
 
 .formacao {
     background: #f9cfcf;
@@ -438,40 +443,36 @@ header a {
 
     }
 
-    .formacao-texto {
-        font-size: 1.25rem;
+    .footer {
+        background: #F9CFCF;
     }
-}
 
-.footer {
-    background: #F9CFCF;
-}
+    .footer-container {
+        max-width: 1200px;
+        padding: 40px 20px 20px 20px;
+        margin: 0 auto;
+        gap: 100px;
+    }
 
-.footer-container {
-    max-width: 1200px;
-    padding: 40px 20px 20px 20px;
-    margin: 0 auto;
-    gap: 100px;
-}
+    .footer-contato {
+        display: flex;
+        gap: 20px 20px;
+        padding: 40px 0px;
+        justify-content: center;
 
-.footer-contato {
-    display: flex;
-    gap: 20px 20px;
-    padding: 40px 0px;
-    justify-content: center;
+    }
 
-}
+    .footer-contato li {
+        width: 50px;
 
-.footer-contato li {
-    width: 50px;
+    }
 
-}
-
-.footer-copy {
-    font-size: 15px;
-    line-height: 1.33;
-    color: #ba25529b;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
+    .footer-copy {
+        font-size: 15px;
+        line-height: 1.33;
+        color: #ba25529b;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+    }
 }
