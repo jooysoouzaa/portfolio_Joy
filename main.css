@@ -204,8 +204,18 @@ header a {
     .empresa,
     .projeto,
     .faculdade {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
+
+    span.projeto-titulo,
+    span.faculdade-titulo {
+        display: none;
+    }
+    .empresa-habilidades,
+    .conclusao-instituicao{
+        order: -1;
+    }
+    
 }
 
 .empresa::before,
@@ -254,17 +264,19 @@ header a {
     .formacao-titulo,
     .faculdade-titulo,
     .faculdade-tipo {
-        font-size: 15px;
+        font-size: 18px;
         letter-spacing: 0.5px;
         
     }
 
     .empresa-titulo,
     .experiencia-titulo {
-        font-size: 15px;
+        font-size: 18px;
         letter-spacing: 0.5px;
+    }   
+    span.experiencia-titulo{
+        font-size: 15px;
     }
-   
 }
 
 .empresa-texto,
@@ -363,8 +375,6 @@ header a {
     background: #d23b689b;
 }
 
-
-
 .formacao {
     background: #f9cfcf;
 }
@@ -398,7 +408,6 @@ header a {
 
 .faculdade-tipo {
     font-size: 18px;
-    margin-bottom: 10px;
 }
 
 .faculdade-instituicao {
@@ -442,7 +451,7 @@ header a {
         gap: 40px;
 
     }
-
+}
     .footer {
         background: #F9CFCF;
     }
@@ -456,7 +465,7 @@ header a {
 
     .footer-contato {
         display: flex;
-        gap: 20px 20px;
+        gap: 20px;
         padding: 40px 0px;
         justify-content: center;
 
@@ -475,4 +484,5 @@ header a {
         text-align: center;
         text-transform: uppercase;
     }
-}
+
+
