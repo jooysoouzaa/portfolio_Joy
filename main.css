@@ -206,11 +206,12 @@ header a {
     span.faculdade-titulo {
         display: none;
     }
+
     .empresa-habilidades,
-    .conclusao-instituicao{
+    .conclusao-instituicao {
         order: -1;
     }
-    
+
 }
 
 .empresa::before,
@@ -261,15 +262,16 @@ header a {
     .faculdade-tipo {
         font-size: 18px;
         letter-spacing: 0.5px;
-        
+
     }
 
     .empresa-titulo,
     .experiencia-titulo {
         font-size: 18px;
         letter-spacing: 0.5px;
-    }   
-    span.experiencia-titulo{
+    }
+
+    span.experiencia-titulo {
         font-size: 15px;
     }
 }
@@ -447,35 +449,36 @@ header a {
 
     }
 }
-    .footer {
-        background: #F9CFCF;
-    }
 
-    .footer-container {
-        max-width: 1200px;
-        padding: 40px 20px 20px 20px;
-        margin: 0 auto;
-        gap: 100px;
-    }
+.footer {
+    background: #F9CFCF;
+}
 
-    .footer-contato {
-        display: flex;
-        gap: 20px;
-        padding: 40px 0px;
-        justify-content: center;
+.footer-container {
+    max-width: 1200px;
+    padding: 40px 20px 20px 20px;
+    margin: 0 auto;
+    gap: 100px;
+}
 
-    }
+.footer-contato {
+    display: flex;
+    gap: 20px;
+    padding: 40px 0px;
+    justify-content: center;
 
-    .footer-contato li {
-        width: 50px;
+}
 
-    }
+.footer-contato li {
+    width: 50px;
 
-    .footer-copy {
-        font-size: 15px;
-        line-height: 1.33;
-        color: #ba25529b;
-        font-weight: bold;
-        text-align: center;
-        text-transform: uppercase;
-    }
+}
+
+.footer-copy {
+    font-size: 15px;
+    line-height: 1.33;
+    color: #ba25529b;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
