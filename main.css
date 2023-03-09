@@ -475,10 +475,13 @@ header a {
 }
 
 .footer-copy {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.33;
-    color: #ba25529b;
-    font-weight: bold;
+    color: #33272A;
     text-align: center;
-    text-transform: uppercase;
+}
+
+.footer-copy strong{
+    color: #ba25529b;
+    font-size: 14px;
 }
