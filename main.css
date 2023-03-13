@@ -72,13 +72,13 @@ header a {
     }
 
     .header-nav-menu {
-        /*padding-left: 50px;*/
+        padding-left: 150px;
         overflow-x: scroll;
         overflow-y: hidden;
     }
 
     .header img {
-        width: 70px;
+        width: 50px;
     }
 }
 
