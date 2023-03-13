@@ -49,6 +49,7 @@ img {
     color: #d1446f;
     font-weight: bold;
     display: block;
+    text-transform: uppercase;
 }
 
 header a {
