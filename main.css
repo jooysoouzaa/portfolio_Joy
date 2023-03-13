@@ -32,7 +32,7 @@ img {
     align-items: center;
     padding: 40px 20px;
     flex-wrap: wrap;
-}
+} 
 
 .header-menu {
     display: flex;
@@ -75,7 +75,7 @@ header a {
     .header-nav-menu {
         overflow-x: scroll;
         overflow-y: hidden;
-        display: flex
+        display: flex;
     }
 
 }
