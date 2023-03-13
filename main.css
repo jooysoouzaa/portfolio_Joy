@@ -31,6 +31,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 40px 20px;
+    flex-wrap: wrap;
 }
 
 .header-menu {
@@ -58,12 +59,12 @@ header a {
     background: #f1bdbd;
 }
 
-@media (max-width:800px) {
+@media (max-width:625px) {
     .header {
-        /*flex-direction: column;*/
-        gap: 40px;
-        align-items: initial;
+        gap: 20px;
+        align-items: center;
         padding: 20px;
+        flex-wrap: nowrap;
 
     }
 
@@ -72,13 +73,11 @@ header a {
     }
 
     .header-nav-menu {
-        padding-left: 150px;
         overflow-x: scroll;
         overflow-y: hidden;
+        display: flex
     }
-    .header-menu a{
-        transition: color var(--transitions-duration) ease-in-out;
-    }
+
 }
 
 .container {
