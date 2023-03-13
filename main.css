@@ -23,9 +23,6 @@ img {
     display: block;
 }
 
-.header .logo {
-    background: none;
-}
 
 .header {
     max-width: 1200px;
@@ -38,9 +35,9 @@ img {
 
 .header-menu {
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+
 }
 
 .header-menu a {
@@ -48,75 +45,68 @@ img {
     line-height: 1.3;
     padding: 10px 20px;
     text-decoration: none;
-    color: #fddada;
+    color: #d1446f;
     font-weight: bold;
     display: block;
-    text-transform: uppercase;
 }
 
 header a {
-    background: #DC9D9D;
     border-radius: 10px;
 }
 
 .header-menu a:hover {
-    background: #ba25529b;
-    color: #fddada;
+    background: #f1bdbd;
 }
 
 @media (max-width:800px) {
     .header {
         flex-direction: column;
         gap: 40px;
+        align-items: initial;
         padding: 20px;
+
     }
 
+    .header-menu a {
+        font-size: 16px;
+    }
+
+    .header-nav-menu {
+        /*padding-left: 50px;*/
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .header img {
+        width: 70px;
+    }
 }
 
 .container {
     max-width: 1200px;
-    padding: 40px;
+    padding: 40px 20px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 100px;
+    gap: 40px;
 }
 
-.introducao {
-    align-items: center;
-}
 
 .introducao h1 {
-    font-size: 70px;
-    line-height: 80px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 30px;
     position: relative;
-    color: #33272A;
-    font-family: 'Playfair Display', serif;
+    color: rgb(51, 39, 42);
+    font-weight: 100;
 }
 
-.introducao h1::before {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 100px;
-    background: url(./Imagens/detalhe.svg) no-repeat center;
-    position: absolute;
-    top: -20px;
-    left: -60px;
-    z-index: -1;
-}
 
 .introducao p {
     font-size: 40px;
     color: #33272A;
 }
 
-@media (max-width: 1000px) {
-    .introducao h1 {
-        font-size: 60px;
-    }
-}
+
 
 @media (max-width: 800px) {
     .introducao {
@@ -135,11 +125,6 @@ header a {
         font-size: 28px;
         color: #33272A;
     }
-
-    .introducao h1 {
-        font-size: 60px;
-        color: #33272A;
-    }
 }
 
 @media (max-width: 800px) {
@@ -149,8 +134,9 @@ header a {
     }
 
     .introducao img {
-        display: inline;
-        margin-bottom: 40px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+        width: 800px;
     }
 
     .introducao h1::before {
@@ -158,17 +144,14 @@ header a {
     }
 }
 
+
 .subtitulo {
-    font-size: 80px;
+    font-size: 40px;
     font-family: 'Playfair Display', serif;
 }
 
 .projeto a {
     text-decoration: none;
-}
-
-.projeto a h3:hover {
-    color: #6409259b;
 }
 
 .experiencia .subtitulo,
@@ -222,7 +205,7 @@ header a {
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(#d58b8b, #ba25529b);
+    background: linear-gradient(#d58b8b, #d1446f);
     position: absolute;
     top: 20px;
     left: -4px;
@@ -250,7 +233,7 @@ header a {
     letter-spacing: 1px;
     line-height: 1.1;
     font-weight: bold;
-    color: #ba25529b;
+    color: #d1446f;
     font-family: 'Playfair Display', serif;
 }
 
@@ -272,7 +255,7 @@ header a {
     }
 
     span.experiencia-titulo {
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
@@ -281,7 +264,7 @@ header a {
 .experiencia-texto,
 .formacao-texto,
 .faculdade-curso {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.4;
     color: #33272A;
     font-weight: 600;
@@ -301,7 +284,7 @@ header a {
 
 .empresa-habilidades li,
 .conclusao-instituicao li {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.4;
     font-weight: bold;
     border-radius: 4px;
@@ -359,7 +342,7 @@ header a {
     line-height: 1.4;
     font-weight: bold;
     border-radius: 4px;
-    background: #ba25529b;
+    background: #d1446f;
     color: #eab6b6;
     padding: 10px;
     border: none;
@@ -369,7 +352,7 @@ header a {
 }
 
 .button:hover {
-    background: #d23b689b;
+    background: #BA2552;
 }
 
 .formacao {
@@ -393,7 +376,7 @@ header a {
 }
 
 .formacao-teto {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 30px;
 }
@@ -418,7 +401,7 @@ header a {
 .formacao-extra h3 {
     font-size: 0.875rem;
     line-height: 1.4;
-    color: #ba25529b;
+    color: #d1446f;
     text-transform: uppercase;
     margin-bottom: 30px;
     position: relative;
@@ -481,7 +464,7 @@ header a {
     text-align: center;
 }
 
-.footer-copy strong{
-    color: #ba25529b;
+.footer-copy strong {
+    color: #d1446f;
     font-size: 14px;
 }
