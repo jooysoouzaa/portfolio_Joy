@@ -345,6 +345,7 @@ header a {
 .experiencia .subtitulo {
   color: #ccb0ab;
   margin-bottom: 24px;
+  letter-spacing: 1px;
 }
 
 .experiencia-container,
