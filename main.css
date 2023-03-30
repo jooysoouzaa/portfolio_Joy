@@ -92,19 +92,16 @@ header a {
   gap: 40px;
 }
 
-.introducao h1 {
+.introducao p {
   font-size: 16px;
   line-height: 30px;
   position: relative;
   color: #fef5f5;
-  font-weight: 100;
 }
 
-.introducao p {
-  font-size: 40px;
-  color: #fef5f5;
+.introducao strong {
+  color: #ccb0ab;
 }
-
 @media (max-width: 800px) {
   .introducao {
     grid-template-columns: 1rf 1rf;
@@ -119,7 +116,7 @@ header a {
   }
 
   .introducao p {
-    font-size: 28px;
+    font-size: 16px;
     color: #fef5f5;
   }
 }
