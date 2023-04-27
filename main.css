@@ -60,13 +60,13 @@ header a {
   color: #fef5f5;
 }
 
-@media screen and (min-width:626px) and (max-width:745px){
-  .header{
+@media screen and (min-width: 626px) and (max-width: 745px) {
+  .header {
     display: block;
   }
   .header-menu {
     margin-top: 20px;
-}
+  }
 }
 
 @media (max-width: 625px) {
@@ -102,7 +102,7 @@ header a {
   gap: 40px;
 }
 
-.introducao img{
+.introducao img {
   max-width: 100%;
   height: auto;
 }
@@ -116,6 +116,7 @@ header a {
 .introducao strong {
   color: #ccb0ab;
 }
+
 @media (max-width: 800px) {
   .introducao {
     grid-template-columns: 1rf 1rf;
