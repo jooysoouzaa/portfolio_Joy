@@ -20,6 +20,7 @@ ul {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -59,6 +60,15 @@ header a {
   color: #fef5f5;
 }
 
+@media screen and (min-width:626px) and (max-width:745px){
+  .header{
+    display: block;
+  }
+  .header-menu {
+    margin-top: 20px;
+}
+}
+
 @media (max-width: 625px) {
   .header {
     gap: 20px;
@@ -92,7 +102,10 @@ header a {
   gap: 40px;
 }
 
-
+.introducao img{
+  max-width: 100%;
+  height: auto;
+}
 .introducao p {
   font-size: 16px;
   line-height: 30px;

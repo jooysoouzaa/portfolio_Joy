@@ -6,76 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Joy Sóuza</title>
+    <meta name="description" content="Desenvolvedora Front-End">
     <link rel="stylesheet" href="./main.css">
     <link rel="shortcut icon" type="image/x-icon" href="./Imagens/flavicon.ico">
-
     <meta name="theme-color" content="#ccb0ab">
     <meta name="apple-mobile-web-app-status-bar-style" content="#ccb0ab">
     <meta name="msapplication-navbutton-color" content="#ccb0ab">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
 </head>
-<header class="header">
-    <a class="logo" href="index.html">
-        <img src="./Imagens/logotipo.svg" alt="Joy Sóuza">
-    </a>
 
-    <div class="header-nav-menu">
-        <nav>
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img src="./Imagens/logotipo.svg" alt="Joy Sóuza" width="92" height="62">
+        </a>
+
+        <nav class="header-nav-menu">
             <ul class="header-menu">
-                <li>
-                    <a href="#projetos">Projetos</a>
-                </li>
-                <li>
-                    <a href="#formacao">Formação</a>
-                </li>
-                <li>
-                    <a href="#experiencia">Experiência</a>
-                </li>
-                <li>
-                    <a href="#contato">Contato</a>
-                </li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-    </div>
-</header>
+    </header>
 
-<main class=" container introducao">
-    <img src="./Imagens/perfil_.png" alt="Foto de Perfil - Joy Sóuza" />
-    <div>
-        <p>Olá! Sou a Joy Sóuza, <strong>desenvolvedora front-end formada em Análise e desenvolvimento de Sistemas pela FIAP</strong>, estou sempre buscando aprimorar minhas habilidades em desenvolvimento front-end para oferecer as melhores soluções para os projetos em que trabalho.<br><br>
-            Tenho habilidade em <strong>HTML, CSS, SASS, Bootstrap e Git/GitHub utilizando metodologias ágeis para garantir que os projetos sejam entregues com qualidade e dentro do prazo.</strong> Sou apaixonada por tecnologia e estou sempre a procura de adquirir conhecimento para aprimorar meu trabalho e entregar soluções inovadoras e eficientes.<br><br>
-            Atualmente, estou adquirindo conhecimento em <strong> JavaScript, TypeScript, ES6+, Ajax, JQuery, Vue.js, React.js, construção de interfaces comunicando com APIs, Gulp, Grunt e Cypress, através do curso profissionalizante da EBAC.</strong> Isso me permite estar atualizada e pronta para atender às demandas do mercado e contribuir com soluções inovadoras e criativas, fornecendo uma experiência de usuário aprimorada e eficiente para os usuários finais. Além disso, estou estudando <strong>inglês</strong> para aprimorar ainda mais minha comunicação para expandir minhas possibilidades profissionais.
-        </p>
-    </div>
-</main>
-
-<section class="projetos" id="projetos" aria-label="Projetos">
-    <div class="projetos-container">
-        <h2 class="subtitulo">Projetos</h2>
+    <main class="container introducao">
+        <img src="./Imagens/perfil_.png" alt="Foto de Perfil - Joy Sóuza" width="400" height="500">
         <div>
-            <!--<div class="projeto">
-                <h3 class="projeto-titulo">Bikcraft</h3>
-                <span class="projeto-titulo">Tech utilizada:</span>
-                <p class="projeto-texto">BikCraft é uma empresa que trabalha com bicicletas elétricas de alta precisão
-                    feitas sob medida. Nesse projeto foi trabalhado toda a parte de UI design (Figma) e o front-end
-                    (HTML e CSS).
-                </p>
-                <ul class="empresa-habilidades">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                </ul>
-                <a href="https://github.com/jooysoouzaa" target="_blank">
-                    <button class="button" type="submit">Ver projeto</button>
-                </a>
-            </div>-->
+            <p>Olá! Sou a Joy Sóuza, <strong>desenvolvedora front-end formada em Análise e Desenvolvimento de Sistemas pela FIAP</strong>. Tenho habilidade em <strong>HTML, CSS, SASS, Bootstrap, e Git/GitHub utilizando metodologias ágeis</strong> para garantir que os projetos sejam entregues com qualidade e dentro do prazo.<br><br>
+                Atualmente, estou adquirindo conhecimento em <strong>JavaScript, TypeScript, ES6+, Ajax, JQuery, Vue.js, React.js, construção de interfaces comunicando com APIs, Gulp, Grunt e Cypress, através do curso profissionalizante da EBAC.</strong> Isso me permite estar atualizada e pronta para atender às demandas do mercado e contribuir com soluções inovadoras e criativas, fornecendo uma experiência de usuário aprimorada e eficiente para os usuários finais. Além disso, estou estudando <strong>inglês</strong> para aprimorar ainda mais minha comunicação e expandir minhas possibilidades profissionais.</p>
+        </div>
+    </main>
+
+    <section class="projetos" id="projetos" aria-label="Projetos">
+        <div class="projetos-container">
+            <h2 class="subtitulo">Projetos</h2>
             <div class="projeto">
                 <h3 class="projeto-titulo">BS - Planos de Saúde</h3>
                 <span class="projeto-titulo">Tech utilizada:</span>
@@ -91,7 +58,6 @@
                     <button class="button" type="submit">Ver projeto</button>
                 </a>
             </div>
-
             <div class="projeto">
                 <h3 class="projeto-titulo">Fortunatus Motors</h3>
                 <span class="projeto-titulo">Tech utilizada:</span>
@@ -106,121 +72,108 @@
                     <button class="button" type="submit">Ver projeto</button>
                 </a>
             </div>
-
-            <!--<div class="projeto">
-                <h3 class="projeto-titulo">InstaPet</h3>
-                <span class="projeto-titulo">Tech utilizada:</span>
-                <p class="projeto-texto">O InstaPet é um projeto voltado para os pets, é uma rede social onde os tutores postam fotos de seus pets. Projeto realizado através do curso de React da Origamid.
-                </p>
-                <ul class="empresa-habilidades">
-                    <li>React</li>
-                </ul>
-                <a href="https://github.com/jooysoouzaa" target="_blank">
-                    <button class="button" type="submit">Ver projeto</button>
-                </a>
-            </div>-->
         </div>
-    </div>
-</section>
-
-<section class="formacao" id="formacao" aria-label="Formação">
-    <div class="formacao-container">
-        <h2 class="subtitulo">Formação</h2>
-
-        <div>
-            <p class="formacao-texto">Me formei em dezembro de 2020 no curso tecnólogo de <strong>Análise e desenvolvimento de sistemas</strong> pela Fiap e atualmente, estou realizando o <strong>curso profissionalizante Engenheiro Front-End da EBAC.</strong></p>
-            <div class="faculdade">
-                <h3 class="faculdade-tipo">Curso profissionalizante</h3>
-                <span class="faculdade-titulo">Conclusão/Instituição</span>
-                <p class="faculdade-curso">Engenheiro Front-End</p>
-                <ul class="conclusao-instituicao">
-                    <li>Cursando</li>
-                    <li>EBAC</li>
-                </ul>
-            </div>
-            <div class="faculdade">
-                <h3 class="faculdade-tipo">Tecnólogo</h3>
-                <span class="faculdade-titulo">Conclusão/Instituição</span>
-                <p class="faculdade-curso">Análise e Desenvolvimento de Sistemas</p>
-                <ul class="conclusao-instituicao">
-                    <li>Dez/20</li>
-                    <li>FIAP</li>
-                </ul>
-            </div>
         </div>
+    </section>
 
-        <div class="formacao-extra">
+    <section class="formacao" id="formacao" aria-label="Formação">
+        <div class="formacao-container">
+            <h2 class="subtitulo">Formação</h2>
 
-            <div class="cursos">
-                <h3>Cursos</h3>
-                <ul>
-                    <li>CSS Grid Layout<span>Origamid</span></li>
-                    <li>CSS com SASS<span>Origamid</span></li>
-                    <li>Web Design<span>Origamid</span></li>
-                    <li>CSS Flebox<span>Origamid</span></li>
-                    <li>UI Design<span>UIBoost</span></li>
-                    <li>Figma<span>Udemy</span></li>
-                </ul>
+            <div>
+                <p class="formacao-texto">Me formei em dezembro de 2020 no curso tecnólogo de <strong>Análise e desenvolvimento de sistemas</strong> pela Fiap e atualmente, estou realizando o <strong>curso profissionalizante Engenheiro Front-End da EBAC.</strong></p>
+                <div class="faculdade">
+                    <h3 class="faculdade-tipo">Curso profissionalizante</h3>
+                    <span class="faculdade-titulo">Conclusão/Instituição</span>
+                    <p class="faculdade-curso">Engenheiro Front-End</p>
+                    <ul class="conclusao-instituicao">
+                        <li>Cursando</li>
+                        <li>EBAC</li>
+                    </ul>
+                </div>
+                <div class="faculdade">
+                    <h3 class="faculdade-tipo">Tecnólogo</h3>
+                    <span class="faculdade-titulo">Conclusão/Instituição</span>
+                    <p class="faculdade-curso">Análise e Desenvolvimento de Sistemas</p>
+                    <ul class="conclusao-instituicao">
+                        <li>Dez/20</li>
+                        <li>FIAP</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="idiomas">
-                <h3>Idiomas</h3>
-                <ul>
-                    <li>Inglês <span> / Básico - em desenvolvimento</span></li>
-                </ul>
+            <div class="formacao-extra">
+
+                <div class="cursos">
+                    <h3>Cursos</h3>
+                    <ul>
+                        <li>CSS Grid Layout<span>Origamid</span></li>
+                        <li>CSS com SASS<span>Origamid</span></li>
+                        <li>Web Design<span>Origamid</span></li>
+                        <li>CSS Flebox<span>Origamid</span></li>
+                        <li>UI Design<span>UIBoost</span></li>
+                        <li>Figma<span>Udemy</span></li>
+                    </ul>
+                </div>
+
+                <div class="idiomas">
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li>Inglês <span> / Básico - em desenvolvimento</span></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="experiencia" id="experiencia" aria-label="Experiência">
-    <div class="experiencia-container">
+    <section class="experiencia" id="experiencia" aria-label="Experiência">
+        <div class="experiencia-container">
 
-        <h2 class="subtitulo">Experiência</h2>
+            <h2 class="subtitulo">Experiência</h2>
 
-        <div>
-            <div class="empresa">
-                <h3 class="experiencia-titulo">Realizzart</h3>
-                <span class="experiencia-titulo">Proprietária e Designer</span>
-                <p class="experiencia-texto">Desenvolvimento de projetos de identidade visual, arte digital e monogramas através das ferramentas Adobe Illustrator e Photoshop para empreendedores de diversas áreas.</p>
-                <ul class="empresa-habilidades">
-                    <li>Maio/21 - Mar/23</li>
-                </ul>
+            <div>
+                <div class="empresa">
+                    <h3 class="experiencia-titulo">Realizzart</h3>
+                    <span class="experiencia-titulo">Proprietária e Designer</span>
+                    <p class="experiencia-texto">Desenvolvimento de projetos de identidade visual, arte digital e monogramas através das ferramentas Adobe Illustrator e Photoshop para empreendedores de diversas áreas.</p>
+                    <ul class="empresa-habilidades">
+                        <li>Maio/21 - Mar/23</li>
+                    </ul>
+                </div>
+
+
+                <div class="empresa">
+                    <h3 class="experiencia-titulo">T-Systems</h3>
+                    <span class="experiencia-titulo">Estágio em dev. front-end</span>
+                    <p class="experiencia-texto">Desenvolvimento e manutenção de projetos Web para a Daimler (Mercedes-Benz) utilizando HTML5, CSS3, Bootstrap3 e JavaScript.</p>
+                    <ul class="empresa-habilidades">
+                        <li>Out/19 - Jan/20</li>
+                    </ul>
+                </div>
+
+                <div class="empresa">
+                    <h3 class="experiencia-titulo">Poupatempo</h3>
+                    <span class="experiencia-titulo">Atendente Multitarefas</span>
+                    <p class="experiencia-texto">Atendimento ao cidadão, emitindo títulos eleitorais, certidão de quitação eleitoral, certidão circunstanciada, cadastro biométrico e emissão de multas e atendimento ao público em geral.</p>
+                    <ul class="empresa-habilidades">
+                        <li>Ago/16 - Fev/19</li>
+                    </ul>
+                </div>
             </div>
+    </section>
 
-
-            <div class="empresa">
-                <h3 class="experiencia-titulo">T-Systems</h3>
-                <span class="experiencia-titulo">Estágio em dev. front-end</span>
-                <p class="experiencia-texto">Desenvolvimento e manutenção de projetos Web para a Daimler (Mercedes-Benz) utilizando HTML5, CSS3, Bootstrap3 e JavaScript.</p>
-                <ul class="empresa-habilidades">
-                    <li>Out/19 - Jan/20</li>
-                </ul>
-            </div>
-
-            <div class="empresa">
-                <h3 class="experiencia-titulo">Poupatempo</h3>
-                <span class="experiencia-titulo">Atendente Multitarefas</span>
-                <p class="experiencia-texto">Atendimento ao cidadão, emitindo títulos eleitorais, certidão de quitação eleitoral, certidão circunstanciada, cadastro biométrico e emissão de multas e atendimento ao público em geral.</p>
-                <ul class="empresa-habilidades">
-                    <li>Ago/16 - Fev/19</li>
-                </ul>
-            </div>
+    <footer class="footer" id="contato">
+        <div class="footer-container">
+            <ul class="footer-contato">
+                <li><a href="https://api.whatsapp.com/send?phone=5511969838280" target="_blank"><img src="./Imagens/whatsapp.svg" alt="WhatsApp" width="50" height="50"></a>
+                <li><a href="mailto:joysouza.contato@gmail.com?subject=Olá%20Joy Sóuza" target="_blank"><img src="./Imagens/email.svg" alt="E-mail"  width="50" height="50"></a>
+                <li><a href="https://github.com/jooysoouzaa" target="_blank"><img src="./Imagens/github.svg" alt="Github"  width="50" height="50"></a>
+                <li><a href="https://www.linkedin.com/in/jooyaraujo/" target="_blank"><img src="./Imagens/linkedin.svg" alt="linkedin"  width="50" height="50"></a>
+                <li><a href="./Imagens/Curriculo.pdf" target="_blank"><img src="./Imagens/curriculo_icon.svg" alt="linkedin"  width="50" height="50"></a>
+            </ul>
+            <p class="footer-copy"> &copy; Projetado e desenvolvimento por <strong>Joy Sóuza</strong></p>
         </div>
-</section>
-
-<footer class="footer" id="contato">
-    <div class="footer-container">
-        <ul class="footer-contato">
-            <li><a href="https://api.whatsapp.com/send?phone=5511969838280" target="_blank"><img src="./Imagens/whatsapp.svg" alt="WhatsApp"></a>
-            <li><a href="mailto:joysouza.contato@gmail.com?subject=Olá%20Joy Sóuza" target="_blank"><img src="./Imagens/email.svg" alt="E-mail"></a>
-            <li><a href="https://github.com/jooysoouzaa" target="_blank"><img src="./Imagens/github.svg" alt="Github"></a>
-            <li><a href="https://www.linkedin.com/in/jooyaraujo/" target="_blank"><img src="./Imagens/linkedin.svg" alt="linkedin"></a>
-            <li><a href="./Imagens/Curriculo.pdf" target="_blank"><img src="./Imagens/curriculo_icon.svg" alt="linkedin"></a>
-        </ul>
-        <p class="footer-copy"> &copy; Projetado e desenvolvimento por <strong>Joy Sóuza</strong></p>
-    </div>
-</footer>
+    </footer>
 </body>
 
 </html>
