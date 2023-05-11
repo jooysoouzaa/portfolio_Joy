@@ -160,6 +160,7 @@ header a {
 
 .projeto a {
   text-decoration: none;
+  max-width: max-content;
 }
 
 .experiencia .subtitulo,
