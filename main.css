@@ -477,9 +477,3 @@ header a {
 .footer-copy strong {
   color: #ccb0ab;
 }
-
-@media (max-width: 800px) {
-  .footer-copy{
-    font-size: 12px;
-  }
-}
