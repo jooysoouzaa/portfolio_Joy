@@ -95,83 +95,85 @@ header a {
 
 .container {
   max-width: 1200px;
-  padding: 40px 20px;
+  padding: 0px 20px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
   gap: 40px;
   align-items: center;
 }
 
 .introducao img {
-  max-width: max-content;
-  height: auto;
+  max-width: 100%;
   border-radius: 50%;
+  width: 300px;
+  margin: 0 auto;
 }
 
-.introducao h1{
-  font-size: 4.5rem;
-}
-.introducao p {
-  font-size: 16px;
-  line-height: 30px;
-  position: relative;
-  color: #fef5f5;
+.introducao h1,
+.introducao h2 {
+  font-size: 3rem;
+  text-align: center;
 }
 
-.introducao strong, .sobre strong {
+.introducao strong,
+.sobre strong {
   color: #ccb0ab;
 }
 
-@media (max-width: 800px) {
-  .introducao {
-    grid-template-columns: 1rf 1rf;
-    gap: 40px;
-    font-size: 40px;
-  }
+.contatos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .introducao h1::before {
-    width: 30px;
-    height: 10px;
-    margin-left: 0px;
-  }
+.contatos-contato {
+  display: flex;
+  gap: 20px;
+  padding: 40px 0px;
+  justify-content: center;
+}
 
-  .introducao p {
-    font-size: 16px;
-    color: #fef5f5;
-  }
+.contatos-contato li {
+  width: 50px;
+}
+
+.contatos-contato img{
+  border-radius: initial;
 }
 
 @media (max-width: 800px) {
   .introducao {
-    grid-template-columns: 1rf;
     display: block;
   }
 
   .introducao img {
     margin: 0 auto;
     padding-bottom: 30px;
-    width: 500px;
     max-width: 100%;
   }
-  .introducao h1 {
+  .introducao h1,
+  .introducao h2 {
     font-size: 3rem;
-}
+  }
 
-.introducao h1 br{
-  display: none;
-}
   .introducao h1::before {
     display: none;
   }
+
+  .sobre {
+    padding: 0px 20px !important;
+  }
 }
 
-.sobre{
-  max-width: 1200px;
-  padding: 40px 20px;
-  margin: 0 auto;
-  gap: 100px;
+@media (max-width: 600px) {
+  .introducao h1,
+  .introducao h2 {
+    font-size: 2rem;
+  }
+}
 
+.sobre {
+  max-width: 1200px;
+  padding: 0px 20px 40px 20px;
+  margin: 0 auto;
 }
 
 .subtitulo {
@@ -465,19 +467,8 @@ header a {
   gap: 100px;
 }
 
-.footer-contato {
-  display: flex;
-  gap: 20px;
-  padding: 40px 0px;
-  justify-content: center;
-}
-
-.footer-contato li {
-  width: 50px;
-}
-
 .footer-copy {
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 1.33;
   color: #fef5f5;
   text-align: center;
@@ -485,5 +476,10 @@ header a {
 
 .footer-copy strong {
   color: #ccb0ab;
-  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .footer-copy{
+    font-size: 12px;
+  }
 }
