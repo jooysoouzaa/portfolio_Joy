@@ -100,11 +100,17 @@ header a {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 40px;
+  align-items: center;
 }
 
 .introducao img {
-  max-width: 100%;
+  max-width: max-content;
   height: auto;
+  border-radius: 50%;
+}
+
+.introducao h1{
+  font-size: 4.5rem;
 }
 .introducao p {
   font-size: 16px;
@@ -113,7 +119,7 @@ header a {
   color: #fef5f5;
 }
 
-.introducao strong {
+.introducao strong, .sobre strong {
   color: #ccb0ab;
 }
 
@@ -145,12 +151,27 @@ header a {
   .introducao img {
     margin: 0 auto;
     padding-bottom: 30px;
-    width: 800px;
+    width: 500px;
+    max-width: 100%;
   }
+  .introducao h1 {
+    font-size: 3rem;
+}
 
+.introducao h1 br{
+  display: none;
+}
   .introducao h1::before {
     display: none;
   }
+}
+
+.sobre{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  gap: 100px;
+
 }
 
 .subtitulo {
