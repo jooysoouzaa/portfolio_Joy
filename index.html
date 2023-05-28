@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Joy Sóuza</title>
     <meta name="description" content="Desenvolvedora Front-End">
-    <link rel="stylesheet" href="./style.min.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./Imagens/favicon.svg">
     <meta name="theme-color" content="#ccb0ab">
     <meta name="apple-mobile-web-app-status-bar-style" content="#ccb0ab">
@@ -57,58 +57,44 @@
     </section>
 
     <section class="projetos" id="projetos" aria-label="Projetos">
-        <div class="projetos-container container">
+        <div class="container">
             <h2 class="subtitulo">Projetos</h2>
+            <div class="projetos-container">
+                <div class="projeto">
+                    <h3 class="projeto-titulo">Bikcraft</h3>
+                    <span class="tecnologia-titulo">Tech utilizada:</span>
+                    <ul class="tecnologias-utilizadas">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p class="projeto-texto">Site para uma loja de bicicletas elétricas, o projeto foi realizado através da tecnologias HTML, CSS e JavaScript.
+                    </p>
 
-            <div class="projeto">
-                <h3 class="projeto-titulo">Bikcraft</h3>
-                <span class="projeto-titulo">Tech utilizada:</span>
-                <p class="projeto-texto">O projeto consiste em um site desenvolvido para a Bikcraft, uma loja de bicicletas elétricas. Foram utilizadas as tecnologias HTML, CSS e Javascript para a construção do site. Também foram utilizados conceitos de layout responsivo e CSS Flexbox para garantir uma experiência de usuário agradável em diferentes dispositivos. Além disso, o controle de versionamento Git foi utilizado para gerenciar as mudanças do projeto.
-                </p>
-                <ul class="empresa-habilidades">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <a href="https://bikcraft-sand.vercel.app/" target="_blank">
-                    <button class="button" type="submit">Ver projeto</button>
-                </a>
-            </div>
+                    <a href="https://bikcraft-sand.vercel.app/" target="_blank">
+                        <button class="button" type="submit">Ver projeto</button>
+                    </a>
+                </div>
 
-            <div class="projeto">
-                <h3 class="projeto-titulo">BS - Planos de Saúde</h3>
-                <span class="projeto-titulo">Tech utilizada:</span>
-                <p class="projeto-texto">O projeto consiste em um site desenvolvido para uma consultora de planos de saúde. O objetivo do projeto é apresentar os serviços da empresa de forma clara e atrativa, aprimorando a experiência do usuário no site. Foram utilizadas as tecnologias: HTML, CSS e JavaScript(para a realização dos slides dos planos de saúde).
-                </p>
-                <ul class="empresa-habilidades">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <a href="https://www.bsplanosaude.com.br/" target="_blank">
-                    <button class="button" type="submit">Ver projeto</button>
-                </a>
+                <div class="projeto">
+                    <h3 class="projeto-titulo">BS - Planos de Saúde</h3>
+                    <span class="tecnologia-titulo">Tech utilizada:</span>
+                    <ul class="tecnologias-utilizadas">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p class="projeto-texto">Site intitucional realizado para uma consultora de planos de saúde, o projeto foi realizado através da tecnologias HTML, CSS e JavaScript.
+                    </p>
+                    <a href="https://www.bsplanosaude.com.br/" target="_blank">
+                        <button class="button" type="submit">Ver projeto</button>
+                    </a>
+                </div>
             </div>
-
-            <div class="projeto">
-                <h3 class="projeto-titulo">Fortunatus Motors</h3>
-                <span class="projeto-titulo">Tech utilizada:</span>
-                <p class="projeto-texto">Projeto realizado para demonstrar as habilidades em HTML, CSS e principalmente em Jquery através do menu hamburguer, slide e formulários, onde ao clicar no botão "Tenho interesse" o campo "veiculo de interesse" é preenchido automaticamente com o nome do carro escolhido.
-                </p>
-                <ul class="empresa-habilidades">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Jquery</li>
-                </ul>
-                <a href="https://fortunatusmotors.vercel.app/" target="_blank">
-                    <button class="button" type="submit">Ver projeto</button>
-                </a>
-            </div>
-        </div>
         </div>
     </section>
 
-   <section class="habilidades" id="habilidades" aria-label="Habilidades">
+    <section class="habilidades" id="habilidades" aria-label="Habilidades">
         <div class="habilidades-container container">
             <h2 class="subtitulo">Habilidades</h2>
             <div class="habilidade">
@@ -158,8 +144,9 @@
         <div class="formacao-container container">
             <h2 class="subtitulo">Formação</h2>
 
-            <div>
-                <p class="formacao-texto">Me formei em dezembro de 2020 no curso tecnólogo de <strong>Análise e desenvolvimento de sistemas</strong> pela Fiap e atualmente, estou realizando o <strong>curso profissionalizante Engenheiro Front-End da EBAC.</strong></p>
+
+            <p class="formacao-texto">Me formei em dezembro de 2020 no curso tecnólogo de <strong>Análise e desenvolvimento de sistemas</strong> pela Fiap e atualmente, estou realizando o <strong>curso profissionalizante Engenheiro Front-End da EBAC.</strong></p>
+            <div class="formacoes">
                 <div class="faculdade">
                     <h3 class="faculdade-tipo">Curso profissionalizante</h3>
                     <span class="faculdade-titulo">Conclusão/Instituição</span>
@@ -207,30 +194,29 @@
 
             <h2 class="subtitulo">Experiências</h2>
 
-            <div>
+            <div class="empresas">
                 <div class="empresa">
-                    <h3 class="experiencia-titulo">Realizzart</h3>
-                    <span class="experiencia-titulo">Proprietária e Designer</span>
-                    <p class="experiencia-texto">Desenvolvimento de projetos de identidade visual, arte digital e monogramas através das ferramentas Adobe Illustrator e Photoshop para empreendedores de diversas áreas.</p>
+                    <h3 class="experiencia-titulo">Realizzart - Proprietária e Designer</h3>
                     <ul class="empresa-habilidades">
                         <li>Maio/21 - Mar/23</li>
                     </ul>
+                    <p class="experiencia-texto">Desenvolvimento de projetos de identidade visual, arte digital e monogramas através das ferramentas Adobe Illustrator e Photoshop para empreendedores de diversas áreas.</p>
                 </div>
                 <div class="empresa">
-                    <h3 class="experiencia-titulo">T-Systems</h3>
-                    <span class="experiencia-titulo">Estágio dev. front-end</span>
-                    <p class="experiencia-texto">Desenvolvimento e manutenção de projetos Web para a Daimler (Mercedes-Benz) utilizando HTML5, CSS3, Bootstrap3 e JavaScript.</p>
+                    <h3 class="experiencia-titulo">T-Systems - Estágio dev. front-end</h3>
                     <ul class="empresa-habilidades">
                         <li>Out/19 - Jan/20</li>
                     </ul>
+                    <p class="experiencia-texto">Desenvolvimento e manutenção de projetos Web para a Daimler (Mercedes-Benz) utilizando HTML5, CSS3, Bootstrap3 e JavaScript.</p>
+
                 </div>
                 <div class="empresa">
-                    <h3 class="experiencia-titulo">Poupatempo</h3>
-                    <span class="experiencia-titulo">Atendente Multitarefas</span>
-                    <p class="experiencia-texto">Atendimento ao cidadão, emitindo títulos eleitorais, certidão de quitação eleitoral, certidão circunstanciada, cadastro biométrico e emissão de multas e atendimento ao público em geral.</p>
+                    <h3 class="experiencia-titulo">Poupatempo - Atendente Multitarefas</h3>
                     <ul class="empresa-habilidades">
                         <li>Ago/16 - Fev/19</li>
                     </ul>
+                    <p class="experiencia-texto">Atendimento ao cidadão, emitindo títulos eleitorais, certidão de quitação eleitoral, certidão circunstanciada, cadastro biométrico e emissão de multas e atendimento ao público em geral.</p>
+
                 </div>
             </div>
     </section>
