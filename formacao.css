@@ -1,0 +1,118 @@
+/*Section formação*/
+.faculdade {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #000000;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.faculdade-titulo,
+.faculdade-tipo {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #ccb0ab;
+  font-family: "Playfair Display", serif;
+}
+
+.formacao::before,
+.faculdade::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#ccb0ab, #94716b);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.empresa-texto,
+.projeto-texto,
+.formacao-texto,
+.faculdade-curso {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #fef5f5;
+  flex: 1;
+}
+
+.formacao-texto {
+  padding-bottom: 20px;
+}
+
+.formacao-texto strong {
+  color: #ccb0ab;
+}
+
+.faculdade-lista {
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.formacao-extra h3 {
+  line-height: 1.4;
+  color: #ccb0ab;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.formacao-extra li {
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.formacao-extra span {
+  color: #fef5f5;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.125rem;
+}
+.idiomas h3 {
+  line-height: 1.4;
+  color: #ccb0ab;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.idiomas li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+}
+
+.empresa-habilidades,
+.conclusao-instituicao {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+
+.empresa-habilidades li,
+.conclusao-instituicao li {
+  line-height: 1.4;
+  font-weight: bold;
+  border-radius: 4px;
+  background: #1b1b1b;
+  color: #ccb0ab;
+  padding: 5px 10px;
+  font-size: 1.125rem;
+}
+
+@media screen and (max-width: 768px) {
+  .empresa-habilidades li,
+  .conclusao-instituicao li,
+  .cursos li {
+    font-size: 1rem;
+  }
+}

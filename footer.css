@@ -1,0 +1,14 @@
+/*footer*/
+.footer {
+    background: #000000;
+  }
+  
+  .footer-copy {
+    font-size: 1rem;
+    line-height: 1.33;
+    color: #fef5f5;
+  }
+  
+  .footer-copy strong {
+    color: #ccb0ab;
+  }

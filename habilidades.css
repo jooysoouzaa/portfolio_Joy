@@ -1,0 +1,63 @@
+/*Section habilidades*/
+.habilidade,
+.novas-habilidades {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.habilidades-tipo {
+  color: #ccb0ab;
+  background: #000000;
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 100%;
+}
+
+.habilidades-tipo img {
+  margin: 0 auto;
+}
+
+.habilidades h3 {
+  line-height: 1.4;
+  color: #ccb0ab;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 30px;
+}
+.novas-habilidades-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.novas-habilidades-tipo {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: bold;
+  border-radius: 4px;
+  background: #000000;
+  color: #ccb0ab;
+  padding: 12px;
+}
+@media screen and (max-width: 768px) {
+  .tecnologias-utilizadas li {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 641px) and (max-width: 1023px) {
+  .habilidade {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .habilidade {
+    grid-template-columns: 1fr 1fr;
+  }
+  .novas-habilidades-tipo {
+    font-size: 1rem;
+  }
+}

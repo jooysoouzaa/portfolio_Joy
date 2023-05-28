@@ -1,0 +1,39 @@
+/*Geral*/
+body {
+  background-color: #1b1b1b;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  color: #fef5f5;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 20px;
+  }
+}

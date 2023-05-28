@@ -1,0 +1,129 @@
+/*Section Experiencia*/
+.subtitulo {
+  color: #ccb0ab;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.empresa {
+  display: block;
+  padding: 20px;
+  background: #000000;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.experiencia-titulo {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #ccb0ab;
+  font-family: "Playfair Display", serif;
+}
+
+.experiencia-texto {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #fef5f5;
+}
+
+.empresa-habilidades {
+  margin: 10px 0px 10px 0px;
+}
+
+.empresa::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#ccb0ab, #94716b);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+@media (max-width: 800px) {
+  .empresa,
+  .projeto,
+  .faculdade {
+    grid-template-columns: 1fr;
+  }
+  span.projeto-titulo,
+  span.faculdade-titulo {
+    display: none;
+  }
+  .conclusao-instituicao {
+    order: -1;
+  }
+}
+
+@media (max-width: 800px) {
+  .projeto-titulo,
+  .formacao-titulo,
+  .faculdade-titulo,
+  .faculdade-tipo,
+  .tecnologia-titulo {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  .empresa-titulo,
+  .experiencia-titulo {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media (max-width: 800px) {
+  .experiencia,
+  .projetos,
+  .formacao {
+    grid-template-columns: 2fr;
+    gap: 40px;
+  }
+
+  .projeto-texto,
+  .experiencia-texto,
+  .formacao-texto,
+  .faculdade-curso,
+  .projeto-texto,
+  .experiencia-texto,
+  .formacao-texto,
+  .faculdade-curso,
+  .empresa-titulo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+
+  .projeto {
+    grid-template-columns: 1fr;
+  }
+
+  .faculdade {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .button {
+    font-size: 14px;
+  }
+}
+
+.formacao .subtitulo,
+.projetos .subtitulo,
+.experiencia .subtitulo {
+  color: #ccb0ab;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}

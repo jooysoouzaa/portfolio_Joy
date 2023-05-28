@@ -1,0 +1,14 @@
+/*Section sobre*/
+.sobre p {
+  font-size: 1.25rem;
+}
+
+.sobre strong {
+  color: #ccb0ab;
+}
+
+@media (max-width: 800px) {
+  .sobre p {
+    font-size: 1rem;
+  }
+}
