@@ -15,6 +15,12 @@
   border-radius: 10px;
   position: relative;
 }
+.empresa-texto {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #fef5f5;
+  flex: 1;
+}
 
 .experiencia-titulo {
   font-size: 1.25rem;
@@ -33,7 +39,20 @@
 }
 
 .empresa-habilidades {
+  display: flex;
+  gap: 10px;
   margin: 10px 0px 10px 0px;
+  align-items: start;
+}
+
+.empresa-habilidades li {
+  line-height: 1.4;
+  font-weight: bold;
+  border-radius: 4px;
+  background: #1b1b1b;
+  color: #ccb0ab;
+  padding: 5px 10px;
+  font-size: 1.125rem;
 }
 
 .empresa::before {
@@ -47,83 +66,21 @@
   left: -4px;
 }
 
-@media (max-width: 800px) {
-  .empresa,
-  .projeto,
-  .faculdade {
-    grid-template-columns: 1fr;
-  }
-  span.projeto-titulo,
-  span.faculdade-titulo {
-    display: none;
-  }
-  .conclusao-instituicao {
-    order: -1;
-  }
+@media (max-width: 767px) {
+  .empresa-habilidades li {
+    font-size: 1rem;
 }
-
-@media (max-width: 800px) {
-  .projeto-titulo,
-  .formacao-titulo,
-  .faculdade-titulo,
-  .faculdade-tipo,
-  .tecnologia-titulo {
-    font-size: 18px;
-    letter-spacing: 0.5px;
-  }
-
-  .empresa-titulo,
-  .experiencia-titulo {
-    font-size: 18px;
-    letter-spacing: 0.5px;
-  }
-}
-
-@media (max-width: 800px) {
-  .experiencia,
-  .projetos,
-  .formacao {
+  .experiencia {
     grid-template-columns: 2fr;
     gap: 40px;
   }
-
-  .projeto-texto,
+  .empresa-titulo,
+  .experiencia-titulo {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
   .experiencia-texto,
-  .formacao-texto,
-  .faculdade-curso,
-  .projeto-texto,
-  .experiencia-texto,
-  .formacao-texto,
-  .faculdade-curso,
   .empresa-titulo {
     font-size: 1rem;
   }
-}
-
-@media (max-width: 400px) {
-  .empresa {
-    grid-template-columns: 1fr;
-  }
-
-  .projeto {
-    grid-template-columns: 1fr;
-  }
-
-  .faculdade {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 800px) {
-  .button {
-    font-size: 14px;
-  }
-}
-
-.formacao .subtitulo,
-.projetos .subtitulo,
-.experiencia .subtitulo {
-  color: #ccb0ab;
-  margin-bottom: 24px;
-  letter-spacing: 1px;
 }

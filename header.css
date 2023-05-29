@@ -33,7 +33,7 @@
     color: #fef5f5;
   }
   
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 480px) {
     .header-nav-menu {
       overflow-x: scroll;
       overflow-y: hidden;
@@ -46,19 +46,24 @@
     }
   }
   
-  @media screen and (max-width: 695px) {
-    .header {
-      justify-content: center;
-      gap: 30px;
-    }
-  }
-  
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 767px) {
     .header-menu {
       gap: initial;
     }
     .header-menu a {
       padding: 10px 15px 10px 5px;
+    }
+    .header-menu a:hover {
+      background: none;
+      color: #fef5f5;
+    }
+
+    .header {
+      display: block;
+    }
+    .logo img{
+      margin: 0 auto;
+      margin-bottom: 20px;
     }
   }
   

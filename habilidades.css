@@ -42,18 +42,14 @@
   color: #ccb0ab;
   padding: 12px;
 }
-@media screen and (max-width: 768px) {
-  .tecnologias-utilizadas li {
-    font-size: 1rem;
-  }
-}
-@media (min-width: 641px) and (max-width: 1023px) {
+
+@media (min-width: 768px) and (max-width: 1023px) {
   .habilidade {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 767px) {
   .habilidade {
     grid-template-columns: 1fr 1fr;
   }
@@ -61,3 +57,4 @@
     font-size: 1rem;
   }
 }
+

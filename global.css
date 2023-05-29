@@ -32,8 +32,21 @@ img {
   padding: 20px 60px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px){
   .container {
     padding: 20px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .subtitulo{
+    font-size: 30px !important;
+  }
+}
+.subtitulo {
+  color: #ccb0ab;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
 }

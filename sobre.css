@@ -7,7 +7,7 @@
   color: #ccb0ab;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .sobre p {
     font-size: 1rem;
   }

@@ -32,11 +32,9 @@
   left: -4px;
 }
 
-.empresa-texto,
-.projeto-texto,
 .formacao-texto,
 .faculdade-curso {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.4;
   color: #fef5f5;
   flex: 1;
@@ -91,14 +89,12 @@
   line-height: 1.1;
 }
 
-.empresa-habilidades,
 .conclusao-instituicao {
   display: flex;
   gap: 10px;
   align-items: start;
 }
 
-.empresa-habilidades li,
 .conclusao-instituicao li {
   line-height: 1.4;
   font-weight: bold;
@@ -109,10 +105,42 @@
   font-size: 1.125rem;
 }
 
-@media screen and (max-width: 768px) {
-  .empresa-habilidades li,
-  .conclusao-instituicao li,
-  .cursos li {
+@media screen and (max-width: 767px) {
+  .formacao {
+    grid-template-columns: 2fr;
+    gap: 40px;
+  }
+  .formacao-texto {
     font-size: 1rem;
+  }
+  .formacao-extra h3,
+  .idiomas h3 {
+    font-size: 1rem;
+  }
+  .formacao-titulo,
+  .faculdade-titulo,
+  .faculdade-tipo {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+  .conclusao-instituicao li,
+  .cursos li,
+  .idiomas li {
+    font-size: 1rem;
+  }
+  .faculdade {
+    grid-template-columns: 1fr;
+  }
+  span.faculdade-titulo {
+    display: none;
+  }
+  .conclusao-instituicao {
+    order: -1;
+  }
+}
+
+@media (max-width: 400px) {
+  .faculdade {
+    grid-template-columns: 1fr;
   }
 }
