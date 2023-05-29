@@ -49,13 +49,13 @@
 @media screen and (max-width: 767px) {
   .introducao img {
     margin: 0 auto;
-    margin-bottom: 30px;
     max-width: 100%;
     width: 230px;
   }
 
   .introducao h1 {
     font-size: 1.5rem;
+    margin-top: 20px;
   }
   .introducao h2 {
     font-size: 1rem;

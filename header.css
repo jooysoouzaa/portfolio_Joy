@@ -57,7 +57,6 @@
       background: none;
       color: #fef5f5;
     }
-
     .header {
       display: block;
     }
@@ -65,6 +64,11 @@
       margin: 0 auto;
       margin-bottom: 20px;
     }
+    .contatos-contato {
+      gap: 10px !important;
+      width: 180px;
+      margin: 0 auto;
+  }
   }
   
   @media screen and (max-width: 980px) {
