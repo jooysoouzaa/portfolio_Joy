@@ -53,6 +53,9 @@
   .habilidade {
     grid-template-columns: 1fr 1fr;
   }
+  .habilidades h3 {
+    font-size: 1rem;
+}
   .novas-habilidades-tipo {
     font-size: 1rem;
   }
