@@ -33,16 +33,9 @@ header a {
   color: #fef5f5;
 }
 
-@media screen and (max-width: 480px) {
-  .header-nav-menu {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    display: flex;
-  }
-  .header-nav-menu {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    display: flex;
+@media screen and (max-width: 980px) {
+  .header-menu a {
+    font-size: 16px;
   }
 }
 
@@ -66,8 +59,15 @@ header a {
   }
 }
 
-@media screen and (max-width: 980px) {
-  .header-menu a {
-    font-size: 16px;
+@media screen and (max-width: 480px) {
+  .header-nav-menu {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+  }
+  .header-nav-menu {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
   }
 }
