@@ -34,7 +34,7 @@
 
 .formacao-texto,
 .faculdade-curso {
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.4;
   color: #fef5f5;
   flex: 1;
@@ -110,8 +110,12 @@
     grid-template-columns: 2fr;
     gap: 40px;
   }
-  .formacao-texto {
+  .formacao-texto,
+  .faculdade-curso {
     font-size: 1rem;
+    line-height: 1.4;
+    color: #fef5f5;
+    flex: 1;
   }
   .formacao-extra h3,
   .idiomas h3 {
