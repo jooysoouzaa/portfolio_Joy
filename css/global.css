@@ -2,7 +2,7 @@
 body {
   background-color: #1b1b1b;
   margin: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fef5f5;
   box-sizing: border-box;
 }
@@ -48,5 +48,6 @@ img {
   margin-bottom: 24px;
   letter-spacing: 1px;
   font-size: 40px;
-  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }

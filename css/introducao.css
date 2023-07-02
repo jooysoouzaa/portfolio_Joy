@@ -9,12 +9,14 @@
 
 .introducao h1 {
   font-size: 3rem;
+  font-weight: 500;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .introducao h2 {
   font-size: 2rem;
+  font-weight: 500;
   margin-bottom: 20px;
   text-align: center;
 }

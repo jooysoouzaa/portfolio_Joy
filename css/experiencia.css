@@ -1,12 +1,4 @@
 /*Section Experiencia*/
-.subtitulo {
-  color: #ccb0ab;
-  margin-bottom: 24px;
-  letter-spacing: 1px;
-  font-size: 40px;
-  font-family: "Playfair Display", serif;
-}
-
 .empresa {
   display: block;
   padding: 20px;
@@ -26,10 +18,9 @@
   font-size: 1.25rem;
   margin-bottom: 10px;
   letter-spacing: 1px;
-  line-height: 1.1;
+  line-height: 1.3;
   font-weight: bold;
   color: #ccb0ab;
-  font-family: "Playfair Display", serif;
 }
 
 .experiencia-texto {
@@ -47,7 +38,7 @@
 
 .empresa-habilidades li {
   line-height: 1.4;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 4px;
   background: #1b1b1b;
   color: #ccb0ab;

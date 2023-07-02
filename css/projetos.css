@@ -19,9 +19,8 @@
   font-size: 1.25rem;
   letter-spacing: 1px;
   line-height: 1.1;
-  font-weight: bold;
+  font-weight: 600;
   color: #ccb0ab;
-  font-family: "Playfair Display", serif;
   margin-bottom: 10px;
 }
 
@@ -29,22 +28,22 @@
   font-size: 1.25rem;
   letter-spacing: 1px;
   line-height: 1.1;
-  font-weight: bold;
+  font-weight: 500;
   color: #ccb0ab;
-  font-family: "Playfair Display", serif;
 }
 
 .tecnologias-utilizadas {
   display: flex;
   gap: 10px;
   align-items: start;
+  flex-wrap: wrap;
   margin: 10px 0px 10px 0px;
 }
 
 .tecnologias-utilizadas li {
   font-size: 1.125rem;
   line-height: 1.4;
-  font-weight: bold;
+ font-weight: 500;
   border-radius: 4px;
   background: #1b1b1b;
   color: #ccb0ab;
@@ -84,7 +83,7 @@
 .button {
   font-size: 1rem;
   line-height: 1.4;
-  font-weight: bold;
+ font-weight: 700;
   border-radius: 4px;
   background: #ccb0ab;
   color: #000000;

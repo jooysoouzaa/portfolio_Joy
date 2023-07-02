@@ -17,7 +17,6 @@
   line-height: 1.1;
   font-weight: bold;
   color: #ccb0ab;
-  font-family: "Playfair Display", serif;
 }
 
 .formacao::before,
@@ -97,7 +96,7 @@
 
 .conclusao-instituicao li {
   line-height: 1.4;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 4px;
   background: #1b1b1b;
   color: #ccb0ab;
