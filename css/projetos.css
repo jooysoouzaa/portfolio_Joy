@@ -43,7 +43,7 @@
 .tecnologias-utilizadas li {
   font-size: 1.125rem;
   line-height: 1.4;
- font-weight: 500;
+  font-weight: 500;
   border-radius: 4px;
   background: #1b1b1b;
   color: #ccb0ab;
@@ -81,9 +81,10 @@
 }
 
 .button {
+  font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   line-height: 1.4;
- font-weight: 700;
+  font-weight: 500;
   border-radius: 4px;
   background: #ccb0ab;
   color: #000000;
