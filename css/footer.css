@@ -1,0 +1,16 @@
+/*footer*/
+.footer {
+  background: #000000;
+}
+
+.footer-copy {
+  font-size: 1rem;
+  line-height: 1.33;
+  color: #fef5f5;
+}
+
+.footer-copy strong {
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+  -webkit-background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,132 @@
+/*Section projetos*/
+
+.projetos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.projeto {
+  padding: 20px;
+  background: #30303059;
+  border: 1px solid #3D3D3D;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.projeto-titulo {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-weight: 600;
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 10px;
+}
+
+.tecnologia-titulo {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #fef5f5;
+}
+
+.tecnologias-utilizadas {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  flex-wrap: wrap;
+  margin: 10px 0px 10px 0px;
+}
+
+.tecnologias-utilizadas li {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #303030;
+  color: #fef5f5;
+  padding: 5px 10px;
+}
+
+.projeto-texto {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #fef5f5;
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.projeto a {
+  text-decoration: none;
+  max-width: max-content;
+}
+
+.projeto::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #FA12E3, #7312FA, #415CA7);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.habilidades h2 {
+  color: #fef5f5;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.8s ease-out;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  border-radius: 4px;
+  background: linear-gradient( 90deg,#FA12E3, #7312FA, #415CA7);
+  color: #000000;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient( -90deg,#FA12E3, #7312FA, #415CA7);
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 767px) {
+  .projetos-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .projetos {
+    grid-template-columns: 2fr;
+    gap: 40px;
+  }
+  .projeto-titulo,
+  .tecnologia-titulo {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+  .tecnologias-utilizadas li,
+  .projeto-texto,
+  .button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .projeto {
+    grid-template-columns: 1fr;
+  }
+}

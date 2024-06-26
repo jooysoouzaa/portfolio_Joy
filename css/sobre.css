@@ -1,0 +1,19 @@
+/*Section sobre*/
+.sobre p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.sobre p:nth-last-child(1){
+  margin-top: 20px;
+}
+
+.sobre strong {
+  color: #fef5f5;
+}
+
+@media (max-width: 767px) {
+  .sobre p {
+    font-size: 1rem;
+  }
+}
