@@ -1,0 +1,70 @@
+/*intrducao*/
+.introducao img {
+  max-width: 100%;
+  border-radius: 50%;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.introducao h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.introducao h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.introducao strong {
+  color: #ccb0ab;
+}
+
+.contatos-contato {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contatos-contato li {
+  width: 50px;
+}
+
+.contatos-contato img {
+  border-radius: initial;
+}
+
+.contatos-contato img {
+  transition: transform 0.5s ease-out;
+}
+
+.contatos-contato img:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 767px) {
+  .introducao img {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 230px;
+  }
+
+  .introducao h1 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+  .introducao h2 {
+    font-size: 1.2rem;
+  }
+  .contatos-contato {
+    gap: 10px !important;
+    width: 260px;
+    margin: 0 auto;
+  }
+}
