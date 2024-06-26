@@ -1,6 +1,9 @@
 /*Geral*/
+html, body {
+  overflow-x: hidden;
+}
 body {
-  background-color: #1b1b1b;
+  background-color: #010101;
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   color: #fef5f5;
@@ -32,6 +35,56 @@ img {
   padding: 20px 60px;
 }
 
+
+.img-fundo{
+  position: absolute;
+    bottom: 0px;
+    left: 0px;
+    filter: blur(300px);
+    z-index: -1;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    opacity: 0.25;
+    animation: girablob 20s infinite linear;
+}
+.img-fundo2 {
+  position: absolute;
+  top: 1300px;
+  right: 0px;
+  filter: blur(300px);
+  z-index: -1;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  opacity: 0.25;
+  animation: girablob 20s infinite linear;
+}
+.img-fundo3 {
+  position: absolute;
+  top: 3160px;
+  right: 0px;
+  filter: blur(300px);
+  z-index: -1;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  opacity: 0.25;
+  animation: girablob 20s infinite linear;
+}
+
+@keyframes girablob {
+  0% {
+      transform: rotate(0deg);
+      opacity: 0.25;
+  } 49%, 51%, 53%, 55%, 57% {
+      opacity: 0.25;
+  } 50%, 52%, 54%, 56% {
+      opacity: 0;
+  } 100% {
+      opacity: 0.25;
+      transform: rotate(360deg);
+  }
+}
+
+
 @media screen and (max-width: 1023px){
   .container {
     padding: 20px;
@@ -44,7 +97,7 @@ img {
   }
 }
 .subtitulo {
-  color: #ccb0ab;
+  color: #fef5f5;
   margin-bottom: 24px;
   font-size: 40px;
   font-weight: 500;

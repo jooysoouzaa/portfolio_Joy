@@ -4,7 +4,8 @@
   grid-template-columns: 3fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  background: #000000;
+  background: #30303059;
+  border: 1px solid #3D3D3D;
   margin-bottom: 20px;
   border-radius: 10px;
   position: relative;
@@ -16,7 +17,7 @@
   letter-spacing: 1px;
   line-height: 1.1;
   font-weight: bold;
-  color: #ccb0ab;
+  color: #fef5f5;
 }
 
 .formacao::before,
@@ -25,17 +26,25 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#ccb0ab, #94716b);
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
   position: absolute;
   top: 20px;
   left: -4px;
 }
 
-.formacao-texto,
-.faculdade-curso {
+.formacao-texto {
   font-size: 1.125rem;
   line-height: 1.4;
   color: #fef5f5;
+  flex: 1;
+}
+.faculdade-curso {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
   flex: 1;
 }
 
@@ -44,7 +53,7 @@
 }
 
 .formacao-texto strong {
-  color: #ccb0ab;
+  color: #fef5f5;
 }
 
 .faculdade-lista {
@@ -54,7 +63,7 @@
 
 .formacao-extra h3 {
   line-height: 1.4;
-  color: #ccb0ab;
+  color: #fef5f5;
   text-transform: uppercase;
   margin-bottom: 15px;
   position: relative;
@@ -76,7 +85,7 @@
 }
 .idiomas h3 {
   line-height: 1.4;
-  color: #ccb0ab;
+  color: #fef5f5;
   text-transform: uppercase;
   margin-bottom: 15px;
   position: relative;
@@ -98,8 +107,8 @@
   line-height: 1.4;
   font-weight: 500;
   border-radius: 4px;
-  background: #1b1b1b;
-  color: #ccb0ab;
+  background: #303030;
+  color: #fef5f5;
   padding: 5px 10px;
   font-size: 1.125rem;
 }

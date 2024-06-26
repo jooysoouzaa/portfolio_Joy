@@ -7,8 +7,8 @@
 }
 
 .habilidades-tipo {
-  color: #ccb0ab;
-  background: #000000;
+  background: #30303059;
+  border: 1px solid #3D3D3D;
   border-radius: 10px;
   padding: 40px;
   max-width: 100%;
@@ -20,7 +20,7 @@
 
 .habilidades h3 {
   line-height: 1.4;
-  color: #ccb0ab;
+  color: #fef5f5;
   text-transform: uppercase;
   margin-bottom: 10px;
   position: relative;
@@ -36,10 +36,11 @@
 .novas-habilidades-tipo {
   font-size: 1.25rem;
   line-height: 1.4;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 4px;
-  background: #000000;
-  color: #ccb0ab;
+  background: #30303059;
+  border: 1px solid #3D3D3D;
+  color: #fef5f5;
   padding: 12px;
 }
 

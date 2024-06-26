@@ -10,5 +10,7 @@
 }
 
 .footer-copy strong {
-  color: #ccb0ab;
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+  -webkit-background-clip: text;
+  color: transparent;
 }

@@ -22,7 +22,9 @@
 }
 
 .introducao strong {
-  color: #ccb0ab;
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .contatos-contato {
@@ -47,6 +49,7 @@
 .contatos-contato img:hover {
   transform: scale(1.2);
 }
+
 
 @media screen and (max-width: 767px) {
   .introducao img {
