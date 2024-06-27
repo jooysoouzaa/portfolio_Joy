@@ -1,4 +1,8 @@
 /*intrducao*/
+.introducao{
+  margin-top: 60px;
+}
+
 .introducao img {
   max-width: 100%;
   border-radius: 50%;

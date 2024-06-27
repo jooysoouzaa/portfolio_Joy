@@ -1,10 +1,12 @@
 /*Header*/
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  /* justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .header-menu {
@@ -14,12 +16,12 @@
 }
 
 .header-menu a {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.3;
   padding: 10px 20px;
   text-decoration: none;
   color: #fef5f5;
-  font-weight: 600;
+  font-weight: 500;
   display: block;
   text-transform: uppercase;
 }
@@ -31,6 +33,10 @@ header a {
 .header-menu a:hover {
   background: #1b1b1b;
   color: #fef5f5;
+}
+.logo img {
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 980px) {
@@ -53,10 +59,7 @@ header a {
   .header {
     display: block;
   }
-  .logo img {
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
+  
 }
 
 @media screen and (max-width: 480px) {
