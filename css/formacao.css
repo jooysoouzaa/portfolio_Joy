@@ -25,7 +25,7 @@
   content: "";
   display: block;
   width: 4px;
-  height: 20px;
+  height: 50px;
   background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
   position: absolute;
   top: 20px;
@@ -118,11 +118,15 @@
     grid-template-columns: 2fr;
     gap: 40px;
   }
-  .formacao-texto,
-  .faculdade-curso {
+  .formacao-texto {
     font-size: 1rem;
     line-height: 1.4;
     color: #fef5f5;
+    flex: 1;
+  }
+  .formacao-curso {
+    font-size: 1rem;
+    line-height: 1.4;
     flex: 1;
   }
   .formacao-extra h3,

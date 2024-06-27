@@ -70,7 +70,7 @@
   content: "";
   display: block;
   width: 4px;
-  height: 20px;
+  height: 50px;
   background: linear-gradient(180deg, #FA12E3, #7312FA, #415CA7);
   position: absolute;
   top: 20px;
@@ -79,7 +79,6 @@
 
 .habilidades h2 {
   color: #fef5f5;
-  margin-bottom: 24px;
   letter-spacing: 1px;
 }
 
