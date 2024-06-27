@@ -105,4 +105,37 @@ img {
     margin-top: 60px;
   margin-bottom: 40px
   }
+  .img-fundo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    filter: blur(140px);
+    z-index: -1;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    opacity: 0.25;
+    animation: girablob 20s infinite linear;
+}
+.img-fundo2 {
+  position: absolute;
+  top: 1300px;
+  right: 0px;
+  filter: blur(100px);
+  z-index: -1;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  opacity: 0.25;
+  animation: girablob 20s infinite linear;
+}
+.img-fundo3 {
+  position: absolute;
+  top: 3160px;
+  right: 0px;
+  filter: blur(100px);
+  z-index: -1;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  opacity: 0.25;
+  animation: girablob 20s infinite linear;
+}
 }
