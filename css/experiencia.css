@@ -24,7 +24,6 @@
 .experiencia-titulo {
   font-size: 1.25rem;
   margin-bottom: 10px;
-  letter-spacing: 1px;
   line-height: 1.3;
   font-weight: bold;
   background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
@@ -86,4 +85,10 @@
   .empresa-titulo {
     font-size: 1rem;
   }
+  .faculdade{
+    margin-bottom: 0;
+  }
+  .formacao-extra h3 {
+    margin-top: 20px;
+}
 }

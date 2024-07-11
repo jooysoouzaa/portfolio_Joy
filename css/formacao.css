@@ -19,7 +19,7 @@
 
 .faculdade-titulo,
 .faculdade-tipo {
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.1;
   font-weight: bold;
@@ -42,7 +42,6 @@
   font-size: 1.125rem;
   line-height: 1.4;
   color: #fef5f5;
-  flex: 1;
 }
 .faculdade-curso {
   font-size: 1.125rem;
@@ -51,7 +50,6 @@
   -webkit-background-clip: text;
   color: transparent;
   font-weight: 600;
-  flex: 1;
 }
 
 .formacao-texto {
@@ -131,12 +129,10 @@
     font-size: 1rem;
     line-height: 1.4;
     color: #fef5f5;
-    flex: 1;
   }
   .formacao-curso {
     font-size: 1rem;
     line-height: 1.4;
-    flex: 1;
   }
   .formacao-extra h3,
   .idiomas h3 {
@@ -158,9 +154,6 @@
   }
   span.faculdade-titulo {
     display: none;
-  }
-  .conclusao-instituicao {
-    order: -1;
   }
 }
 
