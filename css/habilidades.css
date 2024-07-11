@@ -44,6 +44,24 @@
   padding: 12px;
 }
 
+.habilidades-tipo img {
+  max-width: 100%;
+}
+
+/* Ajustes adicionais para Swiper */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
 @media (min-width: 768px) and (max-width: 1023px) {
   .habilidade {
     grid-template-columns: 1fr 1fr 1fr;
