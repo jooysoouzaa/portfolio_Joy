@@ -14,3 +14,32 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
+/* Seção botão voltar ao topo  */
+.btn-top a {
+  display: none; /* Inicialmente oculto */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0; /* Começa com opacidade 0 */
+  pointer-events: none; /* Não captura eventos do mouse quando oculto */
+  transition: opacity 0.4s ease, transform 0.4s ease; /* Transições suaves */
+  transform: translateY(40px); /* Começa um pouco abaixo para efeito de entrada */
+  cursor: pointer;
+}
+
+.btn-top.show a {
+  display: flex; /* Mostrar o botão quando a classe 'show' for adicionada */
+  opacity: 1; /* Torna visível */
+  z-index: 2;
+  pointer-events: auto; /* Ativa eventos do mouse */
+  transform: translateY(0); /* Move para a posição inicial */
+}
