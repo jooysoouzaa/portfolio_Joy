@@ -49,6 +49,7 @@
 }
 @media (max-width: 767px) {
   .sobre {
+    margin-top: 60px;
     grid-template-columns: 1fr;
     height: 100%;
 }

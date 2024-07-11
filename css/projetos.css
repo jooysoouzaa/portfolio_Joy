@@ -110,6 +110,9 @@
 
 
 @media screen and (max-width: 767px) {
+  .projetos h2{
+    margin-top: 20px;
+  }
   .projetos-container {
     grid-template-columns: 1fr;
   }
