@@ -48,7 +48,7 @@
 #text-wrapper2 {
     animation: animafaixa 15s infinite linear reverse;
 }
-    
+
 
 
 @keyframes animafaixa {
@@ -58,5 +58,15 @@
 
     100% {
         transform: translateX(-100%);
+    }
+}
+
+
+
+@media only screen and (max-width:767px) {
+    .faixa1 {
+        margin-top: 100px;
+        margin-bottom: 14px;
+
     }
 }
