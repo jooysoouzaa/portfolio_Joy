@@ -1,4 +1,33 @@
 /*Section sobre*/
+.sobre{
+  display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 100px;
+    background-color: #30303059;
+    overflow: hidden;
+}
+
+.sobre-img img {
+  height: 100%;
+  object-fit: cover;
+}
+.sobre-text{
+  padding: 40px 40px 80px 80px;
+    align-self: center;
+}
+
+.sobre-text strong{
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.sobre h2{
+  color: #fef5f5;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+ font-family: "Titillium Web", sans-serif;
+}
 .sobre p {
   font-size: 1.25rem;
   line-height: 1.4;
@@ -8,11 +37,33 @@
   margin-top: 20px;
 }
 
-.sobre strong {
-  color: #fef5f5;
+
+@media (max-width: 1023px) {
+.sobre {
+  grid-template-columns: 1fr 1fr;
+}
+.sobre-text {
+  padding: 40px 20px;
+  align-self: center;
+}
+}
+@media (max-width: 767px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    height: 100%;
+}
+.sobre-text {
+  padding: 60px 20px;
+  align-self: center;
 }
 
-@media (max-width: 767px) {
+.sobre h2 {
+  font-size: 30px;
+}
+.sobre-img img {
+  height: autox;
+  object-fit: cover;
+}
   .sobre p {
     font-size: 1rem;
   }

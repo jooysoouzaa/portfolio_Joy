@@ -6,9 +6,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #010101;
+  background-color: #060606;
   margin: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: #fef5f5;
   box-sizing: border-box;
 }
@@ -33,44 +33,9 @@ img {
 }
 
 .container {
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 20px 60px;
-}
-
-
-.img-fundo{
-  position: absolute;
-    bottom: 0px;
-    left: 0px;
-    filter: blur(200px);
-    z-index: -1;
-    mix-blend-mode: screen;
-    pointer-events: none;
-    opacity: 0.25;
-    animation: girablob 20s infinite linear;
-}
-.img-fundo2 {
-  position: absolute;
-  top: 1300px;
-  right: 0px;
-  filter: blur(200px);
-  z-index: -1;
-  mix-blend-mode: screen;
-  pointer-events: none;
-  opacity: 0.25;
-  animation: girablob 20s infinite linear;
-}
-.img-fundo3 {
-  position: absolute;
-  top: 3160px;
-  right: 0px;
-  filter: blur(200px);
-  z-index: -1;
-  mix-blend-mode: screen;
-  pointer-events: none;
-  opacity: 0.25;
-  animation: girablob 20s infinite linear;
 }
 
 @keyframes girablob {
@@ -89,12 +54,19 @@ img {
 .subtitulo {
   color: #fef5f5;
   margin-top: 100px;
-  margin-bottom: 60px;
-  text-transform: uppercase;
+  margin-bottom: 40px;
+  /* text-transform: uppercase; */
   font-size: 40px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+ font-family: "Titillium Web", sans-serif;
 }
+
+strong {
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 
 @media screen and (max-width: 1023px){
   .container {

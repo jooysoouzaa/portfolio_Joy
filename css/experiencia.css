@@ -1,10 +1,16 @@
 /*Section Experiencia*/
+
+.empresas{
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
 .empresa {
   display: block;
   padding: 20px;
   background: #30303059;
   border: 1px solid #3D3D3D;
-  margin-bottom: 20px;
   border-radius: 10px;
   position: relative;
 }
@@ -61,6 +67,9 @@
 }
 
 @media (max-width: 767px) {
+  .empresas {
+    grid-template-columns: 1fr;
+}
   .empresa-habilidades li {
     font-size: 1rem;
 }

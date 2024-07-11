@@ -2,7 +2,7 @@
 
 .projetos-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .button {
-  font-family: 'Poppins', sans-serif;
+ font-family: "Titillium Web", sans-serif;
   transition: transform 0.8s ease-out;
   font-size: 1rem;
   line-height: 1.4;
@@ -102,11 +102,16 @@
   transform: scale(1.2);
 }
 
+@media screen and (max-width: 1023px) {
+.projetos-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+
 @media screen and (max-width: 767px) {
   .projetos-container {
-    display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
   }
   .projetos {
     grid-template-columns: 2fr;

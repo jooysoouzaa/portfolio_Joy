@@ -5,15 +5,14 @@
 
 .introducao img {
   max-width: 100%;
-  border-radius: 50%;
-  width: 300px;
+  width: 220px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .introducao h1 {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -25,11 +24,6 @@
   text-align: center;
 }
 
-.introducao strong {
-  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
-  -webkit-background-clip: text;
-  color: transparent;
-}
 
 .contatos-contato {
   display: flex;
