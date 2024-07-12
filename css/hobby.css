@@ -1,5 +1,8 @@
 /* Hobby */
 .hobby-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -36,22 +39,45 @@
     margin: 0 auto;
 }
 
+.hobby .swiper-container.hobby-swiper .swiper-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media (max-width: 1023px) {
     .hobby-container {
+        padding: 20px;
         grid-template-columns: 1fr;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .hobby-container {
         grid-template-columns: 1fr;
         margin-top: 60px;
         margin-bottom: 60px;
+        padding: 0;
     }
+
+    .hobby-text {
+        padding: 20px;
+    }
+
     .hobby-card {
         grid-template-columns: 1fr;
     }
 
+
+
+    .hobby-card-tipo h3 {
+        font-size: 0.9rem;
+    }
+
     .hobby-subtitulo {
         font-size: 30px;
+    }
+
+    .hobby .swiper-container.hobby-swiper .swiper-wrapper {
+        display: flex;
     }
 }

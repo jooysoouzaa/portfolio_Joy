@@ -1,10 +1,13 @@
 /*Geral*/
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #060606;
   margin: 0px;
@@ -40,17 +43,31 @@ img {
 
 @keyframes girablob {
   0% {
-      transform: rotate(0deg);
-      opacity: 0.25;
-  } 49%, 51%, 53%, 55%, 57% {
-      opacity: 0.25;
-  } 50%, 52%, 54%, 56% {
-      opacity: 0;
-  } 100% {
-      opacity: 0.25;
-      transform: rotate(360deg);
+    transform: rotate(0deg);
+    opacity: 0.25;
+  }
+
+  49%,
+  51%,
+  53%,
+  55%,
+  57% {
+    opacity: 0.25;
+  }
+
+  50%,
+  52%,
+  54%,
+  56% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.25;
+    transform: rotate(360deg);
   }
 }
+
 .subtitulo {
   color: #fef5f5;
   margin-top: 100px;
@@ -58,7 +75,7 @@ img {
   /* text-transform: uppercase; */
   font-size: 40px;
   font-weight: 700;
- font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 strong {
@@ -68,18 +85,19 @@ strong {
 }
 
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px) {
   .container {
     padding: 20px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .subtitulo{
+  .subtitulo {
     font-size: 30px !important;
     margin-top: 60px;
-  margin-bottom: 20px
+    margin-bottom: 20px
   }
+
   .img-fundo {
     position: absolute;
     top: 0px;
@@ -90,27 +108,29 @@ strong {
     pointer-events: none;
     opacity: 0.25;
     animation: girablob 20s infinite linear;
-}
-.img-fundo2 {
-  position: absolute;
-  top: 1300px;
-  right: 0px;
-  filter: blur(85px);
-  z-index: -1;
-  mix-blend-mode: screen;
-  pointer-events: none;
-  opacity: 0.25;
-  animation: girablob 20s infinite linear;
-}
-.img-fundo3 {
-  position: absolute;
-  top: 3160px;
-  right: 0px;
-  filter: blur(85px);
-  z-index: -1;
-  mix-blend-mode: screen;
-  pointer-events: none;
-  opacity: 0.25;
-  animation: girablob 20s infinite linear;
-}
+  }
+
+  .img-fundo2 {
+    position: absolute;
+    top: 1300px;
+    right: 0px;
+    filter: blur(85px);
+    z-index: -1;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    opacity: 0.25;
+    animation: girablob 20s infinite linear;
+  }
+
+  .img-fundo3 {
+    position: absolute;
+    top: 3160px;
+    right: 0px;
+    filter: blur(85px);
+    z-index: -1;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    opacity: 0.25;
+    animation: girablob 20s infinite linear;
+  }
 }

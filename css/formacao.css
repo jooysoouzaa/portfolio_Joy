@@ -19,11 +19,11 @@
 
 .faculdade-titulo,
 .faculdade-tipo {
-  font-size: 1rem;
-  letter-spacing: 1px;
-  line-height: 1.1;
-  font-weight: bold;
-  color: #fef5f5;
+  font-size: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #fef5f5;
 }
 
 .formacao::before,
@@ -44,7 +44,7 @@
   color: #fef5f5;
 }
 .faculdade-curso {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.4;
   background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
   -webkit-background-clip: text;
