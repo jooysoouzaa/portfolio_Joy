@@ -65,6 +65,12 @@
   left: -4px;
 }
 
+@media only screen and (max-width: 1023px){
+  .empresas {
+    grid-template-columns: 1fr;
+
+}
+}
 @media (max-width: 767px) {
   .empresas {
     grid-template-columns: 1fr;
