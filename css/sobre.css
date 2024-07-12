@@ -82,7 +82,7 @@ object-position: top;
   font-size: 18px;
 }
 .sobre-img img {
-  height: 550px;
+  height: 450px;
   object-fit: cover;
   object-position: top;
 }
