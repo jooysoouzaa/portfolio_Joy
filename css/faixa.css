@@ -3,7 +3,7 @@
     background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
     transform: rotate(3deg);
     width: 110%;
-    margin-top: 100px;
+    margin-top: -30px;
     margin-bottom: -6px;
     z-index: 2;
     position: relative;
@@ -65,7 +65,7 @@
 
 @media only screen and (max-width:767px) {
     .faixa1 {
-        margin-top: 100px;
+        margin-top: 30px;
         margin-bottom: 14px;
 
     }
