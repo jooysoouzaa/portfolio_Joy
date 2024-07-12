@@ -49,7 +49,7 @@
   background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
   -webkit-background-clip: text;
   color: transparent;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .formacao-texto {
@@ -150,12 +150,7 @@
     line-height: 1.4;
     color: #fef5f5;
   }
-  .formacao-curso {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
-  .formacao-extra h3,
-  .idiomas h3 {
+  .faculdade-curso {
     font-size: 1rem;
   }
   .formacao-titulo,
