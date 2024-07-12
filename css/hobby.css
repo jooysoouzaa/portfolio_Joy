@@ -1,0 +1,57 @@
+/* Hobby */
+.hobby-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hobby-subtitulo {
+    color: #fef5f5;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+.hobby-card {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+}
+
+.hobby-card-tipo {
+    text-align: center;
+    background: #30303059;
+    border: 1px solid #3D3D3D;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 100%;
+}
+
+.hobby-card-tipo img {
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+    .hobby-container {
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .hobby-container {
+        grid-template-columns: 1fr;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .hobby-card {
+        grid-template-columns: 1fr;
+    }
+
+    .hobby-subtitulo {
+        font-size: 30px;
+    }
+}

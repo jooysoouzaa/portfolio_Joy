@@ -28,6 +28,14 @@
   font-weight: 700;
  font-family: "Titillium Web", sans-serif;
 }
+
+.sobre h3{
+  color: #fef5f5;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+ font-family: "Titillium Web", sans-serif;
+}
 .sobre p {
   font-size: 1.25rem;
   line-height: 1.4;
@@ -40,11 +48,18 @@
 
 @media (max-width: 1023px) {
 .sobre {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 .sobre-text {
-  padding: 40px 20px;
+  padding: 60px 20px;
   align-self: center;
+}
+
+.sobre-img img {
+  height: 660px;
+object-fit: cover;
+object-position: top;
+
 }
 }
 @media (max-width: 767px) {
