@@ -76,6 +76,11 @@ object-position: top;
 .sobre h2 {
   font-size: 30px;
 }
+
+.sobre h3 {
+
+  font-size: 18px;
+}
 .sobre-img img {
   height: 550px;
   object-fit: cover;
