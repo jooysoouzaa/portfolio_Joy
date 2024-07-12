@@ -77,8 +77,9 @@ object-position: top;
   font-size: 30px;
 }
 .sobre-img img {
-  height: autox;
+  height: 550px;
   object-fit: cover;
+  object-position: top;
 }
   .sobre p {
     font-size: 1rem;
