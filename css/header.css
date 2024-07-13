@@ -75,32 +75,3 @@ header a {
   }
 }
 
-/* CONFIGURAÇÕES DA SCROLLBAR */
-
-::-webkit-scrollbar {
-    width: 6px;
-}
-
-::-webkit-scrollbar-track {
-    background: #060606;
-}
-  
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    background: linear-gradient(180deg, #FA12E3, #7312FA, #415CA7);
-    border: 1px solid #060606;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    background: linear-gradient(0deg, #FA12E3, #7312FA, #415CA7);
-    border: 1px solid #060606;
-}
-
-*::selection {
-    color: #fef5f5;
-    background: #7312FA;
-    -webkit-text-fill-color: #fef5f5;
-}

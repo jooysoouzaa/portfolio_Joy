@@ -15,14 +15,14 @@
   position: relative;
 }
 .empresa-texto {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.4;
   color: #fef5f5;
   flex: 1;
 }
 
 .experiencia-titulo {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   margin-bottom: 10px;
   line-height: 1.3;
   font-weight: bold;
@@ -32,7 +32,7 @@
 }
 
 .experiencia-texto {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.4;
   color: #fef5f5;
 }

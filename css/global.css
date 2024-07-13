@@ -41,31 +41,34 @@ img {
   padding: 20px 60px;
 }
 
-@keyframes girablob {
-  0% {
-    transform: rotate(0deg);
-    opacity: 0.25;
-  }
+/* CONFIGURAÇÕES DA SCROLLBAR */
 
-  49%,
-  51%,
-  53%,
-  55%,
-  57% {
-    opacity: 0.25;
-  }
+::-webkit-scrollbar {
+  width: 6px;
+}
 
-  50%,
-  52%,
-  54%,
-  56% {
-    opacity: 0;
-  }
+::-webkit-scrollbar-track {
+  background: #060606;
+}
 
-  100% {
-    opacity: 0.25;
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #FA12E3, #7312FA, #415CA7);
+  border: 1px solid #060606;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: linear-gradient(0deg, #FA12E3, #7312FA, #415CA7);
+  border: 1px solid #060606;
+}
+
+*::selection {
+  color: #fef5f5;
+  background: #7312FA;
+  -webkit-text-fill-color: #fef5f5;
 }
 
 .subtitulo {

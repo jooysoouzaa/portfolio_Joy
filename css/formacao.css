@@ -128,9 +128,7 @@
   grid-row: 2; /* Coloca o terceiro elemento na segunda linha */
   grid-column: 1 / span 2; /* Ocupa duas colunas */
 }
-.faculdade{
-  margin-bottom: 0px;
-}
+
 }
 
 @media screen and (max-width: 767px) {

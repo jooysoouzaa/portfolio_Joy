@@ -46,12 +46,19 @@
 }
 
 .sobre p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.4;
 }
 
 .sobre p:nth-last-child(1) {
   margin-top: 20px;
+}
+
+button.button.button-sobre {
+  width: 200px;
+  margin-top: 40px;
+  padding: 16px;
+ 
 }
 
 @media only screen and (min-width: 1440px) {
