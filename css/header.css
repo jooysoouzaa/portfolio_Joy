@@ -132,6 +132,7 @@ header a {
   #close-menu {
     display: block;
     position: absolute;
+    padding: 25px;
     top: 20px;
     right: 20px;
     background: none;
