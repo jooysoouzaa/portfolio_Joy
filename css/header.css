@@ -99,7 +99,7 @@ header a {
 
   #hamburger {
     display: block;
-    border-top: 2px solid;
+    border-top: 3px solid;
     width: 20px;
   }
 
@@ -107,7 +107,8 @@ header a {
   #hamburger::before {
     content: '';
     display: block;
-    height: 2px;
+    width: 30px;
+    height: 3px;
     margin-top: 5px;
     background-color: currentColor;
     transition: 0.3s;
