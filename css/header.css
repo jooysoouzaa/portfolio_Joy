@@ -46,7 +46,14 @@ header a {
   margin-bottom: 20px;
 }
 
+#logo-menu{
+  display: none;
+}
+
 @media screen and (max-width: 1023px) {
+  .logo img {
+    margin-bottom: 0;
+}
   #menu {
     display: block;
     position: fixed;
