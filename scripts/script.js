@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     const btnTop = document.querySelector(".btn-top");
-    const habilidadesSection = document.querySelector("#habilidades");
+    const projetosSection = document.querySelector("#projeto02");
 
     window.addEventListener("scroll", function () {
-        const habilidadesPosition = habilidadesSection.getBoundingClientRect().top;
+        const projetosPosition = projetosSection.getBoundingClientRect().top;
 
-        if (window.scrollY + window.innerHeight > habilidadesPosition) {
+        if (window.scrollY + window.innerHeight > projetosPosition) {
             btnTop.classList.add("show");
         } else {
             btnTop.classList.remove("show");
