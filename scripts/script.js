@@ -22,44 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// Carousel
-// document.addEventListener('DOMContentLoaded', function () {
-//     var swiper = new Swiper('.swiper-container', {
-//         slidesPerView: 10, // Quantidade de slides a serem exibidos inicialmente
-//         navigation: {
-//             nextEl: '.swiper-button-next',
-//             prevEl: '.swiper-button-prev',
-//         },
-//         loop: true, // Habilita o modo loop
-//         autoplay: {
-//             delay: 2000, // 3 segundos entre as transições
-//             disableOnInteraction: false, // Continue o autoplay após interação
-//         },
-//         breakpoints: {
-//             // Quando a largura da tela for 1300 pixels ou mais
-//             1700: {
-//                 slidesPerView: 10,
-//             },
-//             // Quando a largura da tela for 1025 pixels ou mais
-//             1025: {
-//                 slidesPerView: 6,
-//             },
-//             // Quando a largura da tela for 769 pixels até 1024 pixels
-//             769: {
-//                 slidesPerView: 5,
-//             },
-//             // Quando a largura da tela for 481 pixels até 768 pixels
-//             481: {
-//                 slidesPerView: 3,
-//             },
-//             // Quando a largura da tela for 480 pixels ou menos
-//             0: {
-//                 slidesPerView: 2,
-//             }
-//         }
-//     });
-// });
-
+//carousel
 document.addEventListener('DOMContentLoaded', function () {
     var habilidadesSwiper;
     var hobbySwiper;
@@ -134,3 +97,31 @@ document.addEventListener('DOMContentLoaded', function () {
     initSwipers();
     window.addEventListener('resize', initSwipers);
 });
+
+//menu
+const btnMobile = document.getElementById('btn-mobile');
+const nav = document.getElementById('nav');
+const navLinks = nav.querySelectorAll('a'); // seleciona todos os links dentro do menu
+const closeMenu = document.getElementById('close-menu'); // seleciona o botão de fechar
+
+function toggleMenu() {
+    nav.classList.toggle("active");
+}
+
+btnMobile.addEventListener("click", toggleMenu);
+
+// Adiciona um event listener para cada link do menu
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        // Fecha o menu ao clicar em um link
+        nav.classList.remove('active');
+    });
+});
+
+// Adiciona um event listener para o botão de fechar
+closeMenu.addEventListener("click", () => {
+    // Fecha o menu ao clicar no botão de fechar
+    nav.classList.remove('active');
+});
+
+

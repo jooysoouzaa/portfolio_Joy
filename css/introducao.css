@@ -1,18 +1,18 @@
 /*intrducao*/
 
-main{
-height: 730px;
-    margin: 0 auto;
-    padding: 20px 60px;
+main {
+  height: 820px;
+  margin: 0 auto;
+  padding: 20px 60px;
   background-image: url(../Imagens/bg-hero-joy.webp);
   background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;  
+  background-size: cover;
+  background-position: center center;
 }
 
 
 
-.introducao img {
+.img-introducao {
   max-width: 100%;
   width: 220px;
   margin: 0 auto;
@@ -39,7 +39,6 @@ height: 730px;
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin-top: -40px;
 }
 
 .contatos-contato li {
@@ -61,11 +60,12 @@ height: 730px;
 
 @media screen and (max-width: 767px) {
 
-  main{
+  main {
     padding: 20px;
-    height: 490px;
-    }
-  .introducao img {
+    height: 620px;
+  }
+
+  .img-introducao{
     padding-top: 40px;
     margin: 0 auto;
     max-width: 100%;
@@ -76,19 +76,15 @@ height: 730px;
     font-size: 2.2rem;
     margin-top: 20px;
   }
+
   .introducao h2 {
     font-size: 1.125rem;
   }
-  .contatos-contato {
-    gap: 10px !important;
-    width: 260px;
-    margin: 0 auto;
-    margin-top: -40px;
-  }
+
 }
 
 @media screen and (max-width: 364px) {
-  .introducao h1{
+  .introducao h1 {
     font-size: 1.8rem;
   }
 }

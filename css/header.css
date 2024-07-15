@@ -1,14 +1,19 @@
 /*Header*/
 
-.header {
-  display: block;
-  /* justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; */
-  margin-top: 20px;
-  margin-bottom: 60px;
+#header {
+  max-width: 1280px;
+    margin: 0 auto;
 }
 
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#btn-mobile, #close-menu{
+  display: none;
+}
 .header-menu {
   display: flex;
   gap: 10px;
@@ -35,9 +40,100 @@ header a {
   color: #fef5f5;
 }
 .logo img {
+  width: 50px;
+  height: 50px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1023px) {
+  #menu {
+    display: block;
+    position: fixed;
+    width: 100vw; 
+    top: 0;
+    left: -100vw;
+    background-color: #000000;
+    height: 100%; 
+    z-index: 1000;
+    transition: left 0.5s ease; 
+    overflow-y: auto; 
+  }
+
+  #nav.active #menu {
+    left: 0; 
+    visibility: visible;
+  }
+
+  #menu a {
+    display: block;
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  #menu a:hover {
+    background-color: #333333;
+  }
+
+  #btn-mobile {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    border: none;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+
+  #hamburger {
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+  }
+
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 5px;
+    background-color: currentColor;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  /* Estilo para o botão de fechar */
+  #close-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+}
+
 
 @media screen and (max-width: 980px) {
   .header-menu a {
@@ -56,22 +152,13 @@ header a {
     background: none;
     color: #fef5f5;
   }
-  .header {
-    display: block;
+  
+  #menu a {
+    padding: 20px;
+
   }
   
 }
 
-@media screen and (max-width: 480px) {
-  .header-nav-menu {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    display: flex;
-  }
-  .header-nav-menu {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    display: flex;
-  }
-}
+
 
