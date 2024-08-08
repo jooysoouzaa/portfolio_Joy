@@ -1,9 +1,9 @@
 /*Section Experiencia*/
 
-.empresas{
+.empresas {
   display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .empresa {
@@ -14,6 +14,7 @@
   border-radius: 10px;
   position: relative;
 }
+
 .empresa-texto {
   font-size: 1.125rem;
   line-height: 1.4;
@@ -65,36 +66,62 @@
   left: -4px;
 }
 
-@media only screen and (max-width: 1023px){
+.voluntario {
+  margin-top: 40px;
+}
+
+.titulo-voluntario {
+  line-height: 1.4;
+  color: #fef5f5;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.voluntario li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+}
+
+
+@media only screen and (max-width: 1023px) {
   .empresas {
     grid-template-columns: 1fr;
 
+  }
 }
-}
+
 @media (max-width: 767px) {
   .empresas {
     grid-template-columns: 1fr;
-}
+  }
+
   .empresa-habilidades li {
     font-size: 1rem;
-}
+  }
+
   .experiencia {
     grid-template-columns: 2fr;
     gap: 40px;
   }
+
   .empresa-titulo,
   .experiencia-titulo {
     font-size: 1rem;
     letter-spacing: 0.5px;
   }
+
   .experiencia-texto,
   .empresa-titulo {
     font-size: 1rem;
   }
-  .faculdade{
+
+  .faculdade {
     margin-bottom: 0;
   }
+
   .formacao-extra h3 {
     margin-top: 20px;
-}
+  }
 }
