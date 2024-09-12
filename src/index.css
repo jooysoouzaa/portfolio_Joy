@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+body {
+  background-color: #010101;
+  color: #fef5f5;
+}

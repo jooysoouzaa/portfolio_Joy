@@ -1,0 +1,71 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 60px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CONFIGURAÇÕES DA SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #060606;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #FA12E3, #7312FA, #415CA7);
+  border: 1px solid #060606;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: linear-gradient(0deg, #FA12E3, #7312FA, #415CA7);
+  border: 1px solid #060606;
+}
+
+*::selection {
+  color: #fef5f5;
+  background: #7312FA;
+  -webkit-text-fill-color: #fef5f5;
+}
+
+.subtitulo {
+  color: #fef5f5;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Titillium Web", sans-serif;
+}
+
+strong {
+  background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .subtitulo {
+    font-size: 30px !important;
+    margin-top: 60px;
+    margin-bottom: 20px
+  }
+}
