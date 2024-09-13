@@ -1,6 +1,82 @@
-import './HeaderStyle.css'
+import { useEffect } from 'react';
+import './HeaderStyle.css';
 
 function Header() {
+    useEffect(() => {
+        // Selecione o botão e a seção
+        const btnTop = document.querySelector(".btn-top");
+        const projetosSection = document.querySelector("#projeto02");
+
+        // Função para mostrar ou ocultar o botão
+        const handleScroll = () => {
+            if (!projetosSection) return;
+            const projetosPosition = projetosSection.getBoundingClientRect().top;
+
+            if (window.scrollY + window.innerHeight > projetosPosition) {
+                btnTop.classList.add("show");
+            } else {
+                btnTop.classList.remove("show");
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        // Menu
+        const btnMobile = document.getElementById('btn-mobile');
+        const nav = document.getElementById('nav');
+        const navLinks = nav ? nav.querySelectorAll('a') : []; // Verifica se 'nav' não é null
+        const closeMenu = document.getElementById('close-menu');
+
+        const toggleMenu = () => {
+            nav.classList.toggle("active");
+        };
+
+        if (btnMobile) {
+            btnMobile.addEventListener("click", toggleMenu);
+        }
+
+        // Adiciona um event listener para cada link do menu
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                // Fecha o menu ao clicar em um link
+                if (nav) {
+                    nav.classList.remove('active');
+                }
+            });
+        });
+
+        // Adiciona um event listener para o botão de fechar
+        if (closeMenu) {
+            closeMenu.addEventListener("click", () => {
+                if (nav) {
+                    nav.classList.remove('active');
+                }
+            });
+        }
+
+        // Limpeza dos event listeners quando o componente é desmontado
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+            if (btnMobile) {
+                btnMobile.removeEventListener("click", toggleMenu);
+            }
+            navLinks.forEach(link => {
+                link.removeEventListener('click', () => {
+                    if (nav) {
+                        nav.classList.remove('active');
+                    }
+                });
+            });
+            if (closeMenu) {
+                closeMenu.removeEventListener("click", () => {
+                    if (nav) {
+                        nav.classList.remove('active');
+                    }
+                });
+            }
+        };
+    }, []);
+
     return (
         <main>
             <header className='header' id='header'>
@@ -33,35 +109,34 @@ function Header() {
             <div className='contatos'>
                 <ul className='contatos__lista'>
                     <li>
-                        <a href="https://api.whatsapp.com/send?phone=5511969838280" target="_blank"><img
+                        <a href="https://api.whatsapp.com/send?phone=5511969838280" target="_blank" rel="noopener noreferrer"><img
                             src="/contato/whatsapp.svg" alt="WhatsApp" width="50" height="50" />
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:joysouza.contato@gmail.com?subject=Olá%20Joy Sóuza" target="_blank"><img
+                        <a href="mailto:joysouza.contato@gmail.com?subject=Olá%20Joy Sóuza" target="_blank" rel="noopener noreferrer"><img
                             src="/contato/email.svg" alt="E-mail" width="50" height="50" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/jooysoouzaa" target="_blank"><img src="/contato/github.svg"
+                        <a href="https://github.com/jooysoouzaa" target="_blank" rel="noopener noreferrer"><img src="/contato/github.svg"
                             alt="Github" width="50" height="50" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/jooyaraujo/" target="_blank" ><img
+                        <a href="https://www.linkedin.com/in/jooyaraujo/" target="_blank" rel="noopener noreferrer"><img
                             src="/contato/linkedin.svg" alt="linkedin" width="50" height="50" />
                         </a>
                     </li>
                     <li>
-                        <a href="/contato/curriculo_joyceDeSouzaAraujo_desenvolvedoraFrontEnd.pdf" target="_blank" ><img
-                            src="/contato/curriculo_icon.svg" alt="linkedin" width="50" height="50" />
+                        <a href="/contato/curriculo_joyceDeSouzaAraujo_desenvolvedoraFrontEnd.pdf" target="_blank" rel="noopener noreferrer"><img
+                            src="/contato/curriculo_icon.svg" alt="Currículo" width="50" height="50" />
                         </a>
                     </li>
                 </ul>
             </div>
-
         </main>
-    )
+    );
 }
 
-export default Header
+export default Header;
