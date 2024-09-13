@@ -5,7 +5,11 @@
   font-family: "Titillium Web", sans-serif;
   list-style: none;
   text-decoration: none;
+}
 
+html,
+body {
+  overflow-x: hidden;
 }
 
 body {

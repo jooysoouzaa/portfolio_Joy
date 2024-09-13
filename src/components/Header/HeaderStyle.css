@@ -1,39 +1,16 @@
-main {
+.container-bg {
+    width: 100%;
     height: 720px;
-    margin: 0 auto;
-    padding: 20px 60px;
+    padding: 0;
     background-image: url(src/assets/bg_quadriculado.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-main::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 740px;
-    background: rgba(0, 0, 0, 0.8);
-    /* Ajuste a cor e a opacidade conforme necessário */
-    z-index: 1;
-    /* Garante que o overlay fique sobre o fundo */
-}
 
-main>* {
-    position: relative;
-    z-index: 1;
-    /* Garante que o conteúdo dentro do main fique sobre o overlay */
-}
 
 /*Header*/
-
-#header {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
 #header {
     display: flex;
     justify-content: space-between;
@@ -64,6 +41,7 @@ main>* {
     font-weight: 700;
     display: block;
     text-transform: uppercase;
+    border-radius: 8px;
 }
 
 .header__logo {
@@ -149,13 +127,12 @@ main>* {
 }
 
 @media screen and (max-width: 767px) {
-    main {
-        padding: 20px;
-        height: 460px;
+    .container-bg {
+        height: 560px;
     }
 
-    main::before {
-        height: 580px;
+    .container-bg::before {
+        height: 530px;
         background: rgba(0, 0, 0, 0.6);
     }
 
