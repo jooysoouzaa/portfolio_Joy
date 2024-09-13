@@ -1,7 +1,14 @@
-<svg width="1920" height="400" viewBox="0 0 1920 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.5 0.5H1919.5V399.5H0.5V0.5Z" fill="#303030" fill-opacity="0.34902" stroke="#3D3D3D"/>
-<path d="M556 400L1364 400L1265.55 347L653.825 347L556 400Z" fill="#010101"/>
-<path d="M1364 399.505L1265.55 347L653.825 347L556 399.5" stroke="#3D3D3D"/>
-<path d="M1364 8.08331e-05L556 6.10352e-05L654.446 53L1266.18 53L1364 8.08331e-05Z" fill="#010101"/>
-<path d="M556 0.495178L654.446 53L1266.18 53L1364 0.49999" stroke="#3D3D3D"/>
+<svg width="1920" height="492" viewBox="0 0 1920 492" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="6.10352e-05" width="1920" height="492" fill="#010101"/>
+<rect y="6.10352e-05" width="1920" height="492" fill="url(#paint0_linear_29_9)"/>
+<path d="M1364 0.000299771L556 0.000244141L654.446 74L1266.18 74L1364 0.000299771Z" fill="#010101"/>
+<path d="M556 0.691528L654.446 74L1266.18 73.9999L1364 0.698275" stroke="#3D3D3D"/>
+<path d="M556 492L1364 492L1265.55 418L653.825 418L556 492Z" fill="#010101"/>
+<path d="M1364 491.309L1265.55 418L653.825 418L556 491.302" stroke="#3D3D3D"/>
+<defs>
+<linearGradient id="paint0_linear_29_9" x1="0" y1="246" x2="1920" y2="246" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FA12E3" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#7312FA" stop-opacity="0.5"/>
+</linearGradient>
+</defs>
 </svg>
