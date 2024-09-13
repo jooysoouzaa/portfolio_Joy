@@ -3,11 +3,9 @@ import './HeaderStyle.css';
 
 function Header() {
     useEffect(() => {
-        // Selecione o botão e a seção
         const btnTop = document.querySelector(".btn-top");
         const projetosSection = document.querySelector("#projeto02");
 
-        // Função para mostrar ou ocultar o botão
         const handleScroll = () => {
             if (!projetosSection) return;
             const projetosPosition = projetosSection.getBoundingClientRect().top;
@@ -35,17 +33,14 @@ function Header() {
             btnMobile.addEventListener("click", toggleMenu);
         }
 
-        // Adiciona um event listener para cada link do menu
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
-                // Fecha o menu ao clicar em um link
                 if (nav) {
                     nav.classList.remove('active');
                 }
             });
         });
 
-        // Adiciona um event listener para o botão de fechar
         if (closeMenu) {
             closeMenu.addEventListener("click", () => {
                 if (nav) {
@@ -54,7 +49,6 @@ function Header() {
             });
         }
 
-        // Limpeza dos event listeners quando o componente é desmontado
         return () => {
             window.removeEventListener("scroll", handleScroll);
             if (btnMobile) {

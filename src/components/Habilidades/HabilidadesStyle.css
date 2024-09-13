@@ -1,0 +1,124 @@
+/*Section habilidades*/
+.habilidades-tipo {
+    background: #30303059;
+    border: 1px solid #3D3D3D;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.habilidades-tipo img {
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.habilidades-tipo:hover img {
+    transform: scale(1.1);
+}
+
+.habilidades-tipo span {
+    opacity: 0;
+    position: absolute;
+    bottom: 30px;
+    background-color: #01010196;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+}
+
+.habilidades-tipo:hover span {
+    opacity: 1;
+}
+
+
+
+.habilidades h3 {
+    line-height: 1.4;
+    color: #fef5f5;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.subtitulo-habilidade {
+    color: #fef5f5;
+    margin-top: 100px;
+    margin-bottom: -40px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+
+
+
+
+.novas-habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.novas-habilidades-tipo {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #30303059;
+    border: 1px solid #3D3D3D;
+    color: #fef5f5;
+    padding: 12px;
+}
+
+.habilidades-tipo img {
+    max-width: 100%;
+}
+
+/* Ajustes adicionais para Swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .habilidade {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .habilidade {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .habilidades h3 {
+        font-size: 1rem;
+    }
+
+    .novas-habilidades-tipo {
+        font-size: 1rem;
+    }
+
+    .subtitulo-habilidade {
+        font-size: 30px !important;
+        margin-top: 60px;
+        margin-bottom: -45px;
+    }
+}
