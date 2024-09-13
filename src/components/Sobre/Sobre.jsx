@@ -15,11 +15,9 @@ function Sobre() {
                         e contribuir significativamente para o sucesso das empresas onde colaboro</p>
 
                     <h3 className='sobre__titulo-secundario'>Por que escolhi ser dev front-end?</h3>
-                    <p>Escolhi ser desenvolvedora front-end porque amo a combinação única entre design e tecnologia. É
-                        uma
-                        oportunidade de criar interfaces visualmente atraentes e funcionais, enquanto me mantendo atualizada
-                        com
-                        as inovações digitais. A tecnologia me desafia a aprender constantemente e superar expectativas.</p>
+                    <p>Escolhi ser desenvolvedora front-end porque amo a combinação entre design e tecnologia. É
+                        uma oportunidade de criar páginas visualmente atraentes e funcionais, enquanto me mantendo atualizada
+                        com as inovações digitais. A tecnologia me desafia a aprender constantemente e superar expectativas.</p>
                     <a href="contato/curriculo_joyceDeSouzaAraujo_desenvolvedoraFrontEnd.pdf" target="_blank">
                         <button className="button sobre__button" type="submit">Baixar CV</button>
                     </a>

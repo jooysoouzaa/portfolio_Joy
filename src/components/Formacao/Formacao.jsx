@@ -1,3 +1,3 @@
-
+import './FormacaoStyle.css'
 
 
