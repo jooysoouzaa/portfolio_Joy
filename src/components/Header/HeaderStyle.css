@@ -2,7 +2,7 @@
     width: 100%;
     height: 720px;
     padding: 0;
-    background-image: url(src/assets/bg_quadriculado.png);
+    background-image: url(/bg_quadriculado.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
