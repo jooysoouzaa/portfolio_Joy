@@ -61,7 +61,7 @@
 .projetos__descricao {
     font-size: 1.125rem;
     line-height: 1.4;
-    color: #fef5f5;
+    color: #bdbdbd;
     flex: 1;
     margin-bottom: 16px;
 }
@@ -85,26 +85,6 @@
 .habilidades h2 {
     color: #fef5f5;
     letter-spacing: 1px;
-}
-
-.projetos__button {
-    font-family: "Titillium Web", sans-serif;
-    transition: transform 0.8s ease-out;
-    font-size: 1rem;
-    line-height: 1.4;
-    font-weight: 600;
-    border-radius: 4px;
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
-    color: #000000;
-    padding: 10px;
-    border: none;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.projetos__button:hover {
-    background: linear-gradient(-90deg, #FA12E3, #7312FA, #415CA7);
-    transform: scale(1.2);
 }
 
 .projetos__botoes {

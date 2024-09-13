@@ -2,7 +2,7 @@ import './FaixaAnimadaStyle.css';
 
 const FaixaAnimada = () => {
     return (
-        <section className="faixa">
+        <section className="faixa" aria-label="Faixa">
             <div className="faixa1">
                 <div className="text-wrapper" id="text-wrapper1">
                     <p>React</p>
@@ -20,6 +20,7 @@ const FaixaAnimada = () => {
                     <p>Git</p>
                     <p>Figma</p>
                     <p>APIs</p>
+                    <p>React</p>
                     <p>Jquery</p>
                     <p>HTML</p>
                     <p>WordPress</p>
@@ -29,8 +30,8 @@ const FaixaAnimada = () => {
                     <p>Cypress</p>
                     <p>Styled Components</p>
                     <p>React</p>
-                    <p>Styled Components</p>
                     <p>JavaScript</p>
+                    <p>React</p>
                     <p>TypeScript</p>
                     <p>Cypress</p>
                     <p>Jest</p>

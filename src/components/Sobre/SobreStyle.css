@@ -1,0 +1,134 @@
+/*Section sobre*/
+.sobre {
+    margin-top: 100px;
+    background-color: #30303059;
+    overflow: hidden;
+}
+
+.sobre__container {
+    max-width: 100%;
+    padding-left: 60px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sobre__textos {
+    padding: 40px 40px 40px 0px;
+    align-self: center;
+    justify-self: end;
+}
+
+.sobre__textos strong {
+    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sobre__titulo-principal {
+    color: #fef5f5;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.sobre p {
+    font-size: 1.125rem;
+    line-height: 1.4;
+}
+
+.sobre__paragrafo {
+    margin-bottom: 40px;
+}
+
+.sobre__titulo-secundario {
+    color: #fef5f5;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.sobre__button {
+    width: 200px;
+    margin-top: 40px;
+    padding: 16px;
+}
+
+.sobre__img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .sobre {
+        margin-top: 60px;
+    }
+
+    .sobre__container {
+        padding: 0;
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .sobre__textos {
+        padding: 60px 20px;
+        align-self: center;
+    }
+
+    .sobre h2 {
+        font-size: 30px;
+    }
+
+    .sobre h3 {
+        font-size: 18px;
+    }
+
+    .sobre__img img {
+        height: 450px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .sobre p {
+        font-size: 1rem;
+        max-width: initial;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .sobre__container {
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .sobre__textos {
+        padding: 60px 20px;
+        align-self: center;
+    }
+
+    .sobre p {
+        max-width: initial;
+    }
+
+    .sobre__img img {
+        height: 740px;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .sobre__container {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: grid;
+        padding: 0 60px;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .sobre__textos {
+        padding: 40px 40px 40px 0px;
+    }
+}
