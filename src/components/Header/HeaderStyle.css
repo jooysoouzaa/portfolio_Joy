@@ -14,11 +14,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3030308c;
+    background-color: #30303059;
     padding: 12px 40px;
     border-radius: 100px;
     z-index: 4;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
 }
+
 
 #btn-mobile,
 #close-menu {
@@ -158,10 +161,6 @@
     .header__menu a:hover {
         background: none;
         color: #fef5f5;
-    }
-
-    #header {
-        background-color: #303030a8;
     }
 
     #menu a {
