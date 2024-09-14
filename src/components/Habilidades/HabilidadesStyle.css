@@ -1,6 +1,6 @@
 .habilidades__tech {
-    background: #30303059;
-    border: 1px solid #3D3D3D;
+    background: #121212;
+    border: 1px solid #3d3d3d6e;
     border-radius: 10px;
     padding: 20px;
     max-width: 100%;
@@ -75,8 +75,8 @@
     line-height: 1.4;
     font-weight: 500;
     border-radius: 4px;
-    background: #30303059;
-    border: 1px solid #3D3D3D;
+    background: #121212;
+    border: 1px solid #3d3d3d6e;
     color: #fef5f5;
     padding: 12px;
 }
