@@ -129,11 +129,6 @@
         height: 560px;
     }
 
-    .container-bg::before {
-        height: 530px;
-        background: rgba(0, 0, 0, 0.6);
-    }
-
     .introducao__img {
         padding-top: 40px;
         margin: 0 auto;
