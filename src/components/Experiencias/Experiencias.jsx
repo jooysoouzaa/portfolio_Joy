@@ -3,7 +3,7 @@ import './ExperienciasStyle.css'
 
 function Experiencias() {
     return (
-        <section className='experiencias' aria-label="Experiência">
+        <section className='experiencias' id='experiencias' aria-label="Experiência">
             <div className='container'>
                 <h2 className="subtitulo">Experiências</h2>
                 <div className="experiencias__container ">

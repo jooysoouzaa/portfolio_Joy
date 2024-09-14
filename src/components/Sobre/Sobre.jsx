@@ -3,7 +3,7 @@ import './SobreStyle.css'
 
 function Sobre() {
     return (
-        <section className='sobre'>
+        <section className='sobre' id='sobre' aria-label="Sobre">
             <div className='sobre__container'>
                 <div className='sobre__textos'>
                     <h2 className='sobre__titulo-principal'><strong>Sobre Mim</strong></h2>

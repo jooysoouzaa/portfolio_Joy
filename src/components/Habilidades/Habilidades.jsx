@@ -27,7 +27,7 @@ function Habilidades() {
         };
     }, []);
     return (
-        <section className='habilidades container' aria-label="Habilidades">
+        <section className='habilidades container' id='habilidades' aria-label="Habilidades">
             <h2 className='habilidades__subtitulo'>Habilidades</h2>
             <Swiper
                 spaceBetween={20}

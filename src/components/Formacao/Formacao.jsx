@@ -3,7 +3,7 @@ import './FormacaoStyle.css'
 
 function Formacao() {
     return (
-        <section className='formacao' aria-label="Formação">
+        <section className='formacao' id='formacao' aria-label="Formação">
             <div className='container'>
                 <h2 className="subtitulo">Formação</h2>
                 <p className="formacao__texto">

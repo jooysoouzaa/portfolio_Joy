@@ -92,7 +92,6 @@ function Header() {
                             <li><a href="#sobre">Sobre Mim</a></li>
                             <li><a href="#formacao">Formação</a></li>
                             <li><a href="#experiencias">Experiências</a></li>
-                            <li><a href="#hobby">Hobbies</a></li>
                         </ul>
                     </nav>
                 </header>
