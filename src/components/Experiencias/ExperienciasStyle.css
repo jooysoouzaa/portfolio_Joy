@@ -44,7 +44,8 @@
     color: #bdbdbd;
 }
 
-.experiencias__paragrafo li {
+.experiencias__habilidades li {
+    display: inline-block;
     line-height: 1.4;
     font-weight: 500;
     border-radius: 4px;

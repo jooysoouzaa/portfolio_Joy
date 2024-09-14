@@ -71,8 +71,24 @@ function Habilidades() {
                     <span>BEM</span>
                 </SwiperSlide>
                 <SwiperSlide className='habilidades__tech'>
+                    <img src='/habilidades/typescript.svg' alt='TypeScript' width='80' height='80' />
+                    <span>TypeScript</span>
+                </SwiperSlide>
+                <SwiperSlide className='habilidades__tech'>
                     <img src='/habilidades/bootstrap.svg' alt='bootstrap' width='80' height='80' />
                     <span>Bootstrap</span>
+                </SwiperSlide>
+                <SwiperSlide className='habilidades__tech'>
+                    <img src='/habilidades/jest.svg' alt='jest' width='80' height='80' />
+                    <span>Jest</span>
+                </SwiperSlide>
+                <SwiperSlide className='habilidades__tech'>
+                    <img src='/habilidades/cypress.svg' alt='cypress' width='80' height='80' />
+                    <span>Cypress</span>
+                </SwiperSlide>
+                <SwiperSlide className='habilidades__tech'>
+                    <img src='/habilidades/testing-library.svg' alt='React Testing Library' width='80' height='80' />
+                    <span>React Testing Library</span>
                 </SwiperSlide>
                 <SwiperSlide className='habilidades__tech'>
                     <img src='/habilidades/git.svg' alt='git' width='80' height='80' />
