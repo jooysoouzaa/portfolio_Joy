@@ -2,7 +2,7 @@
     width: 100%;
     height: 720px;
     padding: 0;
-    background-image: url(/bg_quadriculado.png);
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -126,6 +126,7 @@
 
 @media screen and (max-width: 767px) {
     .container-bg {
+        background-image: url(/bg_quadriculado_mobile.png);
         height: 560px;
     }
 
