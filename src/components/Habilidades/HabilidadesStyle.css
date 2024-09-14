@@ -23,12 +23,14 @@
     opacity: 0;
     position: absolute;
     bottom: 40px;
-    background-color: #01010196;
-    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #010101e6;
+    color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     white-space: nowrap;
-    transition: opacity 0.3s ease;
+    transition: opacity .3s ease;
     z-index: 4 !important;
 }
 
