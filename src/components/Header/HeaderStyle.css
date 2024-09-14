@@ -161,6 +161,17 @@
         color: #fef5f5;
     }
 
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3030309c;
+        border: 1px solid #3d3d3d6e;
+        padding: 12px 40px;
+        border-radius: 100px;
+        z-index: 4;
+    }
+
     #menu a {
         padding: 0 20px 20px 20px;
     }
