@@ -101,7 +101,7 @@ function Projetos() {
     }, []);
 
     return (
-        <section className=' projetos container' id=' projetos' aria-label="Projetos">
+        <section className=' projetos container' id='projetos' aria-label="Projetos">
             <h2 className='projetos__subtitulo'>Projetos</h2>
             <Swiper
                 spaceBetween={20}
