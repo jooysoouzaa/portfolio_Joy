@@ -101,45 +101,43 @@ function Projetos() {
     }, []);
 
     return (
-        <section className=' projetos' id='projetos' aria-label="Projetos">
-            <div className='container'>
-                <h2 className='projetos__subtitulo'>Projetos</h2>
-                <Swiper
-                    spaceBetween={20}
-                    slidesPerView={slidesPerView}
-                    navigation
-                    pagination={{ clickable: true }}
-                    loop={true}
-                    grabCursor={true}
-                >
-                    {projetos.map((projeto) => (
-                        <SwiperSlide key={projeto.id}>
-                            <div className="projetos__item">
-                                <h3 className="projetos__titulo">{projeto.titulo}</h3>
-                                <span className="projetos__tech-label">Tech utilizada:</span>
-                                <ul className="projetos__tech-list">
-                                    {projeto.tecnologias.map((tech, index) => (
-                                        <li key={index} className="projetos__tech-item">{tech}</li>
-                                    ))}
-                                </ul>
-                                <p className="projetos__descricao">{projeto.descricao}</p>
-                                <div className="projetos__botoes">
-                                    {projeto.verProjeto && (
-                                        <a href={projeto.verProjeto} target="_blank" rel="noopener noreferrer">
-                                            <button className="button" type="button">Ver projeto</button>
-                                        </a>
-                                    )}
-                                    {projeto.github && (
-                                        <a href={projeto.github} target="_blank" rel="noopener noreferrer">
-                                            <button className="button" type="button">Github</button>
-                                        </a>
-                                    )}
-                                </div>
+        <section className=' projetos container' id='projetos' aria-label="Projetos">
+            <h2 className='projetos__subtitulo'>Projetos</h2>
+            <Swiper
+                spaceBetween={20}
+                slidesPerView={slidesPerView}
+                navigation
+                pagination={{ clickable: true }}
+                loop={true}
+                grabCursor={true}
+            >
+                {projetos.map((projeto) => (
+                    <SwiperSlide key={projeto.id}>
+                        <div className="projetos__item">
+                            <h3 className="projetos__titulo">{projeto.titulo}</h3>
+                            <span className="projetos__tech-label">Tech utilizada:</span>
+                            <ul className="projetos__tech-list">
+                                {projeto.tecnologias.map((tech, index) => (
+                                    <li key={index} className="projetos__tech-item">{tech}</li>
+                                ))}
+                            </ul>
+                            <p className="projetos__descricao">{projeto.descricao}</p>
+                            <div className="projetos__botoes">
+                                {projeto.verProjeto && (
+                                    <a href={projeto.verProjeto} target="_blank" rel="noopener noreferrer">
+                                        <button className="button" type="button">Ver projeto</button>
+                                    </a>
+                                )}
+                                {projeto.github && (
+                                    <a href={projeto.github} target="_blank" rel="noopener noreferrer">
+                                        <button className="button" type="button">Github</button>
+                                    </a>
+                                )}
                             </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-            </div>
+                        </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
         </section>
     );
 }
