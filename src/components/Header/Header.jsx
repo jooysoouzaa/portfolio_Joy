@@ -1,7 +1,30 @@
 import { useEffect } from 'react';
-import './HeaderStyle.css';
+import './MenuMobile.css'
+import {
+    MainContainer,
+    Container,
+    HeaderWrapper,
+    Logo,
+    Nav,
+    ButtonMobile,
+    Hamburger,
+    Menu,
+    MenuLogo,
+    CloseMenuButton,
+    MenuItem,
+    Introducao,
+    IntroducaoImg,
+    IntroducaoTitle,
+    IntroducaoSubtitle,
+    Contatos,
+    ContatosLista,
+    ContatoItem,
+    ContatoLink,
+    ContatoImg
+} from './HeaderStyle';
 
 function Header() {
+
     useEffect(() => {
         const btnTop = document.querySelector(".btn-top");
         const projetosSection = document.querySelector("#projeto02");
@@ -72,65 +95,65 @@ function Header() {
     }, []);
 
     return (
-        <main className='container-bg'>
-            <div className='container'>
-                <header className='header' id='header'>
-                    <a href='#' className='header__logo'>
-                        <img src='/logotipo/logotipo.svg' alt="Joy Sóuza" width="70" height="50" />
-                    </a>
-                    <nav id="nav">
-                        <button id="btn-mobile">
-                            <span id="hamburger"></span>
-                        </button>
-                        <ul className="header__menu" id="menu">
-                            <a id="header__menu_logo">
-                                <img src="/logotipo/logotipo.svg" alt="Joy Sóuza" width="70" height="50" />
-                            </a>
-                            <button id="close-menu">X</button>
-                            <li><a href="#projetos">Projetos</a></li>
-                            <li><a href="#habilidades">Habilidades</a></li>
-                            <li><a href="#sobre">Sobre Mim</a></li>
-                            <li><a href="#formacao">Formação</a></li>
-                            <li><a href="#experiencias">Experiências</a></li>
-                        </ul>
-                    </nav>
-                </header>
-                <div className='introducao'>
-                    <img src='/img_avatar.webp' className='introducao__img' alt="Foto de Perfil - Joy Sóuza" width="140" />
-                    <h1 className='introducao__title'>Olá! Sou a <strong>Joy Sóuza</strong></h1>
-                    <h2 className='introducao__subtitle'>Desenvolvedora Front-End<strong>.</strong></h2>
-                </div>
-                <div className='contatos'>
-                    <ul className='contatos__lista'>
-                        <li>
-                            <a href="https://api.whatsapp.com/send?phone=5511969838280" target="_blank" rel="noopener noreferrer"><img
-                                src="/contato/whatsapp.svg" alt="WhatsApp" width="50" height="50" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:joysouza.contato@gmail.com?subject=Olá%20Joy Sóuza" target="_blank" rel="noopener noreferrer"><img
-                                src="/contato/email.svg" alt="E-mail" width="50" height="50" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/jooysoouzaa" target="_blank" rel="noopener noreferrer"><img src="/contato/github.svg"
-                                alt="Github" width="50" height="50" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/jooyaraujo/" target="_blank" rel="noopener noreferrer"><img
-                                src="/contato/linkedin.svg" alt="linkedin" width="50" height="50" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/contato/curriculo_joyceDeSouzaAraujo_desenvolvedoraFrontEnd.pdf" target="_blank" rel="noopener noreferrer"><img
-                                src="/contato/curriculo_icon.svg" alt="Currículo" width="50" height="50" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </main>
+        <MainContainer>
+            <Container>
+                <HeaderWrapper id='header'>
+                    <Logo href='#'>
+                        <img src='/logotipo/logotipo.svg' alt="Joy Sóuza" width="45" height="45" />
+                    </Logo>
+                    <Nav id="nav">
+                        <ButtonMobile id="btn-mobile">
+                            <Hamburger id="hamburger" />
+                        </ButtonMobile>
+                        <Menu id="menu">
+                            <MenuLogo id="header__menu_logo">
+                                <img src="/logotipo/logotipo.svg" alt="Joy Sóuza" width="45" height="45" />
+                            </MenuLogo>
+                            <CloseMenuButton id="close-menu">X</CloseMenuButton>
+                            <MenuItem><a href="#projetos">Projetos</a></MenuItem>
+                            <MenuItem><a href="#habilidades">Habilidades</a></MenuItem>
+                            <MenuItem><a href="#sobre">Sobre Mim</a></MenuItem>
+                            <MenuItem><a href="#formacao">Formação</a></MenuItem>
+                            <MenuItem><a href="#experiencias">Experiências</a></MenuItem>
+                        </Menu>
+                    </Nav>
+                </HeaderWrapper>
+                <Introducao>
+                    <IntroducaoImg src='/img_avatar.webp' alt="Foto de Perfil - Joy Sóuza" width="140" />
+                    <IntroducaoTitle>Olá! Sou a <strong>Joy Sóuza</strong></IntroducaoTitle>
+                    <IntroducaoSubtitle>Desenvolvedora Front-End<strong>.</strong></IntroducaoSubtitle>
+                </Introducao>
+                <Contatos>
+                    <ContatosLista>
+                        <ContatoItem>
+                            <ContatoLink href="https://api.whatsapp.com/send?phone=5511969838280" target="_blank" rel="noopener noreferrer">
+                                <ContatoImg src="/contato/whatsapp.svg" alt="WhatsApp" width="45" height="45" />
+                            </ContatoLink>
+                        </ContatoItem>
+                        <ContatoItem>
+                            <ContatoLink href="mailto:joysouza.contato@gmail.com?subject=Olá%20Joy Sóuza" target="_blank" rel="noopener noreferrer">
+                                <ContatoImg src="/contato/email.svg" alt="E-mail" width="45" height="45" />
+                            </ContatoLink>
+                        </ContatoItem>
+                        <ContatoItem>
+                            <ContatoLink href="https://github.com/jooysoouzaa" target="_blank" rel="noopener noreferrer">
+                                <ContatoImg src="/contato/github.svg" alt="Github" width="45" height="45" />
+                            </ContatoLink>
+                        </ContatoItem>
+                        <ContatoItem>
+                            <ContatoLink href="https://www.linkedin.com/in/jooyaraujo/" target="_blank" rel="noopener noreferrer">
+                                <ContatoImg src="/contato/linkedin.svg" alt="Linkedin" width="45" height="45" />
+                            </ContatoLink>
+                        </ContatoItem>
+                        <ContatoItem>
+                            <ContatoLink href="/contato/curriculo_joyceDeSouzaAraujo_desenvolvedoraFrontEnd.pdf" target="_blank" rel="noopener noreferrer">
+                                <ContatoImg src="/contato/curriculo_icon.svg" alt="Currículo" width="45" height="45" />
+                            </ContatoLink>
+                        </ContatoItem>
+                    </ContatosLista>
+                </Contatos>
+            </Container>
+        </MainContainer>
     );
 }
 

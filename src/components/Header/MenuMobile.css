@@ -1,0 +1,126 @@
+#btn-mobile,
+#close-menu {
+    display: none;
+}
+
+
+#header__menu_logo {
+    display: none;
+}
+
+/*Media Querie*/
+@media screen and (max-width: 767px) {
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #121212;
+        border: 1px solid #3d3d3d6e;
+        padding: 12px 40px;
+        border-radius: 100px;
+        z-index: 4;
+    }
+
+    #menu a {
+        padding: 0 20px 20px 20px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    #header__menu_logo img {
+        margin-top: 25px;
+    }
+
+    #menu {
+        display: block;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        left: -100vw;
+        background-color: #000000;
+        height: 100%;
+        z-index: 1000;
+        transition: left 0.5s ease;
+        overflow-y: auto;
+    }
+
+    #nav.active #menu {
+        left: 0;
+        visibility: visible;
+    }
+
+    #menu a {
+        display: block;
+        padding: 0 20px 20px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    #menu a:hover {
+        background-color: transparent;
+    }
+
+    #header {
+        padding: 8px 20px;
+    }
+
+    #btn-mobile {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 0.8rem;
+        border: none;
+        background: none;
+        color: #ffffff;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+
+    #hamburger {
+        display: block;
+        border-top: 3px solid;
+        width: 20px;
+    }
+
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin-top: 5px;
+        background-color: currentColor;
+        transition: 0.3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    /* Estilo para o botão de fechar */
+    #close-menu {
+        display: block;
+        position: absolute;
+        padding: 25px;
+        top: 20px;
+        right: 20px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
