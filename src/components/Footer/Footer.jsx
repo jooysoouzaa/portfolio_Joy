@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import './FooterStyle.css';
 
 function Footer() {
+    const anoAtual = new Date().getFullYear();
     const btnTopRef = useRef(null);
     const projetosSectionRef = useRef(null);
 
@@ -44,7 +45,7 @@ function Footer() {
                     </a>
                 </div>
                 <img src='/logotipo/logotipo.svg' className='footer_img' width="50" height="50" />
-                <p className="footer__copy"> &copy; 2024 - Desenvolvido por <strong>Joy Sóuza</strong></p>
+                <p className="footer__copy"> &copy; {anoAtual}- Desenvolvido por <strong>Joy Sóuza</strong></p>
             </div>
             <div id="projeto02" ref={projetosSectionRef}></div>
         </section>

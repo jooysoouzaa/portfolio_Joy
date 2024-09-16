@@ -1,13 +1,24 @@
-import './SobreStyle.css'
-
+import './SobreStyle.css';
 
 function Sobre() {
+    const anoAtual = new Date().getFullYear(); // Obtem o ano atual
+    const anoNascimento = 1996; // Ano de nascimento
+    const mesNascimento = 4; // Mês do aniversário
+    const diaNascimento = 7; // Dia do aniversário
+    const today = new Date(); // Data atual
+    let idade = anoAtual - anoNascimento; // Cálculo da idade
+
+    // Verificar se o aniversário já passou este ano
+    if (today.getMonth() + 1 < mesNascimento || (today.getMonth() + 1 === mesNascimento && today.getDate() < diaNascimento)) {
+        idade -= 1; // Se o aniversário ainda não passou este ano, subtrai 1
+    }
+
     return (
         <section className='sobre' id='sobre' aria-label="Sobre">
             <div className='sobre__container'>
                 <div className='sobre__textos'>
                     <h2 className='sobre__titulo-principal'><strong>Sobre Mim</strong></h2>
-                    <p className='sobre__paragrafo'>Sou a Joy Sóuza, tenho 28 anos, moro em São Bernardo do Campo - SP e sou formada em Análise e
+                    <p className='sobre__paragrafo'>Sou a Joy Sóuza, tenho {idade} anos, moro em São Bernardo do Campo - SP e sou formada em Análise e
                         Desenvolvimento de Sistemas pela FIAP. Apaixonada por tecnologia e em constante busca por
                         aprendizado, sou autodidata, detalhista e focada em resultados. Amo estudar e adquirir novos conhecimentos, pois
                         acredito que o conhecimento é algo que ninguém pode tirar de mim. Busco soluções inovadoras
@@ -16,8 +27,9 @@ function Sobre() {
 
                     <h3 className='sobre__titulo-secundario'>Por que escolhi ser dev front-end?</h3>
                     <p>Escolhi ser desenvolvedora front-end porque amo a combinação entre design e tecnologia. É
-                        uma oportunidade de criar páginas visualmente atraentes e funcionais, enquanto me mantendo atualizada
+                        uma oportunidade de criar páginas visualmente atraentes e funcionais, enquanto me mantenho atualizada
                         com as inovações digitais. A tecnologia me desafia a aprender constantemente e superar expectativas.</p>
+
                     <a href="contato/curriculo_joyceDeSouzaAraujo_desenvolvedoraFrontEnd.pdf" target="_blank">
                         <button className="button sobre__button" type="submit">Baixar CV</button>
                     </a>
@@ -27,7 +39,7 @@ function Sobre() {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
 export default Sobre;

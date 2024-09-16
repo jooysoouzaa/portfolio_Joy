@@ -34,7 +34,7 @@ function Formacao() {
                         <ul>
                             <li>Formação Front-End (JS, React e TS)<span>Udemy - Cursando</span></li>
                             <li>Jornada Full Stack - Clone do Tiktok<span>Ebac - 2023</span></li>
-                            <li>HTML e CSS<span>Origamid 2023</span></li>
+                            <li>HTML e CSS<span>Origamid - 2023</span></li>
                             <li>CSS Grid Layout<span>Origamid - 2020 </span></li>
                             <li>CSS com SASS<span>Origamid - 2020</span></li>
                             <li>Web Design<span>Origamid - 2020</span></li>
