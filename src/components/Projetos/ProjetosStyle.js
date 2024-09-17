@@ -50,13 +50,23 @@ export const ProjetosItem = styled.div`
         left: 0;
     }
 
-    @media only screen and (min-width: 320px) and (max-width: 1024px) {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
         padding: 20px;
-        height: 320px;
+        height: 360px;
     }
 
-    @media only screen and (min-width: 1025px) {
-        height: 390px;
+    @media only screen and (min-width: 481px) and (max-width: 700px) {
+        padding: 20px;
+        height: 310px;
+    }
+
+    @media only screen and (min-width: 701px) and (max-width: 1024px) {
+        padding: 20px;
+        height: 340px;
+    }
+
+    @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+        padding: 20px;
     }
 `;
 
@@ -104,6 +114,10 @@ export const ProjetosDescricao = styled.p`
     color: #bdbdbd;
     flex: 1;
     margin-bottom: 16px;
+
+     @media screen and (max-width: 1024px) {
+         font-size: 1rem;
+    }
 `;
 
 export const ProjetosBotoes = styled.div`

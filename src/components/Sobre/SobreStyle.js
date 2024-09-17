@@ -54,12 +54,7 @@ export const SobreTexto = styled.div`
     padding: 40px 40px 40px 0px;
     align-self: center;
     justify-self: end;
-
-    strong{
-        background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
-        -webkit-background-clip: text;
-        color: transparent;
-    }
+}
 
     @media (max-width: 767px) {
         padding: 60px 20px;

@@ -57,14 +57,15 @@ const projetos = [
         verProjeto: 'https://bikcraft-sand.vercel.app/',
         github: 'https://github.com/jooysoouzaa/bikcraft',
     },
-    {
-        id: 6,
-        titulo: 'Fortunatus Motors',
-        tecnologias: ['HTML', 'CSS', 'jQuery', 'API'],
-        descricao: 'Projeto utilizando HTML, CSS e jQuery com integração da API do Google Maps.',
-        verProjeto: 'https://fortunatusmotors.vercel.app/',
-        github: 'https://github.com/jooysoouzaa/jquery_fortunatus_motors',
-    },
+
+    // {
+    //     id: 6,
+    //     titulo: 'Fortunatus Motors',
+    //     tecnologias: ['HTML', 'CSS', 'jQuery', 'API'],
+    //     descricao: 'Projeto utilizando HTML, CSS e jQuery com integração da API do Google Maps.',
+    //     verProjeto: 'https://fortunatusmotors.vercel.app/',
+    //     github: 'https://github.com/jooysoouzaa/jquery_fortunatus_motors',
+    // },
     {
         id: 7,
         titulo: 'Repositórios Públicos do GitHub',
@@ -96,9 +97,9 @@ function Projetos() {
 
     useEffect(() => {
         function handleResize() {
-            if (window.innerWidth <= 599) {
+            if (window.innerWidth <= 700) {
                 setSlidesPerView(1);
-            } else if (window.innerWidth > 599 && window.innerWidth <= 1024) {
+            } else if (window.innerWidth > 700 && window.innerWidth <= 1024) {
                 setSlidesPerView(2);
             } else {
                 setSlidesPerView(3);

@@ -7,7 +7,7 @@ import Formacao from './components/Formacao/Formacao'
 import Experiencias from './components/Experiencias/Experiencias'
 import Footer from './components/Footer/Footer';
 
-import './App.css'
+import GlobalStyle from './GlobalStyle';
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
 
   return (
     <>
+      <GlobalStyle />
       <Header />
       <FaixaAnimada />
       <Projetos />
