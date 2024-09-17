@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjetosSection = styled.section`
-  
+
 `;
 
 export const Container = styled.section`
@@ -12,9 +12,6 @@ export const Container = styled.section`
     @media screen and (max-width: 1023px) {
         padding: 20px;
 `;
-
-
-
 
 export const Subtitulo = styled.h2`
     color: #fef5f5;
