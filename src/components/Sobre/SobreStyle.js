@@ -54,7 +54,7 @@ export const SobreTexto = styled.div`
     padding: 40px 40px 40px 0px;
     align-self: center;
     justify-self: end;
-}
+
 
     @media (max-width: 767px) {
         padding: 60px 20px;
@@ -69,6 +69,7 @@ export const SobreTexto = styled.div`
       @media only screen and (min-width: 1440px) {
         padding: 40px 40px 40px 0px;
     }
+}
 `;
 
 export const SobreTituloPrincipal = styled.h2`
