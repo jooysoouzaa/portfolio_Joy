@@ -22,6 +22,12 @@ export const FormacaoTitulo = styled.h2`
     font-size: 40px;
     font-weight: 700;
     font-family: "Titillium Web", sans-serif;
+
+    @media screen and (max-width: 767px) {
+        font-size: 30px !important;
+        margin-top: 60px;
+        margin-bottom: 20px;
+}
 `;
 
 export const FormacaoTexto = styled.p`
