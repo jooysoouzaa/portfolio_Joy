@@ -4,6 +4,8 @@
   padding: 20px 60px;
 }
 
+/*tirar*/
+
 .button {
   font-family: "Titillium Web", sans-serif;
   transition: transform 0.8s ease-out;
@@ -17,11 +19,13 @@
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+  /*tirar*/
 }
 
 .button:hover {
   background: linear-gradient(-90deg, #FA12E3, #7312FA, #415CA7);
   transform: scale(1.2);
+  /*tirar*/
 }
 
 img {
@@ -67,6 +71,7 @@ img {
   font-size: 40px;
   font-weight: 700;
   font-family: "Titillium Web", sans-serif;
+  /*tirar*/
 }
 
 strong {
@@ -75,7 +80,7 @@ strong {
   color: transparent;
 }
 
-
+/*tirar*/
 @media screen and (max-width: 1023px) {
   .container {
     padding: 20px;
