@@ -1,9 +1,6 @@
 import styled from 'styled-components'
 
 export const HabilidadesSection = styled.section`
-`;
-
-export const Container = styled.section`
     max-width: 1280px;
     margin: 0 auto;
     padding: 20px 60px;
@@ -11,6 +8,7 @@ export const Container = styled.section`
     @media screen and (max-width: 1023px) {
         padding: 20px;
 `;
+
 
 export const HabilidadesTitulo = styled.h2`
     color: #fef5f5;
