@@ -20,7 +20,7 @@ function Sobre() {
         <SobreSection id='sobre' aria-label="Sobre">
             <SobreContainer>
                 <SobreTexto>
-                    <SobreTituloPrincipal><strong>Sobre Mim</strong></SobreTituloPrincipal>
+                    <SobreTituloPrincipal><strong>Sobre Mim</strong>.</SobreTituloPrincipal>
                     <SobreParagrafo>Sou a Joy Sóuza, tenho {idade} anos, moro em São Bernardo do Campo - SP e sou formada em Análise e
                         Desenvolvimento de Sistemas pela FIAP. Apaixonada por tecnologia e em constante busca por
                         aprendizado, sou autodidata, detalhista e focada em resultados. Amo estudar e adquirir novos conhecimentos, pois

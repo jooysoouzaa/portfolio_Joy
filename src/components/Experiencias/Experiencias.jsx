@@ -7,7 +7,7 @@ import {
 function Experiencias() {
     return (
         <ExperienciasSection id='experiencias' aria-label="Experiência">
-            <ExperienciasTitulo>Experiências</ExperienciasTitulo>
+            <ExperienciasTitulo>Experiências<strong>.</strong></ExperienciasTitulo>
             <ExperienciasContainer>
                 <ExperienciasEmpresa>
                     <ExperienciasSubtitulo>Código Certo Coders - Dev. Front-End | Voluntária</ExperienciasSubtitulo>

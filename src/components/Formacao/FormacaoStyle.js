@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const FormacaoSection = styled.section`
     max-width: 1280px;
     margin: 0 auto;
-    padding: 20px 60px;
+    padding: 60px 20px;
 
     @media screen and (max-width: 767px) {
         grid-template-columns: 2fr;

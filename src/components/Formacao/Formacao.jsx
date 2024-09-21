@@ -6,7 +6,7 @@ import {
 function Formacao() {
     return (
         <FormacaoSection id='formacao' aria-label="Formação">
-            <FormacaoTitulo>Formação</FormacaoTitulo>
+            <FormacaoTitulo>Formação<strong>.</strong></FormacaoTitulo>
             <FormacaoTexto>
                 Sou formada em Análise e Desenvolvimento de Sistemas pela FIAP desde dezembro de 2020. Em agosto de
                 2024, concluí a formação como Engenheira Front-End pela EBAC. Atualmente, estou dedicando meus estudos em

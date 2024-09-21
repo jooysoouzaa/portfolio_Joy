@@ -118,7 +118,7 @@ function Projetos() {
     return (
         <ProjetosSection id="projetos" aria-label="Projetos">
             <Container>
-                <Subtitulo>Projetos</Subtitulo>
+                <Subtitulo>Projetos<strong>.</strong></Subtitulo>
                 <SwiperWrapper>
                     <Swiper
                         spaceBetween={20}

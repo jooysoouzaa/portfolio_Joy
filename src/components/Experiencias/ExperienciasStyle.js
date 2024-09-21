@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ExperienciasSection = styled.section`
 max-width: 1280px;
     margin: 0 auto;
-    padding: 20px 60px;
+    padding: 60px 20px;
 
     @media screen and (max-width: 1023px) {
         padding: 20px;

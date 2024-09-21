@@ -26,7 +26,7 @@ export const SobreSection = styled.section`
 
 export const SobreContainer = styled.div`
     max-width: 100%;
-    padding-left: 60px;
+    padding-left: 20px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 
@@ -45,7 +45,7 @@ export const SobreContainer = styled.div`
         max-width: 1280px;
         margin: 0 auto;
         display: grid;
-        padding: 0 60px;
+        padding: 0 20px;
         grid-template-columns: 2fr 1fr;
     }
 `;

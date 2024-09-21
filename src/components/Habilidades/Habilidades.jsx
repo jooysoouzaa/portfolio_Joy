@@ -7,18 +7,20 @@ import {
 } from './HabilidadesStyle';
 
 function Habilidades() {
-    const [slidesPerView, setSlidesPerView] = useState(7);
+    const [slidesPerView, setSlidesPerView] = useState(9);
 
     useEffect(() => {
         function handleResize() {
-            if (window.innerWidth <= 480) {
-                setSlidesPerView(2);
-            } else if (window.innerWidth > 480 && window.innerWidth <= 768) {
+            if (window.innerWidth <= 500) {
                 setSlidesPerView(3);
-            } else if (window.innerWidth > 768 && window.innerWidth <= 1024) {
-                setSlidesPerView(5);
-            } else {
+            } else if (window.innerWidth > 500 && window.innerWidth <= 767) {
+                setSlidesPerView(4);
+            } else if (window.innerWidth > 767 && window.innerWidth <= 1024) {
                 setSlidesPerView(6);
+            } else if (window.innerWidth > 1024 && window.innerWidth <= 1500) {
+                setSlidesPerView(8);
+            } else {
+                setSlidesPerView(12);
             }
         }
 
@@ -32,7 +34,7 @@ function Habilidades() {
     }, []);
     return (
         <HabilidadesSection id='habilidades' aria-label="Habilidades">
-            <HabilidadesTitulo>Habilidades</HabilidadesTitulo>
+            <HabilidadesTitulo>Habilidades<strong>.</strong></HabilidadesTitulo>
             <SwiperWrapper>
                 <Swiper
                     spaceBetween={20}
@@ -177,7 +179,7 @@ function Habilidades() {
                     </SwiperSlide>
                 </Swiper>
             </SwiperWrapper>
-            <HabilidadesSubtitulo aria-label='Tecnologias em aprimoramento'>Tecnologias em aprimoramento</HabilidadesSubtitulo>
+            <HabilidadesSubtitulo aria-label='Tecnologias em aprimoramento'>Tecnologias em aprimoramento<strong>.</strong></HabilidadesSubtitulo>
             <HabilidadesLista>
                 <HabilidadesListaTech>React</HabilidadesListaTech>
                 <HabilidadesListaTech>TypeScript</HabilidadesListaTech>
