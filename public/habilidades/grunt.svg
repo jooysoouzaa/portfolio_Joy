@@ -5,24 +5,24 @@
 	 style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:url(#SVGID_00000117656481879649125000000011715218949942645399_);}
-	.st2{fill:#121212;}
+	.st1{fill:url(#SVGID_00000085947175864513046370000003014668070420278144_);}
+	.st2{fill:#303030;}
 </style>
 <g>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-435.6556" y1="924.15" x2="-377.0066" y2="924.15" gradientTransform="matrix(1 0 0 -1 0 1167)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-435.6556" y1="-759.15" x2="-377.0066" y2="-759.15" gradientTransform="matrix(1 0 0 1 0 1002)">
 		<stop  offset="0" style="stop-color:#FA12E3"/>
 		<stop  offset="0.54" style="stop-color:#7312FA"/>
 		<stop  offset="1" style="stop-color:#415CA7"/>
 	</linearGradient>
 	<path class="st0" d="M-412.6,235.3h-7.2v15.1h7.2c2.2,0,4.4-0.9,5.9-2.4s2.3-3.3,2.3-5.2C-404.4,238.6-408,235.3-412.6,235.3z"/>
 	
-		<linearGradient id="SVGID_00000183933187218378004370000018251428678937172650_" gradientUnits="userSpaceOnUse" x1="-594.3" y1="911.35" x2="-102.2" y2="911.35" gradientTransform="matrix(1 0 0 -1 0 1167)">
+		<linearGradient id="SVGID_00000162339401047281203710000003514073275561598398_" gradientUnits="userSpaceOnUse" x1="-594.3" y1="-746.35" x2="-102.2" y2="-746.35" gradientTransform="matrix(1 0 0 1 0 1002)">
 		<stop  offset="0" style="stop-color:#FA12E3"/>
 		<stop  offset="0.54" style="stop-color:#7312FA"/>
 		<stop  offset="1" style="stop-color:#415CA7"/>
 	</linearGradient>
-	<path style="fill:url(#SVGID_00000183933187218378004370000018251428678937172650_);" d="M-147.8,196.8c-8.3-27-9.5-60.1-8.6-85.7
+	<path style="fill:url(#SVGID_00000162339401047281203710000003514073275561598398_);" d="M-147.8,196.8c-8.3-27-9.5-60.1-8.6-85.7
 		c1-26.6-19.9-51.1-47.9-51.1h-287.8c-28.1,0-48.8,24.5-47.9,51.1c0.9,25.6-0.3,58.7-8.6,85.7c-8.4,27.1-22.5,44.2-45.7,46.4v24.9
 		c23.1,2.2,37.3,19.3,45.7,46.4c8.3,27,9.5,60.1,8.6,85.7c-1,26.6,19.9,51.1,47.9,51.1h287.8c28.1,0,48.9-24.5,47.9-51.1
 		c-0.9-25.6,0.3-58.7,8.6-85.7c8.4-27.1,22.5-44.2,45.6-46.4v-24.9C-125.3,241-139.5,223.9-147.8,196.8z M-487.1,296.4

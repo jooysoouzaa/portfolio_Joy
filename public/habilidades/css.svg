@@ -4,9 +4,9 @@
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:#121212;}
+	.st1{fill:#303030;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-814.6" y1="-349.75" x2="-322.5" y2="-349.75" gradientTransform="matrix(1 0 0 1 0 668)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-814.6" y1="848.75" x2="-322.5" y2="848.75" gradientTransform="matrix(1 0 0 -1 0 1167)">
 	<stop  offset="0" style="stop-color:#FA12E3"/>
 	<stop  offset="0.5362" style="stop-color:#7312FA"/>
 	<stop  offset="1" style="stop-color:#415CA7"/>

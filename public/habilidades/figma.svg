@@ -4,25 +4,25 @@
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:url(#SVGID_00000005246222213684346560000012839000140219749507_);}
-	.st2{opacity:0.78;fill:#121212;enable-background:new    ;}
-	.st3{fill:#121212;}
+	.st1{fill:url(#SVGID_00000099647873040073998800000017869741203971123123_);}
+	.st2{opacity:0.78;fill:#303030;enable-background:new    ;}
+	.st3{fill:#303030;}
 </style>
 <g>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-463.2656" y1="-29.35" x2="-430.6695" y2="-29.35" gradientTransform="matrix(1 0 0 1 0 334)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-463.2656" y1="528.35" x2="-430.6695" y2="528.35" gradientTransform="matrix(1 0 0 -1 0 833)">
 		<stop  offset="0" style="stop-color:#FA12E3"/>
 		<stop  offset="0.4384" style="stop-color:#7312FA"/>
 		<stop  offset="1" style="stop-color:#415CA7"/>
 	</linearGradient>
 	<polygon class="st0" points="-456,312.5 -441.8,312.5 -448.9,296.8 	"/>
 	
-		<linearGradient id="SVGID_00000159439404071991952190000014708973804993684374_" gradientUnits="userSpaceOnUse" x1="-1081.7383" y1="-33.4" x2="46.5859" y2="-33.4" gradientTransform="matrix(1 0 0 1 0 334)">
+		<linearGradient id="SVGID_00000074405874113974317000000016499745853155102376_" gradientUnits="userSpaceOnUse" x1="-1081.7383" y1="532.4" x2="46.5859" y2="532.4" gradientTransform="matrix(1 0 0 -1 0 833)">
 		<stop  offset="0" style="stop-color:#FA12E3"/>
 		<stop  offset="0.4384" style="stop-color:#7312FA"/>
 		<stop  offset="1" style="stop-color:#415CA7"/>
 	</linearGradient>
-	<path style="fill:url(#SVGID_00000159439404071991952190000014708973804993684374_);" d="M-383.3,241.8c-8.3-27-9.5-60.1-8.6-85.7
+	<path style="fill:url(#SVGID_00000074405874113974317000000016499745853155102376_);" d="M-383.3,241.8c-8.3-27-9.5-60.1-8.6-85.7
 		c1-26.6-19.9-51.1-47.9-51.1h-287.8c-28.1,0-48.8,24.5-47.9,51.1c0.9,25.6-0.3,58.7-8.6,85.7c-8.4,27.1-22.5,44.2-45.7,46.4V313
 		c23.1,2.2,37.3,19.3,45.7,46.4c8.3,27,9.5,60.1,8.6,85.7c-1,26.6,19.9,51.1,47.9,51.1h287.8c28.1,0,48.9-24.5,47.9-51.1
 		c-0.9-25.6,0.3-58.7,8.6-85.7c8.4-27.1,22.5-44.2,45.6-46.4v-24.9C-360.8,286-375,268.9-383.3,241.8z M-708.5,279.6h-31.3v12h27
