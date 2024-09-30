@@ -158,7 +158,7 @@ export const MenuItem = styled.li`
         font-weight: 700;
         display: block;
         text-transform: uppercase;
-        border-radius: 8px;
+        border-radius: 50px;
         &:hover {
         background: #3d3d3d5b;
         color: #fef5f5;
@@ -169,7 +169,7 @@ export const MenuItem = styled.li`
 }
 
         @media screen and (max-width: 767px) {
-        padding: 10px 15px 10px 5px;
+        padding: 6px;
         }
     }
         @media screen and (max-width: 1023px) {
