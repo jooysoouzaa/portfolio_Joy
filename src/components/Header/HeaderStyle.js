@@ -62,10 +62,9 @@ export const ButtonMobile = styled.button`
 
     @media screen and (max-width: 1023px) {
         display: flex;
-        width: 40px;
-        height: 40px;
-        margin-top: -13px;
-    }
+        margin-top: -8px;
+        padding: 0;
+}
     `;
 
 export const Hamburger = styled.span`
