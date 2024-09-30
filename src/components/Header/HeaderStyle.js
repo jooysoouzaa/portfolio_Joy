@@ -88,15 +88,15 @@ export const Menu = styled.ul`
         position: fixed;
         width: 100vw;
         top: 0;
-        left: -100vw;
+        left: ${({ isOpen }) => (isOpen ? '0' : '-100vw')};
         background-color: #000000;
         height: 100%;
         z-index: 1000;
         transition: left 0.5s ease;
         overflow-y: auto;
+        padding: 20px;
     }
-    `;
-
+`;
 export const MenuLogo = styled.a`
     display: none;
 
@@ -133,17 +133,32 @@ export const MenuItem = styled.li`
         display: block;
         text-transform: uppercase;
         border-radius: 8px;
-
         &:hover {
         background: #3d3d3d5b;
         color: #fef5f5;
         }
 
+        @media screen and (max-width: 1023px) {
+        text-align: left;
+}
+
         @media screen and (max-width: 767px) {
         padding: 10px 15px 10px 5px;
         }
     }
-    `;
+        @media screen and (max-width: 1023px) {
+        list-style: none;
+        padding: 20px;
+        color: #fff;
+        background-color: #121212;
+        border: 1px solid #3d3d3d6e;
+        border-radius: 50px;
+        margin: 10px 0;
+        text-align: center;
+        cursor: pointer;
+    }
+`;
+
 
 export const Introducao = styled.div`
     text-align: center;

@@ -1,5 +1,4 @@
-import { useEffect } from 'react';
-import './MenuMobile.css'
+import { useEffect, useState } from 'react';
 import {
     MainContainer, Container, HeaderWrapper, Logo, Nav, ButtonMobile, Hamburger, Menu, MenuLogo, CloseMenuButton,
     MenuItem, Introducao, IntroducaoImg, IntroducaoTitle, IntroducaoSubtitle, Contatos, ContatosLista, ContatoItem,
@@ -7,11 +6,13 @@ import {
 } from './HeaderStyle';
 
 function Header() {
-    useEffect(() => {
-        const btnTop = document.querySelector(".btn-top");
-        const projetosSection = document.querySelector("#projeto02");
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    useEffect(() => {
         const handleScroll = () => {
+            const btnTop = document.querySelector(".btn-top");
+            const projetosSection = document.querySelector("#projeto02");
+
             if (!projetosSection) return;
             const projetosPosition = projetosSection.getBoundingClientRect().top;
 
@@ -24,78 +25,36 @@ function Header() {
 
         window.addEventListener("scroll", handleScroll);
 
-        // Menu
-        const btnMobile = document.getElementById('btn-mobile');
-        const nav = document.getElementById('nav');
-        const navLinks = nav ? nav.querySelectorAll('a') : []; // Verifica se 'nav' não é null
-        const closeMenu = document.getElementById('close-menu');
-
-        const toggleMenu = () => {
-            nav.classList.toggle("active");
-        };
-
-        if (btnMobile) {
-            btnMobile.addEventListener("click", toggleMenu);
-        }
-
-        navLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                if (nav) {
-                    nav.classList.remove('active');
-                }
-            });
-        });
-
-        if (closeMenu) {
-            closeMenu.addEventListener("click", () => {
-                if (nav) {
-                    nav.classList.remove('active');
-                }
-            });
-        }
-
         return () => {
             window.removeEventListener("scroll", handleScroll);
-            if (btnMobile) {
-                btnMobile.removeEventListener("click", toggleMenu);
-            }
-            navLinks.forEach(link => {
-                link.removeEventListener('click', () => {
-                    if (nav) {
-                        nav.classList.remove('active');
-                    }
-                });
-            });
-            if (closeMenu) {
-                closeMenu.removeEventListener("click", () => {
-                    if (nav) {
-                        nav.classList.remove('active');
-                    }
-                });
-            }
         };
     }, []);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
         <MainContainer>
             <Container>
-                <HeaderWrapper id='header'>
+                <HeaderWrapper>
                     <Logo>
                         <img src='/logotipo/logotipo.svg' alt="Joy Sóuza" width="70" height="50" />
                     </Logo>
-                    <Nav id="nav">
-                        <ButtonMobile id="btn-mobile">
-                            <Hamburger id="hamburger" />
+                    <Nav>
+                        <ButtonMobile onClick={toggleMenu}>
+                            <Hamburger isOpen={isMenuOpen} />
                         </ButtonMobile>
-                        <Menu id="menu">
-                            <MenuLogo id="header__menu_logo">
+                        <Menu isOpen={isMenuOpen}>
+                            <MenuLogo>
                                 <img src="/logotipo/logotipo.svg" alt="Joy Sóuza" width="70" height="50" />
                             </MenuLogo>
-                            <CloseMenuButton id="close-menu">X</CloseMenuButton>
-                            <MenuItem><a href="#projetos">Projetos</a></MenuItem>
-                            <MenuItem><a href="#habilidades">Habilidades</a></MenuItem>
-                            <MenuItem><a href="#sobre">Sobre Mim</a></MenuItem>
-                            <MenuItem><a href="#formacao">Formação</a></MenuItem>
-                            <MenuItem><a href="#experiencias">Experiências</a></MenuItem>
+                            <CloseMenuButton onClick={toggleMenu}>X</CloseMenuButton>
+                            <MenuItem><a href="#projetos" onClick={toggleMenu}>Projetos</a></MenuItem>
+                            <MenuItem><a href="#habilidades" onClick={toggleMenu}>Habilidades</a></MenuItem>
+                            <MenuItem><a href="#sobre" onClick={toggleMenu}>Sobre Mim</a></MenuItem>
+                            <MenuItem><a href="#formacao" onClick={toggleMenu}>Formação</a></MenuItem>
+                            <MenuItem><a href="#experiencias" onClick={toggleMenu}>Experiências</a></MenuItem>
                         </Menu>
                     </Nav>
                 </HeaderWrapper>
