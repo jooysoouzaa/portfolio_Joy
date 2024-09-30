@@ -148,7 +148,7 @@ export const MenuItem = styled.li`
     }
         @media screen and (max-width: 1023px) {
         list-style: none;
-        padding: 20px;
+        padding: 12px;
         color: #fff;
         background-color: #121212;
         border: 1px solid #3d3d3d6e;
