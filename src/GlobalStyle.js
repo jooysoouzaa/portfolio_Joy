@@ -49,6 +49,8 @@ const GlobalStyle = createGlobalStyle`
         font-family: "Titillium Web", sans-serif;
         list-style: none;
         text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
     }
 
     html {

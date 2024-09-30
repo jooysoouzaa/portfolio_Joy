@@ -33,7 +33,11 @@ export const HeaderWrapper = styled.header`
     padding: 12px 40px;
     border-radius: 100px;
     z-index: 4;
-    `;
+
+    @media screen and (max-width: 1023px){
+        padding: 12px 20px;
+    }
+`;
 
 export const Logo = styled.a`
     img{
@@ -58,25 +62,47 @@ export const ButtonMobile = styled.button`
 
     @media screen and (max-width: 1023px) {
         display: flex;
+        width: 40px;
+        height: 40px;
+        margin-top: -13px;
     }
     `;
 
 export const Hamburger = styled.span`
     display: block;
-    border-top: 3px solid;
+    height: 3px;
     width: 20px;
+    background-color: currentColor;
+    border-radius: 20px;
 
-    &::after,
-    &::before {
+    &::after{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: currentColor;
+        transition: 0.3s;
+        border-radius: 20px;
+        margin-left: -10px;
+    }
+        &::before {
         content: '';
         display: block;
         width: 30px;
         height: 3px;
-        margin-top: 5px;
         background-color: currentColor;
         transition: 0.3s;
+        border-radius: 20px;
+        margin-left: -10px;
     }
-    `;
+    &::after{
+        margin-top: 5px;
+    }
+    &::before{
+        margin-top: 8px;
+    }
+
+`;
 
 export const Menu = styled.ul`
     display: flex;
