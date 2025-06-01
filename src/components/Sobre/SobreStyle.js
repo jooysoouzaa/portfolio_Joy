@@ -85,7 +85,11 @@ export const SobreTituloPrincipal = styled.h2`
 `;
 
 export const SobreParagrafo = styled.p`
+<<<<<<< HEAD
     margin-bottom: 10px;
+=======
+    margin-bottom: 40px;
+>>>>>>> 9573f3f0df83ea7ed853f64a45a4d9aad650a382
 `;
 
 
