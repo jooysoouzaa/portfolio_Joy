@@ -22,7 +22,7 @@ const projetos = [
         titulo: 'Dashboard de Vendas',
         tecnologias: ['Excel', 'Power BI'],
         descricao: 'Após o tratamento de dados no Power Query, foi desenvolvido um dashboard com indicadores de vendas para facilitar a análise de desempenho comercial de forma visual e interativa.',
-        verProjeto: '#',
+        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMzZjNWZhZmMtMmY0OC00YjY2LWJmODYtZmExMzg3YjFkYWRiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9https://app.powerbi.com/view?r=eyJrIjoiMzZjNWZhZmMtMmY0OC00YjY2LWJmODYtZmExMzg3YjFkYWRiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
     {
         id: 2,
