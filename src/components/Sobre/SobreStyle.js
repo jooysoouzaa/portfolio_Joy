@@ -41,6 +41,9 @@ export const SobreContainer = styled.div`
         grid-template-columns: 1fr;
     }
 
+    @media only screen and (max-width: 1439px) {
+      padding-left: 40px;
+    }
     @media only screen and (min-width: 1440px) {
         max-width: 1280px;
         margin: 0 auto;
@@ -85,11 +88,7 @@ export const SobreTituloPrincipal = styled.h2`
 `;
 
 export const SobreParagrafo = styled.p`
-<<<<<<< HEAD
     margin-bottom: 10px;
-=======
-    margin-bottom: 40px;
->>>>>>> 9573f3f0df83ea7ed853f64a45a4d9aad650a382
 `;
 
 
