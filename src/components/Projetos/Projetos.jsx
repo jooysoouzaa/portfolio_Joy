@@ -28,7 +28,7 @@ const projetos = [
         id: 2,
         titulo: 'Dashboard de Produção',
         tecnologias: ['Excel', 'Power BI (DAX)'],
-        descricao: 'Projeto desenvolvido no Power BI com tratamento de dados no Power Query e cálculos em DAX. O dashboard apresenta indicadores como total produzido, horas produtivas e paradas, além de produtividade e qualidade da produção, permitindo análise clara e interativa do desempenho mensal.',
+        descricao: 'Após o tratamento de dados no Power Query, foi criado um dashboard de produção com indicadores de desempenho, utilizando DAX para calcular métricas como produtividade, qualidade e horas trabalhadas.',
         verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmYwN2JhNWMtMmExZi00ZmZjLWI3MzktNDE1NTFhZGZhMjI3IiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
     // {
