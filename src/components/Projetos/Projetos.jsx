@@ -29,7 +29,7 @@ const projetos = [
         titulo: 'Dashboard de Produção',
         tecnologias: ['Excel', 'Power BI (DAX)'],
         descricao: 'Após o tratamento de dados no Power Query, foi criado um dashboard de produção com indicadores de desempenho, utilizando DAX para calcular as métricas.',
-        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZDI4MGEyMzktZDUzMi00YzY4LTk2MmItNDIwZDI4ZWEzZTVkIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
+        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZWVlZWExYzctZmZmNi00NDUyLThmMmItZDljYzFmZjZlY2VlIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
     // {
     //     id: 3,
