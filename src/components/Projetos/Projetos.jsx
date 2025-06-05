@@ -22,15 +22,15 @@ const projetos = [
         titulo: 'Dashboard de Vendas',
         tecnologias: ['Excel', 'Power BI'],
         descricao: 'Após o tratamento de dados no Power Query, foi desenvolvido um dashboard com indicadores de vendas para facilitar a análise de desempenho comercial de forma visual e interativa.',
-        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMzZjNWZhZmMtMmY0OC00YjY2LWJmODYtZmExMzg3YjFkYWRiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
+        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmE1MWNhNTEtN2FlOC00NGU1LTgzMzctM2JhY2VkZjUwMjJiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
-    // {
-    //     id: 2,
-    //     titulo: 'Dashboard de Vendas',
-    //     tecnologias: ['Excel', 'Power BI'],
-    //     descricao: 'Após o tratamento de dados no Power Query, foi desenvolvido um dashboard com indicadores de vendas para facilitar a análise de desempenho comercial de forma visual e interativa.',
-    //     verProjeto: '#',
-    // },
+    {
+        id: 2,
+        titulo: 'Dashboard de Produção',
+        tecnologias: ['Excel', 'Power BI (DAX)'],
+        descricao: 'Após o tratamento de dados no Power Query, foi desenvolvido um dashboard com indicadores de vendas para facilitar a análise de desempenho comercial de forma visual e interativa.',
+        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmYwN2JhNWMtMmExZi00ZmZjLWI3MzktNDE1NTFhZGZhMjI3IiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
+    },
     // {
     //     id: 3,
     //     titulo: 'Dashboard de Vendas',
