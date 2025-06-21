@@ -32,7 +32,7 @@ export const ProjetosItem = styled.div`
     background: #121212;
     border: 1px solid #3d3d3d6e;
     border-radius: 10px;
-    height: 380px;
+    height: 570px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -50,19 +50,28 @@ export const ProjetosItem = styled.div`
         left: 0;
     }
 
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
+     @media only screen and (min-width: 320px) and (max-width: 440px) {
         padding: 20px;
-        height: 360px;
+        height: 550px;
+    }
+    @media only screen and (min-width: 441px) and (max-width: 550px) {
+        padding: 20px;
+        height: 580px;
     }
 
-    @media only screen and (min-width: 481px) and (max-width: 700px) {
+    @media only screen and (min-width: 551px) and (max-width: 640px) {
         padding: 20px;
-        height: 310px;
+        height: 620px;
+    }
+
+    @media only screen and (min-width: 641px) and (max-width: 700px) {
+        padding: 20px;
+        height: 660px;
     }
 
     @media only screen and (min-width: 701px) and (max-width: 1024px) {
         padding: 20px;
-        height: 340px;
+        height: 580px;
     }
 
     @media only screen and (min-width: 1025px) and (max-width: 1199px) {

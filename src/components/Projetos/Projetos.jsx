@@ -19,32 +19,36 @@ import {
 const projetos = [
     {
         id: 1,
+        imagem: '/projetos/Dashboard_de_Vendas.png',
         titulo: 'Dashboard de Vendas',
         tecnologias: ['Excel', 'Power BI'],
-        descricao: 'Após o tratamento de dados no Power Query, foi desenvolvido um dashboard com indicadores de vendas para facilitar a análise de desempenho comercial de forma visual e interativa.',
+        descricao: 'Análise de vendas — total vendido, metas alcançadas, ticket médio, vendas por produto e por vendedor, evolução mensal e desempenho geral. Dados tratados com Power Query e visualizados no Power BI.',
         verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmE1MWNhNTEtN2FlOC00NGU1LTgzMzctM2JhY2VkZjUwMjJiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
     {
         id: 2,
+        imagem: '/projetos/Dashboard_de_Producao.png',
         titulo: 'Dashboard de Produção',
         tecnologias: ['Excel', 'Power BI (DAX)'],
-        descricao: 'Após o tratamento de dados no Power Query, foi criado um dashboard de produção com indicadores de desempenho, utilizando DAX para calcular as métricas.',
+        descricao: 'Análise de produção – volume produzido, eficiência por turno, índice de retrabalho, metas de produtividade, evolução ao longo do tempo. Dados tratados no Power Query e métricas calculadas com DAX no Power BI.',
         verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZWVlZWExYzctZmZmNi00NDUyLThmMmItZDljYzFmZjZlY2VlIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
-    // {
-    //     id: 3,
-    //     titulo: 'Dashboard de Vendas',
-    //     tecnologias: ['Excel', 'Power BI'],
-    //     descricao: 'Após o tratamento de dados no Power Query, foi desenvolvido um dashboard com indicadores de vendas para facilitar a análise de desempenho comercial de forma visual e interativa.',
-    //     verProjeto: '#',
-    // },
-    // {
-    //     id: 4,
-    //     titulo: 'Dashboard de Vendas',
-    //     tecnologias: ['Excel', 'Power BI'],
-    //     descricao: 'Após o tratamento de dados no Power Query, foi desenvolvido um dashboard com indicadores de vendas para facilitar a análise de desempenho comercial de forma visual e interativa.',
-    //     verProjeto: '#',
-    // },
+    {
+        id: 3,
+        imagem: '/projetos/Dashboard_de_Producao.png',
+        titulo: 'Dashboard de Produção',
+        tecnologias: ['Excel', 'Power BI (DAX)'],
+        descricao: 'Análise de produção – volume produzido, eficiência por turno, índice de retrabalho, metas de produtividade, evolução ao longo do tempo. Dados tratados no Power Query e métricas calculadas com DAX no Power BI.',
+        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZWVlZWExYzctZmZmNi00NDUyLThmMmItZDljYzFmZjZlY2VlIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
+    },
+    {
+        id: 4,
+        imagem: '/projetos/Dashboard_de_Vendas.png',
+        titulo: 'Dashboard de Vendas',
+        tecnologias: ['Excel', 'Power BI'],
+        descricao: 'Análise de vendas — total vendido, metas alcançadas, ticket médio, vendas por produto e por vendedor, evolução mensal e desempenho geral. Dados tratados com Power Query e visualizados no Power BI.',
+        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmE1MWNhNTEtN2FlOC00NGU1LTgzMzctM2JhY2VkZjUwMjJiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
+    },
 ];
 
 function Projetos() {
@@ -86,7 +90,15 @@ function Projetos() {
                         {projetos.map((projeto) => (
                             <SwiperSlide key={projeto.id}>
                                 <ProjetosItem>
+                                    {projeto.imagem && (
+                                        <img
+                                            src={projeto.imagem}
+                                            alt={`Imagem do projeto ${projeto.titulo}`}
+                                            style={{ width: '100%', height: 'auto', borderRadius: '10px', marginBottom: '1rem' }}
+                                        />
+                                    )}
                                     <ProjetosTitulo>{projeto.titulo}</ProjetosTitulo>
+
                                     <ProjetosTechLabel>Tech utilizada:</ProjetosTechLabel>
                                     <ProjetosTechList>
                                         {projeto.tecnologias.map((tech, index) => (
@@ -97,7 +109,7 @@ function Projetos() {
                                     <ProjetosBotoes>
                                         {projeto.verProjeto && (
                                             <a href={projeto.verProjeto} target="_blank" rel="noopener noreferrer">
-                                                <ProjetosButton>Ver projeto</ProjetosButton>
+                                                <ProjetosButton>Ver detalhes</ProjetosButton>
                                             </a>
                                         )}
                                         {projeto.github && (

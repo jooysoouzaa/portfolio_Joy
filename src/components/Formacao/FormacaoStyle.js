@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const FormacaoSection = styled.section`
     max-width: 1280px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 60px 20px 0px 20px;
 
     @media screen and (max-width: 767px) {
         grid-template-columns: 2fr;
@@ -67,6 +67,34 @@ export const FormacaoContainer = styled.div`
         margin-bottom: 20px;
         grid-row: 2;
         grid-column: 1 / span 2;
+    }
+}
+`;
+
+export const FormacaoContainerCurso = styled.div`
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    @media screen and (max-width: 767px) {
+        grid-template-columns: 1fr;
+        
+        &> :nth-child(3) {
+            grid-row: initial;
+            grid-column: initial;
+    }
+}
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    &> :nth-child(3) {
+        margin-bottom: 20px;
+        grid-row: 2;
+        // grid-column: 1 / span 2;
     }
 }
 `;

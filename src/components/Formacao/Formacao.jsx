@@ -13,7 +13,7 @@ function Formacao() {
                 Excel, Power BI, Python e SQL, além de aperfeiçoar meu inglês.</FormacaoTexto>
             <FormacaoContainer>
                 <FormacaoFaculdade>
-                    <FormacaoFaculdadeCurso>Big Data e Inteligência Análitica</FormacaoFaculdadeCurso>
+                    <FormacaoFaculdadeCurso>Big Data e Inteligência Analítica</FormacaoFaculdadeCurso>
                     <FormacaoFaculdadeTipo>Ensino Superior</FormacaoFaculdadeTipo>
                     <FormacaoFaculdadeConclusao>
                         <li>Fev/25 - Jul/27</li>
@@ -31,13 +31,15 @@ function Formacao() {
             </FormacaoContainer>
             <FormacaoExtra>
                 <FormacaoExtraCursos>
-                    <h3>Cursos</h3>
+                    <h3>Cursos e Certificação</h3>
                     <ul>
-                        <li>Análise de Dados Impressionadora (Excel, Power BI, Python e SQL)<span>Hashtag Treinamentos - Cursando</span></li>
-                        <li>Introdução ao mundo dos dados<span> Preditiva.ai  - 2025</span></li>
-                        <li>Engenheiro Front-End<span>Ebac - 2024</span></li>
-                        <li>Front End & Web Design<span>Origamid - 2023</span></li>
-                        <li>UX & Design Thinking: Experiência do Usuário nos negócios<span>Udemy - 2020</span></li>
+                        <li>Análise de Dados (Excel, Power BI, SQL e Python) - Hashtag Treinamentos - Cursando</li>
+                        <li>Excel para Análise de Dados - Udemy - 06/2025</li>
+                        <li>BI: Do SQl ao Dashboard - Udemy - 06/2025</li>
+                        <li>Banco de Dados SQL - Udemy - 06/2025</li>
+                        <li>Formação Analista de Dados I - Udemy - 06/2025</li>
+                        <li>Estatística para Análise de Dados - Udemy - 06/2025</li>
+                        <li>Introdução ao mundo dos dados - Preditiva.ai  - 05/2025</li>
                     </ul>
                 </FormacaoExtraCursos>
             </FormacaoExtra>

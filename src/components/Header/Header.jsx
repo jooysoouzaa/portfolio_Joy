@@ -51,7 +51,7 @@ function Header() {
                             </MenuLogo>
                             <CloseMenuButton onClick={toggleMenu}>X</CloseMenuButton>
                             <MenuItem><a href="#projetos" onClick={toggleMenu}>Projetos</a></MenuItem>
-                            <MenuItem><a href="#habilidades" onClick={toggleMenu}>Habilidades</a></MenuItem>
+                            {/* <MenuItem><a href="#habilidades" onClick={toggleMenu}>Habilidades</a></MenuItem> */}
                             <MenuItem><a href="#sobre" onClick={toggleMenu}>Sobre Mim</a></MenuItem>
                             <MenuItem><a href="#formacao" onClick={toggleMenu}>Formação</a></MenuItem>
                             <MenuItem><a href="#experiencias" onClick={toggleMenu}>Experiências</a></MenuItem>
@@ -61,7 +61,7 @@ function Header() {
                 <Introducao>
                     <IntroducaoImg src='/img_avatar.webp' alt="Foto de Perfil - Joy Sóuza" width="140" />
                     <IntroducaoTitle>Olá! Sou a <strong>Joy Sóuza</strong></IntroducaoTitle>
-                    <IntroducaoSubtitle>Dados <strong> • </strong> BI <strong> • </strong> Produto</IntroducaoSubtitle>
+                    <IntroducaoSubtitle>Data & Business Analysis <strong> • </strong> Business Intelligence</IntroducaoSubtitle>
                 </Introducao>
                 <Contatos>
                     <ContatosLista>
