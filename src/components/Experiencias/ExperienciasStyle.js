@@ -98,7 +98,7 @@ export const ExperienciasParagrafo = styled.p`
     gap: 10px;
     margin: 10px 0px;
     align-items: start;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.4;
     color: #bdbdbd;
 `;

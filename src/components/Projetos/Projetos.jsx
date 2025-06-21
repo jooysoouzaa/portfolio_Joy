@@ -22,7 +22,7 @@ const projetos = [
         imagem: '/projetos/Dashboard_de_Vendas.png',
         titulo: 'Dashboard de Vendas',
         tecnologias: ['Excel', 'Power BI'],
-        descricao: 'Análise de vendas — total vendido, metas alcançadas, ticket médio, vendas por produto e por vendedor, evolução mensal e desempenho geral. Dados tratados com Power Query e visualizados no Power BI.',
+        descricao: 'Análise de vendas — total vendido, metas alcançadas, ticket médio, vendas por produto, evolução mensal e desempenho geral. Dados tratados com Power Query e visualizados no Power BI.',
         verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmE1MWNhNTEtN2FlOC00NGU1LTgzMzctM2JhY2VkZjUwMjJiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
     {
@@ -30,7 +30,7 @@ const projetos = [
         imagem: '/projetos/Dashboard_de_Producao.png',
         titulo: 'Dashboard de Produção',
         tecnologias: ['Excel', 'Power BI (DAX)'],
-        descricao: 'Análise de produção – volume produzido, eficiência por turno, índice de retrabalho, metas de produtividade, evolução ao longo do tempo. Dados tratados no Power Query e métricas calculadas com DAX no Power BI.',
+        descricao: 'Análise de produção – total aprovado, total reprovado, índice de qualidad e produtividade. Dados tratados no Power Query e métricas calculadas com DAX.',
         verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZWVlZWExYzctZmZmNi00NDUyLThmMmItZDljYzFmZjZlY2VlIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
     {

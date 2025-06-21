@@ -232,7 +232,7 @@ export const IntroducaoSubtitle = styled.h2`
     color: #bdbdbd;
 
     @media screen and (max-width: 767px) {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     `;
 
