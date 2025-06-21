@@ -32,7 +32,7 @@ function Sobre() {
                         Minha missão agora é unir minha base técnica e criativa com uma visão analítica para entregar
                         valor onde mais importa: na estratégia e na tomada de decisão.
                     </SobreParagrafo>
-                    <a href="contato/curriculo_joyceDeSouzaAraujo_desenvolvedoraFrontEnd.pdf" target="_blank">
+                    <a href="contato/JOYCE-DE-SOUZA-ARAUJO - CURRICULO.pdf" target="_blank">
                         <ProjetosButton type="submit">Baixar CV</ProjetosButton>
                     </a>
                 </SobreTexto>
