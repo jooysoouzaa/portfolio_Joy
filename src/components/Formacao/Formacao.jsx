@@ -33,7 +33,7 @@ function Formacao() {
                 <FormacaoExtraCursos>
                     <h3>Cursos e Certificação</h3>
                     <ul>
-                        <li>Análise de Dados (Excel, Power BI, SQL e Python) - Hashtag Treinamentos - Cursando</li>
+                        <li>Análise de Dados (Excel, Power BI, SQL, Python, AI, Visão de Negócio) - Hashtag Treinamentos - Cursando</li>
                         <li>Excel para Análise de Dados - Udemy - 06/2025</li>
                         <li>BI: Do SQl ao Dashboard - Udemy - 06/2025</li>
                         <li>Banco de Dados SQL - Udemy - 06/2025</li>
