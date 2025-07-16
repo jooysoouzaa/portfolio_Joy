@@ -35,10 +35,10 @@ function Formacao() {
                     <ul>
                         <li>Análise de Dados (Excel, Power BI, SQL, Python, AI, Visão de Negócio) - Hashtag Treinamentos - Cursando</li>
                         <li>Excel para Análise de Dados - Udemy - 06/2025</li>
-                        <li>BI: Do SQl ao Dashboard - Udemy - 06/2025</li>
+                        {/* <li>BI: Do SQl ao Dashboard - Udemy - 06/2025</li>
                         <li>Banco de Dados SQL - Udemy - 06/2025</li>
                         <li>Formação Analista de Dados I - Udemy - 06/2025</li>
-                        <li>Estatística para Análise de Dados - Udemy - 06/2025</li>
+                        <li>Estatística para Análise de Dados - Udemy - 06/2025</li> */}
                         <li>Introdução ao mundo dos dados - Preditiva.ai  - 05/2025</li>
                     </ul>
                 </FormacaoExtraCursos>
