@@ -1,6 +1,6 @@
 import {
     FormacaoSection, FormacaoTitulo, FormacaoTexto, FormacaoContainer, FormacaoFaculdade, FormacaoFaculdadeCurso,
-    FormacaoFaculdadeTipo, FormacaoFaculdadeConclusao, FormacaoExtra, FormacaoExtraCursos, Idiomas
+    FormacaoFaculdadeTipo, FormacaoFaculdadeConclusao, FormacaoExtra, FormacaoExtraCursos
 } from './FormacaoStyle';
 
 function Formacao() {
@@ -43,12 +43,12 @@ function Formacao() {
                     </ul>
                 </FormacaoExtraCursos>
             </FormacaoExtra>
-            <Idiomas>
+            {/* <Idiomas>
                 <h3>Idiomas</h3>
                 <ul>
                     <li>Inglês<span> - Básico (Cursando)</span></li>
                 </ul>
-            </Idiomas>
+            </Idiomas> */}
         </FormacaoSection>
     )
 }
