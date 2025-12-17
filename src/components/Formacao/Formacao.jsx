@@ -33,13 +33,15 @@ function Formacao() {
                 <FormacaoExtraCursos>
                     <h3>Cursos e Certificação</h3>
                     <ul>
-                        <li>Análise de Dados (Excel, Power BI, SQL, Python, AI, Visão de Negócio) - Hashtag Treinamentos - Cursando</li>
-                        <li>Excel para Análise de Dados - Udemy - 06/2025</li>
+                        <li>Bootcamp FullStack - Blip & Soulcode Academy - Soulcode Academy - 12/25</li>
+                        <li>Databricks com Spark & Pysparks - Udemy - 11/25</li>
+                        <li>Fundamentos de Engenharia de Dados - Data Science Academy - 07/25</li>
+                        <li>Excel para Análise de Dados - Udemy - 06/25</li>
                         {/* <li>BI: Do SQl ao Dashboard - Udemy - 06/2025</li>
                         <li>Banco de Dados SQL - Udemy - 06/2025</li>
                         <li>Formação Analista de Dados I - Udemy - 06/2025</li>
                         <li>Estatística para Análise de Dados - Udemy - 06/2025</li> */}
-                        <li>Introdução ao mundo dos dados - Preditiva.ai  - 05/2025</li>
+                        <li>Introdução ao mundo dos dados - Preditiva.ai  - 05/25</li>
                     </ul>
                 </FormacaoExtraCursos>
             </FormacaoExtra>

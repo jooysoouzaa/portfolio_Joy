@@ -113,6 +113,20 @@ export const Voluntario = styled.div`
 }
 `;
 
+export const VoluntarioContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        grid-template-columns: 1fr 1fr;
+}
+`;
+
 
 export const VoluntarioTitulo = styled.div`
     line-height: 1.4;
