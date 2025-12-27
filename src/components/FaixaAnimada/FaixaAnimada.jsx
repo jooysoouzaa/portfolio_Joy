@@ -20,12 +20,18 @@ const FaixaAnimada = () => {
                     <p>Power BI</p>
                     <p>SQL</p>
                     <p>Python</p>
+                    <p>Pyspark</p>
+                    <p>Databricks</p>
+                    <p>Hadoop</p>
                     <p>DAX</p>
                     <p>Dashboard</p>
                     <p>UX Design</p>
                     <p>Performance</p>
                     <p>ETL</p>
                     <p>Big Data</p>
+                    <p>Pyspark</p>
+                    <p>Databricks</p>
+                    <p>Hadoop</p>
                     <p>Excel</p>
                     <p>Power BI</p>
                     <p>SQL</p>
@@ -57,12 +63,18 @@ const FaixaAnimada = () => {
                     <p>Power BI</p>
                     <p>SQL</p>
                     <p>Python</p>
+                    <p>Pyspark</p>
+                    <p>Databricks</p>
+                    <p>Hadoop</p>
                     <p>DAX</p>
                     <p>Dashboard</p>
                     <p>UX Design</p>
                     <p>Performance</p>
                     <p>ETL</p>
                     <p>Big Data</p>
+                    <p>Pyspark</p>
+                    <p>Databricks</p>
+                    <p>Hadoop</p>
                     <p>Excel</p>
                     <p>Power BI</p>
                     <p>SQL</p>

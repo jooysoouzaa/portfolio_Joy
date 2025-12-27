@@ -30,19 +30,6 @@ export const FormacaoTitulo = styled.h2`
 }
 `;
 
-export const FormacaoTexto = styled.p`
-    font-size: 1.125rem;
-    line-height: 1.4;
-    color: #bdbdbd;
-    padding-bottom: 20px;
-
-    @media screen and (max-width: 767px) {
-        font-size: 1rem;
-        line-height: 1.4;
-        color: #fef5f5;
-}
-`;
-
 export const FormacaoContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);

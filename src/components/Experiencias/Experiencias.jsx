@@ -10,7 +10,7 @@ function Experiencias() {
             <ExperienciasTitulo>Experiências<strong>.</strong></ExperienciasTitulo>
             <ExperienciasContainer>
                 <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>Blip - Analytics Engineer | Estágio</ExperienciasSubtitulo>
+                    <ExperienciasSubtitulo>Blip - Engenharia de Dados | Estágio</ExperienciasSubtitulo>
                     <ExperienciasHabilidades>
                         <li>Set/25 - Atualmente</li>
                     </ExperienciasHabilidades>

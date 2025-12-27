@@ -1,5 +1,5 @@
 import {
-    FormacaoSection, FormacaoTitulo, FormacaoTexto, FormacaoContainer, FormacaoFaculdade, FormacaoFaculdadeCurso,
+    FormacaoSection, FormacaoTitulo, FormacaoContainer, FormacaoFaculdade, FormacaoFaculdadeCurso,
     FormacaoFaculdadeTipo, FormacaoFaculdadeConclusao, FormacaoExtra, FormacaoExtraCursos
 } from './FormacaoStyle';
 
@@ -7,10 +7,6 @@ function Formacao() {
     return (
         <FormacaoSection id='formacao' aria-label="Formação">
             <FormacaoTitulo>Formação<strong>.</strong></FormacaoTitulo>
-            <FormacaoTexto>
-                Sou formada em Análise e Desenvolvimento de Sistemas pela FIAP. Atualmente estou cursando
-                Big Data e Inteligência Análitica pela PUCPR e estou dedicando meus estudos em
-                Excel, Power BI, Python e SQL, além de aperfeiçoar meu inglês.</FormacaoTexto>
             <FormacaoContainer>
                 <FormacaoFaculdade>
                     <FormacaoFaculdadeCurso>Big Data e Inteligência Analítica</FormacaoFaculdadeCurso>
@@ -33,6 +29,7 @@ function Formacao() {
                 <FormacaoExtraCursos>
                     <h3>Cursos e Certificação</h3>
                     <ul>
+                        <li>Python para dados: Pandas e PySpark em ação - Soulcode Academy - 12/25</li>
                         <li>Bootcamp FullStack - Blip & Soulcode Academy - Soulcode Academy - 12/25</li>
                         <li>Databricks com Spark & Pysparks - Udemy - 11/25</li>
                         <li>Fundamentos de Engenharia de Dados - Data Science Academy - 07/25</li>

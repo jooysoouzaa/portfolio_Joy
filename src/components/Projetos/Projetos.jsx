@@ -33,6 +33,7 @@ const projetos = [
         descricao: 'Análise de produção – total aprovado, total reprovado, índice de qualidad e produtividade. Dados tratados no Power Query e métricas calculadas com DAX.',
         verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZWVlZWExYzctZmZmNi00NDUyLThmMmItZDljYzFmZjZlY2VlIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
+
 ];
 
 function Projetos() {

@@ -20,17 +20,17 @@ function Sobre() {
             <SobreContainer>
                 <SobreTexto>
                     <SobreTituloPrincipal><strong>Sobre Mim</strong>.</SobreTituloPrincipal>
-                    <SobreParagrafo>Sou a Joy Souza, tenho {idade} anos e sou formada em Análise e Desenvolvimento de
+                    <SobreParagrafo>Me chamo Joy, tenho {idade} anos e sou formada em Análise e Desenvolvimento de
                         Sistemas pela FIAP. Iniciei minha carreira atuando como desenvolvedora front-end e, posteriormente, como
                         web designer e designer gráfico. Durante esse período, desenvolvi soluções digitais focadas em
                         usabilidade, performance e experiência do usuário. Com o tempo, percebi que minha curiosidade ia além da interface: eu queria entender o que estava
                         por trás das decisões, como os dados influenciavam os produtos e como análises podiam guiar melhores
                         resultados e essa inquietação me levou a uma nova direção.<br></br><br></br>
-                        Hoje, curso Big Data e Inteligência Analítica pela PUCPR e estou direcionando minha carreira para
+                        Atualmente, curso Big Data e Inteligência Analítica pela PUCPR e estou direcionando minha carreira para
                         áreas mais analíticas. Tenho estudado ferramentas como Excel, Power BI, SQL e Python, e estou em constante evolução para transformar
                         dados em informações estratégicas que impulsionem decisões reais.
                         Minha missão agora é unir minha base técnica e criativa com uma visão analítica para entregar
-                        valor onde mais importa: na estratégia e na tomada de decisão.
+                        valor onde mais importa: na tomada de decisão.
                     </SobreParagrafo>
                     <a href="contato/JOYCE-DE-SOUZA-ARAUJO - CURRICULO.pdf" target="_blank">
                         <ProjetosButton type="submit">Baixar CV</ProjetosButton>
