@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ExperienciasSection = styled.section`
-max-width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 60px 20px;
 

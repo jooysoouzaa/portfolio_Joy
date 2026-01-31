@@ -39,7 +39,7 @@ export const FormacaoTexto = styled.p`
     @media screen and (max-width: 767px) {
         font-size: 1rem;
         line-height: 1.4;
-        color: #fef5f5;
+        color: #bdbdbd;
 }
 `;
 
@@ -103,7 +103,7 @@ export const FormacaoFaculdade = styled.div`
 `;
 
 export const FormacaoFaculdadeCurso = styled.p`
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     line-height: 1.4;
     background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
     -webkit-background-clip: text;
@@ -120,7 +120,7 @@ export const FormacaoFaculdadeTipo = styled.h3`
     letter-spacing: 1px;
     line-height: 1.1;
     font-weight: 400;
-    color: #fef5f5;
+    color: #bdbdbd;
 
     @media screen and (max-width: 767px) {
         font-size: 1rem;
