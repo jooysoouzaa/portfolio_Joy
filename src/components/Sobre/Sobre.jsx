@@ -21,8 +21,7 @@ function Sobre() {
             <SobreContainer>
                 <SobreTexto>
                     <SobreTituloPrincipal><strong>Sobre Mim</strong>.</SobreTituloPrincipal>
-                    <SobreParagrafo>Sou a Joy Sóuza, tenho {idade} anos, moro em São Bernardo do Campo - SP e sou formada em Análise e
-                        Desenvolvimento de Sistemas pela FIAP. Apaixonada por tecnologia e em constante busca por
+                    <SobreParagrafo>Sou a Joy Sóuza, tenho {idade} anos, estou cursando Big Data e Inteligencia Analítica. Apaixonada por tecnologia e em constante busca por
                         aprendizado, sou autodidata, detalhista e focada em resultados. Amo estudar e adquirir novos conhecimentos, pois
                         acredito que o conhecimento é algo que ninguém pode tirar de mim. Busco soluções inovadoras
                         e eficientes para os projetos que me envolvo, com o objetivo de evoluir como desenvolvedora front-end

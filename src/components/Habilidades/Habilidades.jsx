@@ -2,8 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState, useEffect } from 'react';
 // import './HabilidadesStyle.css'
 import {
-    HabilidadesSection, HabilidadesTitulo, SwiperWrapper, HabilidadesTech, HabilidadesSubtitulo, HabilidadesLista,
-    HabilidadesListaTech,
+    HabilidadesSection, SwiperWrapper, HabilidadesTech,
 } from './HabilidadesStyle';
 
 function Habilidades() {
@@ -34,7 +33,6 @@ function Habilidades() {
     }, []);
     return (
         <HabilidadesSection id='habilidades' aria-label="Habilidades">
-            <HabilidadesTitulo>Habilidades<strong>.</strong></HabilidadesTitulo>
             <SwiperWrapper>
                 <Swiper
                     spaceBetween={20}
@@ -179,7 +177,7 @@ function Habilidades() {
                     </SwiperSlide>
                 </Swiper>
             </SwiperWrapper>
-            <HabilidadesSubtitulo aria-label='Tecnologias em aprimoramento'>Tecnologias em aprimoramento<strong>.</strong></HabilidadesSubtitulo>
+            {/* <HabilidadesSubtitulo aria-label='Tecnologias em aprimoramento'>Tecnologias em aprimoramento<strong>.</strong></HabilidadesSubtitulo>
             <HabilidadesLista>
                 <HabilidadesListaTech>React</HabilidadesListaTech>
                 <HabilidadesListaTech>TypeScript</HabilidadesListaTech>
@@ -187,7 +185,7 @@ function Habilidades() {
                 <HabilidadesListaTech>Redux</HabilidadesListaTech>
                 <HabilidadesListaTech>Jest</HabilidadesListaTech>
                 <HabilidadesListaTech>React Testing Library</HabilidadesListaTech>
-            </HabilidadesLista>
+            </HabilidadesLista> */}
         </HabilidadesSection>
     );
 }

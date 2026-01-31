@@ -13,7 +13,7 @@ max-width: 1280px;
 
 export const ExperienciasTitulo = styled.h2`
     color: #fef5f5;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 40px;
     font-size: 40px;
     font-weight: 700;

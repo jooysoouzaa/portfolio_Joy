@@ -10,56 +10,44 @@ function Experiencias() {
             <ExperienciasTitulo>Experiências<strong>.</strong></ExperienciasTitulo>
             <ExperienciasContainer>
                 <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>Código Certo Coders - Dev. Front-End | Voluntária</ExperienciasSubtitulo>
+                    <ExperienciasSubtitulo>Blip - Data & Analytics | Estágio</ExperienciasSubtitulo>
                     <ExperienciasHabilidades>
-                        <li>Ago/24 - Atualmente</li>
+                        <li>Set/25 - Atualmente</li>
                     </ExperienciasHabilidades>
-                    <ExperienciasParagrafo>Atuação como desenvolvedora front-end, utilizando React, CSS e Figma
-                        para criar interfaces responsivas e intuitivas. Participação em reuniões semanais para
-                        alinhamento das tarefas e acompanhamento do progresso dos projetos.
+                    <ExperienciasParagrafo>
+                        Responsável pelo levantamento e documentação de ativos de dados envolvidos na migração entre Data Platform e Data Governance, garantindo rastreabilidade, organização e suporte às práticas de governança e FinOps. Acompanho o processo de migração em conjunto com o time técnico.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>Avioriz - Web Designer | Autonôma</ExperienciasSubtitulo>
+                    <ExperienciasSubtitulo>Avioriz - Web Designer & Designer Gráfico</ExperienciasSubtitulo>
                     <ExperienciasHabilidades>
-                        <li>Jun/23 - Atualmente</li>
+                        <li>Maio/20 - Ago/25</li>
                     </ExperienciasHabilidades>
-                    <ExperienciasParagrafo>Construção e manutenção de sites e sistemas low code no WordPress e
-                        Elementor, sempre enfatizando a experiência do usuário, alto desempenho, design moderno, facilidade de uso
-                        e carregamento rápido.
+                    <ExperienciasParagrafo>
+                        Atuação na criação e manutenção de sites, landing pages e lojas virtuais, com foco em usabilidade,
+                        performance e experiência do usuário. Desenvolvimento de identidades visuais e materiais digitais
+                        a partir de briefings e levantamento de requisitos, sempre com comunicação estratégica.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>Realizzart - Designer Gráfico | Autonôma</ExperienciasSubtitulo>
+                    <ExperienciasSubtitulo>Código Certo Coders - Front-End Developer & User Interface </ExperienciasSubtitulo>
                     <ExperienciasHabilidades>
-                        <li>Maio/21 - Mar/23</li>
+                        <li>Ago/24 - Fev/25</li>
                     </ExperienciasHabilidades>
-                    <ExperienciasParagrafo>Desenvolvimento de projetos de identidade visual, arte digital e
-                        monogramas através das ferramentas Adobe Illustrator e Photoshop para empreendedores de diversas
-                        áreas.</ExperienciasParagrafo>
+                    <ExperienciasParagrafo>
+                        Atuação voluntária como desenvolvedora front-end na estruturação da página institucional da empresa, com desenvolvimento de interfaces responsivas e centradas no usuário utilizando React.js, JavaScript e CSS. Prototipação das telas no Figma e colaboração ativa com a equipe em reuniões semanais de alinhamento.
+                    </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>T-Systems - Dev. front-end | Estágio</ExperienciasSubtitulo>
+                    <ExperienciasSubtitulo>T-Systems - Front-End Developer & User Interface | Estágio</ExperienciasSubtitulo>
                     <ExperienciasHabilidades>
                         <li>Out/19 - Jan/20</li>
                     </ExperienciasHabilidades>
-                    <ExperienciasParagrafo>Desenvolvimento e manutenção de projetos Web para a Daimler
-                        (Mercedes-Benz) utilizando HTML5, CSS3, Bootstrap3 e JavaScript.</ExperienciasParagrafo>
+                    <ExperienciasParagrafo>
+                        Atuação no desenvolvimento de interfaces web para a Daimler (Mercedes-Benz), com foco em implementação visual e experiência de interface. Prototipação de layouts no Adobe XD e desenvolvimento em HTML e CSS, com participação em rituais ágeis (Scrum) e introdução ao uso do framework Angular.
+                    </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
             </ExperienciasContainer>
-            {/* <Voluntario>
-                <VoluntarioTitulo>Trabalho Voluntário</VoluntarioTitulo>
-                <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>Código Certo Coders - Dev. Front-End</ExperienciasSubtitulo>
-                    <ExperienciasHabilidades>
-                        <li>Ago/24 - Atualmente</li>
-                    </ExperienciasHabilidades>
-                    <ExperienciasHabilidades>Atuação como desenvolvedora front-end, utilizando React, CSS e Figma
-                        para criar interfaces responsivas e intuitivas. Participação em reuniões semanais para
-                        alinhamento das tarefas e acompanhamento do progresso dos projetos.
-                    </ExperienciasHabilidades>
-                </ExperienciasEmpresa>
-            </Voluntario> */}
         </ExperienciasSection>
     )
 }
