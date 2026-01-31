@@ -60,7 +60,7 @@ function Header() {
                 <Introducao>
                     <IntroducaoImg src='/img_avatar.webp' alt="Foto de Perfil - Joy Sóuza" width="140" />
                     <IntroducaoTitle>Olá! Sou a <strong>Joy Sóuza</strong></IntroducaoTitle>
-                    <IntroducaoSubtitle>Desenvolvedora Front-End<strong>.</strong></IntroducaoSubtitle>
+                    <IntroducaoSubtitle>Front-End Developer<strong>.</strong></IntroducaoSubtitle>
                 </Introducao>
                 <Contatos>
                     <ContatosLista>
