@@ -5,6 +5,7 @@ import Habilidades from './components/Habilidades/Habilidades'
 import Sobre from './components/Sobre/Sobre'
 import Formacao from './components/Formacao/Formacao'
 import Experiencias from './components/Experiencias/Experiencias'
+import CallToAction from './components/CallToAction/CallToAction'
 import Footer from './components/Footer/Footer';
 
 import GlobalStyle from './GlobalStyle';
@@ -23,6 +24,7 @@ function App() {
       <Sobre />
       <Formacao />
       <Experiencias />
+      <CallToAction />
       <Footer />
 
     </>
