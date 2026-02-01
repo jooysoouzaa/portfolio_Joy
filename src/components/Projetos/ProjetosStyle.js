@@ -8,22 +8,17 @@ export const Container = styled.section`
     max-width: 1280px;
     margin: 0 auto;
     padding: 60px 20px;
-
-    @media screen and (max-width: 1023px) {
-        padding: 20px;
 `;
 
 export const Subtitulo = styled.h2`
     color: #fef5f5;
     font-size: 40px;
-    margin-top: 60px;
     font-weight: 700;
     font-family: "Titillium Web", sans-serif;
     margin-bottom: -20px;
 
     @media screen and (max-width: 767px) {
         font-size: 30px !important;
-        margin-top: 20px;
     }
 `;
 

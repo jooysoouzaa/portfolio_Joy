@@ -9,15 +9,10 @@ export const FormacaoSection = styled.section`
         grid-template-columns: 2fr;
         gap: 40px;
     }
-
-    @media screen and (max-width: 1023px) {
-        padding: 20px;
-}
 `;
 
 export const FormacaoTitulo = styled.h2`
     color: #fef5f5;
-    margin-top: 100px;
     margin-bottom: 40px;
     font-size: 40px;
     font-weight: 700;
@@ -25,21 +20,6 @@ export const FormacaoTitulo = styled.h2`
 
     @media screen and (max-width: 767px) {
         font-size: 30px !important;
-        margin-top: 60px;
-        margin-bottom: 20px;
-}
-`;
-
-export const FormacaoTexto = styled.p`
-    font-size: 1.125rem;
-    line-height: 1.4;
-    color: #bdbdbd;
-    padding-bottom: 20px;
-
-    @media screen and (max-width: 767px) {
-        font-size: 1rem;
-        line-height: 1.4;
-        color: #bdbdbd;
 }
 `;
 

@@ -1,5 +1,5 @@
 import {
-    FormacaoSection, FormacaoTitulo, FormacaoTexto, FormacaoContainer, FormacaoFaculdade, FormacaoFaculdadeCurso,
+    FormacaoSection, FormacaoTitulo, FormacaoContainer, FormacaoFaculdade, FormacaoFaculdadeCurso,
     FormacaoFaculdadeTipo, FormacaoFaculdadeConclusao, FormacaoExtra, FormacaoExtraCursos,
 } from './FormacaoStyle';
 
@@ -7,11 +7,6 @@ function Formacao() {
     return (
         <FormacaoSection id='formacao' aria-label="Formação">
             <FormacaoTitulo>Formação<strong>.</strong></FormacaoTitulo>
-            <FormacaoTexto>
-                Sou formada em Análise e Desenvolvimento de Sistemas pela FIAP desde dezembro de 2020. Em agosto de
-                2024, concluí a formação como Engenheira Front-End pela EBAC. Atualmente, estou cursando Big Data e 
-                Inteligência Analítica pela PUCPR
-            </FormacaoTexto>
             <FormacaoContainer>
                 <FormacaoFaculdade>
                     <FormacaoFaculdadeCurso>Big Data e Inteligência Analítica</FormacaoFaculdadeCurso>
