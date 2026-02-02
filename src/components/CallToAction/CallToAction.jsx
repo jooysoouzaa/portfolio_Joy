@@ -7,7 +7,7 @@ function Call() {
     return (
         <CallSection id='Call' aria-label="Call">
             <CallContainer>
-                <CallTituloPrincipal><strong>Vamos construir algo juntos</strong>.</CallTituloPrincipal>
+                <CallTituloPrincipal><strong>Vamos construir algo juntos?</strong></CallTituloPrincipal>
                 <CallParagrafo>
                     Se você busca uma desenvolvedora front-end focada em interfaces, experiência do usuário e qualidade técnica, ficarei feliz em conversar.
                 </CallParagrafo>

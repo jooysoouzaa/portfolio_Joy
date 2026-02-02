@@ -17,13 +17,15 @@ export const Faixa = styled.section`
 
 // Faixa1 com gradiente e rotação
 export const Faixa1 = styled.div`
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+    background: linear-gradient(#9b30f9,#84e);
     transform: rotate(3deg);
     width: 110%;
     margin-top: -30px;
     margin-bottom: -6px;
     z-index: 2;
     position: relative;
+    opacity: 0.6;
+    filter: blur(1.6px);
 
     @media only screen and (max-width: 767px) {
         margin-top: 30px;
@@ -33,7 +35,7 @@ export const Faixa1 = styled.div`
 
 // Faixa2 com gradiente, opacidade e blur
 export const Faixa2 = styled.div`
-    background: linear-gradient(90deg, #FA12E3, #7312FA);
+    background: linear-gradient(90deg, #9b30f9,#84e);
     transform: rotate(-3deg) translateY(-110px);
     z-index: 1;
     width: 110%;

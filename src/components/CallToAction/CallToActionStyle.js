@@ -27,7 +27,7 @@ export const CallContainer = styled.div`
     display: block;
     width: 4px;
     height: 50px;
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+    background: linear-gradient(#9b30f9,#84e);
     position: absolute;
     top: 20px;
     left: 0;
@@ -71,7 +71,7 @@ export const ProjetosButton = styled.button`
     line-height: 1.4;
     font-weight: 600;
     border-radius: 4px;
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+    background: linear-gradient(#9b30f9,#84e);
     color: #000;
     padding: 10px;
     border: none;
@@ -83,7 +83,7 @@ export const ProjetosButton = styled.button`
     padding: 16px;
 
     &:hover {
-        background: linear-gradient(-90deg, #FA12E3, #7312FA, #415CA7);
+        background: linear-gradient(-90deg, #9b30f9,#84e);
         transform: scale(1.2);
     }
 `;

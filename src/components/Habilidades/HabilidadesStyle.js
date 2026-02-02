@@ -49,6 +49,7 @@ export const HabilidadesTech = styled.div`
         padding: 20px;
 
     &:hover img{
+        opacity: 1;
         transform: scale(1.1);
     }
 
@@ -56,7 +57,8 @@ export const HabilidadesTech = styled.div`
         max-width: 100%;
         margin: 0 auto;
         display: block;
-        transition: transform 0.3s ease;
+        transition: transform 0.8s ease-out;
+        opacity: 0.3;
     }
 
     &:hover span{
@@ -69,7 +71,7 @@ export const HabilidadesTech = styled.div`
         bottom: 40px;
         left: 50%;
         transform: translateX(-50%);
-        background-color: #0101019d;
+        background-color: #010101f0;
         color: #fff;
         padding: 5px 10px;
         border-radius: 5px;

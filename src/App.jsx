@@ -3,7 +3,6 @@ import FaixaAnimada from './components/FaixaAnimada/FaixaAnimada'
 import Projetos from './components/Projetos/Projetos'
 import Habilidades from './components/Habilidades/Habilidades'
 import Sobre from './components/Sobre/Sobre'
-import Formacao from './components/Formacao/Formacao'
 import Experiencias from './components/Experiencias/Experiencias'
 import CallToAction from './components/CallToAction/CallToAction'
 import Footer from './components/Footer/Footer';
@@ -22,7 +21,6 @@ function App() {
       <Projetos />
       <Habilidades />
       <Sobre />
-      <Formacao />
       <Experiencias />
       <CallToAction />
       <Footer />

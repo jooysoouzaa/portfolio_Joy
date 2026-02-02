@@ -47,7 +47,7 @@ export const ExperienciasEmpresa = styled.div`
     display: block;
     width: 4px;
     height: 50px;
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+    background: linear-gradient(#9b30f9,#84e);
     position: absolute;
     top: 20px;
     left: 0;
@@ -59,9 +59,7 @@ export const ExperienciasSubtitulo = styled.div`
     margin-bottom: 10px;
     line-height: 1.3;
     font-weight: bold;
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
-    -webkit-background-clip: text;
-    color: transparent;
+    color: #fef5f5;
 
     @media (max-width: 767px){
         font-size: 1rem;
@@ -75,7 +73,7 @@ export const ExperienciasHabilidades = styled.ul`
         line-height: 1.4;
         font-weight: 500;
         border-radius: 4px;
-        background: #303030;
+        background: #252525;
         color: #fef5f5;
         padding: 5px 10px;
         font-size: 1.125rem;

@@ -19,13 +19,13 @@ const GlobalStyle = createGlobalStyle`
 
     ::-webkit-scrollbar-thumb {
         border-radius: 6px;
-        background: linear-gradient(180deg, #FA12E3, #7312FA, #415CA7);
+        background: linear-gradient(180deg, #9b30f9,#84e);
         border: 1px solid #060606;
     }
 
     ::-webkit-scrollbar-thumb:hover {
         border-radius: 6px;
-        background: linear-gradient(0deg, #FA12E3, #7312FA, #415CA7);
+        background: linear-gradient(0deg, #9b30f9,#84e);
         border: 1px solid #060606;
     }
 
@@ -36,7 +36,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     strong {
-        background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+        background: linear-gradient(#9b30f9,#84e);
         -webkit-background-clip: text;
         color: transparent;
     }

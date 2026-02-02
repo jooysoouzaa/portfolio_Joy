@@ -27,7 +27,7 @@ export const BtnTop = styled.div`
         right: 20px;
         width: 40px;
         height: 40px;
-        background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+        background: linear-gradient(#9b30f9,#84e);
         color: white;
         border-radius: 50%;
         justify-content: center;
@@ -61,7 +61,7 @@ export const FooterCopy = styled.p`
     text-align: center;
 
     strong {
-        background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+        background:linear-gradient(#9b30f9,#84e);
         -webkit-background-clip: text;
         color: transparent;
     }

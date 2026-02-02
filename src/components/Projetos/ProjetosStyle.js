@@ -39,7 +39,7 @@ export const ProjetosItem = styled.div`
         display: block;
         width: 4px;
         height: 50px;
-        background: linear-gradient(180deg, #FA12E3, #7312FA, #415CA7);
+        background: linear-gradient(180deg, #9b30f9,#84e );
         position: absolute;
         top: 20px;
         left: 0;
@@ -70,9 +70,7 @@ export const ProjetosTitulo = styled.h3`
     letter-spacing: 1px;
     line-height: 1.1;
     font-weight: 600;
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
-    -webkit-background-clip: text;
-    color: transparent;
+    color: #fef5f5;
     margin-bottom: 10px;
 `;
 
@@ -97,7 +95,7 @@ export const ProjetosTechList = styled.ul`
         line-height: 1.4;
         font-weight: 500;
         border-radius: 4px;
-        background-color: #303030;
+        background-color: #252525;
         color: #fef5f5;
         padding: 5px 10px;
     }
@@ -110,8 +108,8 @@ export const ProjetosDescricao = styled.p`
     flex: 1;
     margin-bottom: 16px;
 
-     @media screen and (max-width: 1024px) {
-         font-size: 1rem;
+    @media screen and (max-width: 1024px) {
+        font-size: 1rem;
     }
 `;
 
@@ -131,8 +129,8 @@ export const ProjetosButton = styled.button`
     line-height: 1.4;
     font-weight: 600;
     border-radius: 4px;
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
-    color: #000;
+    background: linear-gradient(#9b30f9,#84e);
+    color: #fef5f5;
     padding: 10px;
     border: none;
     text-transform: uppercase;
@@ -140,7 +138,7 @@ export const ProjetosButton = styled.button`
     transition: transform 0.8s ease-out;
 
     &:hover {
-        background: linear-gradient(-90deg, #FA12E3, #7312FA, #415CA7);
+        background: linear-gradient(-90deg, );
         transform: scale(1.2);
     }
 `;
@@ -159,7 +157,7 @@ export const SwiperWrapper = styled.div`
 
 .swiper-button-next,
 .swiper-button-prev {
-    background: linear-gradient(90deg, #FA12E3, #7312FA, #415CA7);
+    background: linear-gradient(#9b30f9,#84e);
     color: #010101;
     width: 35px !important;
     height: 35px !important;

@@ -52,7 +52,6 @@ function Header() {
                             <CloseMenuButton onClick={toggleMenu}>X</CloseMenuButton>
                             <MenuItem><a href="#projetos" onClick={toggleMenu}>Projetos</a></MenuItem>
                             <MenuItem><a href="#sobre" onClick={toggleMenu}>Sobre Mim</a></MenuItem>
-                            <MenuItem><a href="#formacao" onClick={toggleMenu}>Formação</a></MenuItem>
                             <MenuItem><a href="#experiencias" onClick={toggleMenu}>Experiências</a></MenuItem>
                         </Menu>
                     </Nav>
