@@ -17,15 +17,18 @@ export const Faixa = styled.section`
 
 // Faixa1 com gradiente e rotação
 export const Faixa1 = styled.div`
-    background: linear-gradient(#9b30f9,#84e);
+    background: linear-gradient(#9b30f9, #84e);
     transform: rotate(3deg);
     width: 110%;
-    margin-top: -30px;
-    margin-bottom: -6px;
+    margin-bottom: 46px;
     z-index: 2;
     position: relative;
     opacity: 0.6;
     filter: blur(1.6px);
+
+    @media only screen and (max-width: 1023px) {
+        margin-top: -65px;
+    }
 
     @media only screen and (max-width: 767px) {
         margin-top: 30px;
