@@ -82,8 +82,7 @@ export const ProjetosButton = styled.button`
     padding: 16px;
 
     &:hover {
-        background: linear-gradient(-90deg, #9b30f9, #84e);
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 `;
 

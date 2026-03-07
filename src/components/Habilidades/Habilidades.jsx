@@ -45,80 +45,44 @@ function Habilidades() {
                 >
                     <SwiperSlide>
                         <HabilidadesTech>
-                            <img src='/habilidades/react.svg' alt='React' width='80' height='80' />
-                            <span>React</span>
+                            <img src='/habilidades/PowerBI.svg' alt='Power BI' width='80' height='80' />
+                            <span>Power BI</span>
                         </HabilidadesTech>
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='/habilidades/styled-components.svg' alt='Styled Components' width='80' height='80' />
-                            <span>Styled Components</span>
+                            <img src='/habilidades/Looker.svg' alt='Looker' width='80' height='80' />
+                            <span>Looker</span>
                         </HabilidadesTech>
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='/habilidades/html.svg' alt='HTML' width='80' height='80' />
-                            <span>HTML</span>
+                            <img src='/habilidades/SQL.svg' alt='SQL' width='80' height='80' />
+                            <span>SQL</span>
                         </HabilidadesTech>
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='/habilidades/javascript.svg' alt='JavaScript' width='80' height='80' />
-                            <span>JavaScript</span>
+                            <img src='/habilidades\Pyspark.svg' alt='PySpark' width='80' height='80' />
+                            <span>PySpark</span>
                         </HabilidadesTech>
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='/habilidades/css.svg' alt='CSS' width='80' height='80' />
-                            <span>CSS</span>
+                            <img src='\habilidades\Databricks.svg' alt='Databricks' width='80' height='80' />
+                            <span>Databricks</span>
                         </HabilidadesTech>
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='/habilidades/sass.svg' alt='sass' width='80' height='80' />
-                            <span>SASS</span>
+                            <img src='public\habilidades\ADF.svg' alt='Azure Data Factory' width='80' height='80' />
+                            <span>Azure Data Factory</span>
                         </HabilidadesTech>
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='/habilidades/less.svg' alt='less' width='80' height='80' />
-                            <span>LESS</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/bem.svg' alt='bem' width='80' height='80' />
-                            <span>BEM</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/typescript.svg' alt='TypeScript' width='80' height='80' />
-                            <span>TypeScript</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/bootstrap.svg' alt='bootstrap' width='80' height='80' />
-                            <span>Bootstrap</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/jest.svg' alt='jest' width='80' height='80' />
-                            <span>Jest</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/cypress.svg' alt='cypress' width='80' height='80' />
-                            <span>Cypress</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/testing-library.svg' alt='React Testing Library' width='80' height='80' />
-                            <span>React Testing Library</span>
+                            <img src='public\habilidades\Python.svg' alt='Python' width='80' height='80' />
+                            <span>Python</span>
                         </HabilidadesTech>
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
@@ -129,63 +93,12 @@ function Habilidades() {
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='/habilidades/vercel.svg' alt='vercel' width='80' height='80' />
-                            <span>Vercel</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
                             <img src='/habilidades/vscode.svg' alt='vscode' width='80' height='80' />
                             <span>VS Code</span>
                         </HabilidadesTech>
                     </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/babel.svg' alt='babel' width='80' height='80' />
-                            <span>Babel</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/gulp.svg' alt='gulp' width='80' height='80' />
-                            <span>Gulp</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/grunt.svg' alt='grunt' width='80' height='80' />
-                            <span>Grunt</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/parcel.svg' alt='parcel' width='80' height='80' />
-                            <span>Parcel</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/figma.svg' alt='figma' width='80' height='80' />
-                            <span>Figma</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
-                    <SwiperSlide className='habilidades__tech'>
-                        <HabilidadesTech>
-                            <img src='/habilidades/wordpress.svg' alt='wordpress' width='80' height='80' />
-                            <span>WordPress</span>
-                        </HabilidadesTech>
-                    </SwiperSlide>
                 </Swiper>
             </SwiperWrapper>
-            {/* <HabilidadesSubtitulo aria-label='Tecnologias em aprimoramento'>Tecnologias em aprimoramento<strong>.</strong></HabilidadesSubtitulo>
-            <HabilidadesLista>
-                <HabilidadesListaTech>React</HabilidadesListaTech>
-                <HabilidadesListaTech>TypeScript</HabilidadesListaTech>
-                <HabilidadesListaTech>Styled Components</HabilidadesListaTech>
-                <HabilidadesListaTech>Redux</HabilidadesListaTech>
-                <HabilidadesListaTech>Jest</HabilidadesListaTech>
-                <HabilidadesListaTech>React Testing Library</HabilidadesListaTech>
-            </HabilidadesLista> */}
         </HabilidadesSection>
     );
 }

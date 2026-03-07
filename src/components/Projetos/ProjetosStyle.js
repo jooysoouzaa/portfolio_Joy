@@ -8,17 +8,22 @@ export const Container = styled.section`
     max-width: 1280px;
     margin: 0 auto;
     padding: 60px 20px;
+
+    @media screen and (max-width: 1023px) {
+        padding: 20px;
 `;
 
 export const Subtitulo = styled.h2`
     color: #fef5f5;
     font-size: 40px;
+    margin-top: 60px;
     font-weight: 700;
     font-family: "Titillium Web", sans-serif;
     margin-bottom: -20px;
 
     @media screen and (max-width: 767px) {
         font-size: 30px !important;
+        margin-top: 20px;
     }
 `;
 
@@ -27,7 +32,7 @@ export const ProjetosItem = styled.div`
     background: #121212;
     border: 1px solid #3d3d3d6e;
     border-radius: 10px;
-    height: 380px;
+    height: 570px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -39,25 +44,34 @@ export const ProjetosItem = styled.div`
         display: block;
         width: 4px;
         height: 50px;
-        background: linear-gradient(180deg, #9b30f9,#84e );
+        background: linear-gradient(180deg, #9b30f9,#84e);
         position: absolute;
         top: 20px;
         left: 0;
     }
 
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
+     @media only screen and (min-width: 320px) and (max-width: 440px) {
         padding: 20px;
-        height: 360px;
+        height: 550px;
+    }
+    @media only screen and (min-width: 441px) and (max-width: 550px) {
+        padding: 20px;
+        height: 580px;
     }
 
-    @media only screen and (min-width: 481px) and (max-width: 700px) {
+    @media only screen and (min-width: 551px) and (max-width: 640px) {
         padding: 20px;
-        height: 310px;
+        height: 620px;
+    }
+
+    @media only screen and (min-width: 641px) and (max-width: 700px) {
+        padding: 20px;
+        height: 660px;
     }
 
     @media only screen and (min-width: 701px) and (max-width: 1024px) {
         padding: 20px;
-        height: 340px;
+        height: 580px;
     }
 
     @media only screen and (min-width: 1025px) and (max-width: 1199px) {
@@ -95,7 +109,7 @@ export const ProjetosTechList = styled.ul`
         line-height: 1.4;
         font-weight: 500;
         border-radius: 4px;
-        background-color: #252525;
+        background-color: #303030;
         color: #fef5f5;
         padding: 5px 10px;
     }
@@ -129,17 +143,19 @@ export const ProjetosButton = styled.button`
     line-height: 1.4;
     font-weight: 600;
     border-radius: 4px;
-    background: linear-gradient(#9b30f9,#84e);
+    background: linear-gradient(180deg, #9b30f9,#84e);
     color: #fef5f5;
     padding: 10px;
     border: none;
     text-transform: uppercase;
     cursor: pointer;
     transition: transform 0.8s ease-out;
+    width: 200px;
+    padding: 16px;
+
 
     &:hover {
-        background: linear-gradient(-90deg, );
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 `;
 
@@ -157,7 +173,7 @@ export const SwiperWrapper = styled.div`
 
 .swiper-button-next,
 .swiper-button-prev {
-    background: linear-gradient(#9b30f9,#84e);
+    background: linear-gradient(180deg, #9b30f9,#84e);
     color: #010101;
     width: 35px !important;
     height: 35px !important;

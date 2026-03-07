@@ -9,7 +9,7 @@ function Call() {
             <CallContainer>
                 <CallTituloPrincipal><strong>Vamos construir algo juntos?</strong></CallTituloPrincipal>
                 <CallParagrafo>
-                    Se você busca uma desenvolvedora front-end focada em interfaces, experiência do usuário e qualidade técnica, ficarei feliz em conversar.
+                    Se você busca uma profissional de dados focada em transformar dados em insights e apoiar decisões estratégicas, ficarei feliz em conversar.
                 </CallParagrafo>
                 <Contatos>
                     <ContatosLista>

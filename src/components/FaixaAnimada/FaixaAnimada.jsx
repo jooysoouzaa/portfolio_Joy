@@ -7,102 +7,87 @@ const FaixaAnimada = () => {
         <Faixa>
             <Faixa1>
                 <TextWrapper1>
-                    <p>React</p>
-                    <p>Styled Components</p>
-                    <p>JavaScript</p>
-                    <p>TypeScript</p>
-                    <p>Cypress</p>
-                    <p>Jest</p>
-                    <p>SASS</p>
-                    <p>LESS</p>
-                    <p>Grunt</p>
-                    <p>Gulp</p>
-                    <p>Parcel</p>
-                    <p>Bootstrap</p>
-                    <p>Git</p>
-                    <p>Figma</p>
-                    <p>React</p>
-                    <p>Jquery</p>
-                    <p>HTML</p>
-                    <p>WordPress</p>
-                    <p>CSS</p>
-                    <p>TypeScript</p>
-                    <p>Cypress</p>
-                    <p>Styled Components</p>
-                    <p>React</p>
-                    <p>JavaScript</p>
-                    <p>React</p>
-                    <p>TypeScript</p>
-                    <p>Cypress</p>
-                    <p>Jest</p>
-                    <p>SASS</p>
-                    <p>LESS</p>
-                    <p>Grunt</p>
-                    <p>Gulp</p>
-                    <p>Parcel</p>
-                    <p>React</p>
-                    <p>Bootstrap</p>
-                    <p>Git</p>
-                    <p>Jest</p>
-                    <p>Vercel</p>
-                    <p>Figma</p>
-                    <p>Jquery</p>
-                    <p>HTML</p>
-                    <p>WordPress</p>
-                    <p>CSS</p>
-                    <p>TypeScript</p>
-                    <p>Cypress</p>
-                    <p>Styled Components</p>
+                    <p>Storytelling com Dados</p>
+                    <p>Google Sheets</p>
+                    <p>Scrum</p>
+                    <p>Design Thinking</p>
+                    <p>Produto Digital</p>
+                    <p>Business Intelligence</p>
+                    <p>Análise de Dados</p>
+                    <p>Trello</p>
+                    <p>Raciocínio Analítico</p>
+                    <p>Excel</p>
+                    <p>Power BI</p>
+                    <p>SQL</p>
+                    <p>Python</p>
+                    <p>Pyspark</p>
+                    <p>Databricks</p>
+                    <p>Hadoop</p>
+                    <p>DAX</p>
+                    <p>Dashboard</p>
+                    <p>UX Design</p>
+                    <p>Performance</p>
+                    <p>ETL</p>
+                    <p>Big Data</p>
+                    <p>Pyspark</p>
+                    <p>Databricks</p>
+                    <p>Hadoop</p>
+                    <p>Excel</p>
+                    <p>Power BI</p>
+                    <p>SQL</p>
+                    <p>Python</p>
+                    <p>DAX</p>
+                    <p>Dashboard</p>
+                    <p>Excel</p>
+                    <p>Power BI</p>
+                    <p>SQL</p>
+                    <p>Python</p>
+                    <p>DAX</p>
+                    <p>Dashboard</p>
+                    <p>ETL</p>
+                    <p>Big Data</p>
                 </TextWrapper1>
             </Faixa1>
             <Faixa2>
                 <TextWrapper2>
-                    <p>React</p>
-                    <p>Styled Components</p>
-                    <p>JavaScript</p>
-                    <p>TypeScript</p>
-                    <p>Cypress</p>
-                    <p>Jest</p>
-                    <p>SASS</p>
-                    <p>LESS</p>
-                    <p>Grunt</p>
-                    <p>Gulp</p>
-                    <p>Parcel</p>
-                    <p>Bootstrap</p>
-                    <p>Git</p>
-                    <p>Figma</p>
-                    <p>React</p>
-                    <p>Jquery</p>
-                    <p>HTML</p>
-                    <p>WordPress</p>
-                    <p>CSS</p>
-                    <p>TypeScript</p>
-                    <p>Cypress</p>
-                    <p>Styled Components</p>
-                    <p>React</p>
-                    <p>JavaScript</p>
-                    <p>React</p>
-                    <p>TypeScript</p>
-                    <p>Cypress</p>
-                    <p>Jest</p>
-                    <p>SASS</p>
-                    <p>LESS</p>
-                    <p>Grunt</p>
-                    <p>Gulp</p>
-                    <p>Parcel</p>
-                    <p>React</p>
-                    <p>Bootstrap</p>
-                    <p>Git</p>
-                    <p>Jest</p>
-                    <p>Vercel</p>
-                    <p>Figma</p>
-                    <p>Jquery</p>
-                    <p>HTML</p>
-                    <p>WordPress</p>
-                    <p>CSS</p>
-                    <p>TypeScript</p>
-                    <p>Cypress</p>
-                    <p>Styled Components</p>
+                    <p>Storytelling com Dados</p>
+                    <p>Google Sheets</p>
+                    <p>Scrum</p>
+                    <p>Business Intelligence</p>
+                    <p>Análise de Dados</p>
+                    <p>Raciocínio Analítico</p>
+                    <p>Excel</p>
+                    <p>Power BI</p>
+                    <p>SQL</p>
+                    <p>Python</p>
+                    <p>Pyspark</p>
+                    <p>Databricks</p>
+                    <p>Azure</p>
+                    <p>Hadoop</p>
+                    <p>DAX</p>
+                    <p>Dashboard</p>
+                    <p>Looker</p>
+                    <p>UX Design</p>
+                    <p>Performance</p>
+                    <p>ETL</p>
+                    <p>Big Data</p>
+                    <p>Pyspark</p>
+                    <p>Databricks</p>
+                    <p>Hadoop</p>
+                    <p>Excel</p>
+                    <p>Power BI</p>
+                    <p>SQL</p>
+                    <p>Python</p>
+                    <p>DAX</p>
+                    <p>Dashboard</p>
+                    <p>Excel</p>
+                    <p>Power BI</p>
+                    <p>SQL</p>
+                    <p>Python</p>
+                    <p>DAX</p>
+                    <p>Dashboard</p>
+                    <p>ETL</p>
+                    <p>Big Data</p>
                 </TextWrapper2>
             </Faixa2>
         </Faixa>
