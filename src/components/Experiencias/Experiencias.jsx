@@ -15,7 +15,7 @@ function Experiencias() {
                         <li>Set/25 - Atualmente</li>
                     </ExperienciasHabilidades>
                     <ExperienciasParagrafo>
-                        Responsável pelo levantamento e documentação de ativos de dados envolvidos na migração entre Data Platform e Data Governance, garantindo rastreabilidade, organização e suporte às práticas de governança e FinOps. Acompanho o processo de migração em conjunto com o time técnico.
+                        Mapeamento e documentação de runbooks operacionais e monitoramento dos pipelines no ADF, assegurando a continuidade dos fluxos e o reprocessamento adequado de falhas. Atuo com foco analítico na validação de dados, comparando as lógicas entre tabelas antigas e novas para garantir a precisão e identificar qualquer divergência nos indicadores.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>

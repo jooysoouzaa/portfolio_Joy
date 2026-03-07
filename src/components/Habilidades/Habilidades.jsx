@@ -75,13 +75,13 @@ function Habilidades() {
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='public\habilidades\ADF.svg' alt='Azure Data Factory' width='80' height='80' />
+                            <img src='\habilidades\ADF.svg' alt='Azure Data Factory' width='80' height='80' />
                             <span>Azure Data Factory</span>
                         </HabilidadesTech>
                     </SwiperSlide>
                     <SwiperSlide className='habilidades__tech'>
                         <HabilidadesTech>
-                            <img src='public\habilidades\Python.svg' alt='Python' width='80' height='80' />
+                            <img src='\habilidades\Python.svg' alt='Python' width='80' height='80' />
                             <span>Python</span>
                         </HabilidadesTech>
                     </SwiperSlide>
