@@ -15,7 +15,7 @@ function Experiencias() {
                         <li>Set/25 - Atualmente</li>
                     </ExperienciasHabilidades>
                     <ExperienciasParagrafo>
-                        Mapeamento e documentação de runbooks operacionais e monitoramento dos pipelines no ADF, assegurando a continuidade dos fluxos e o reprocessamento adequado de falhas. Atuo com foco analítico na validação de dados, comparando as lógicas entre tabelas antigas e novas para garantir a precisão e identificar qualquer divergência nos indicadores.
+                        Atuação na sustentação de pipelines no Azure Data Factory e pela confiabilidade dos indicadores através da validação rigorosa de dados. Além disso, desenvolvo dashboards estratégicos no Looker (LookML), transformando métricas de custos (FinOps) em visualizações para suporte à tomada de decisão.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>
