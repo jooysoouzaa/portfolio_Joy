@@ -15,7 +15,7 @@ function Experiencias() {
                         <li>Set/25 - Atualmente</li>
                     </ExperienciasHabilidades>
                     <ExperienciasParagrafo>
-                        Atuação na sustentação de pipelines no Azure Data Factory e pela confiabilidade dos indicadores através da validação rigorosa de dados. Além disso, desenvolvo dashboards estratégicos no Looker (LookML), transformando métricas de custos (FinOps) em visualizações para suporte à tomada de decisão.
+                        Atuação em Data & Analytics, garantindo a qualidade e confiabilidade dos dados e indicadores. Desenvolvimento e manutenção de dashboards no Looker (LookML) e Power BI, transformando métricas de negócio e custos (FinOps) em insights para suporte à tomada de decisão.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>

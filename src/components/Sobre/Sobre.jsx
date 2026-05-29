@@ -10,19 +10,16 @@ function Sobre() {
                 <SobreParagrafo>
                     <SobreTituloPrincipal><strong>Sobre Mim</strong>.</SobreTituloPrincipal>
                     <SobreText>
-                        Me chamo Joy, sou formada em Análise e Desenvolvimento de
-                        Sistemas pela FIAP. Iniciei minha carreira atuando como desenvolvedora front-end e, posteriormente, como
-                        web designer e designer gráfico. Durante esse período, desenvolvi soluções digitais focadas em
-                        usabilidade, performance e experiência do usuário. Com o tempo, percebi que minha curiosidade ia além da interface: eu queria entender o que estava
-                        por trás das decisões, como os dados influenciavam os produtos e como análises podiam guiar melhores
-                        resultados e essa inquietação me levou a uma nova direção.
+                        Sou formada em Análise e Desenvolvimento de Sistemas pela FIAP e atualmente curso Big Data e Inteligência Analítica na FMU.
                     </SobreText>
                     <SobreText>
-                        Atualmente, curso Big Data e Inteligência Analítica pela PUCPR e estou direcionando minha carreira para
-                        áreas mais analíticas. Tenho estudado ferramentas como Excel, Power BI, Looker, SQL, Databricks, PySpark e Python, e estou em constante evolução para transformar
-                        dados em informações estratégicas que impulsionem decisões reais.
-                        Minha missão agora é unir minha base técnica e criativa com uma visão analítica para entregar
-                        valor onde mais importa: na tomada de decisão.
+                        Minha trajetória começou no desenvolvimento Front-End e no Web Design, onde desenvolvi um forte olhar para experiência do usuário, usabilidade e comunicação visual. Essa base me permitiu compreender a importância de transformar informações complexas em experiências claras e intuitivas, habilidade que hoje aplico diretamente na área de dados.
+                    </SobreText>
+                    <SobreText>
+                        Hoje direciono minha carreira para Business Intelligence, Análise de Dados e Data Visualization, unindo visão analítica, comunicação visual e contexto de negócio para transformar dados em insights claros e acionáveis. Tenho experiência com ferramentas como SQL, Python para análise e manipulação de dados, Power BI, Looker, Databricks e Excel, além de conhecimentos em modelagem de dados e construção de dashboards orientados à tomada de decisão.
+                    </SobreText>
+                    <SobreText>
+                        Meu objetivo é conectar dados, pessoas e negócio por meio de análises e visualizações que gerem impacto real.
                     </SobreText>
                     <a href="/contato/JOYCE-DE-SOUZA-ARAUJO - CURRICULO.pdf" target="_blank">
                         <ProjetosButton type="submit">Baixar CV</ProjetosButton>
@@ -35,7 +32,7 @@ function Sobre() {
                         <FormacaoFaculdadeTipo>Ensino Superior</FormacaoFaculdadeTipo>
                         <FormacaoFaculdadeConclusao>
                             <li>Fev/25 - Cursando</li>
-                            <li>PUCPR</li>
+                            <li>FMU</li>
                         </FormacaoFaculdadeConclusao>
                     </FormacaoFaculdade>
                     <FormacaoFaculdade>
