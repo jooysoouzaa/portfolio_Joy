@@ -97,6 +97,30 @@ function Habilidades() {
                             <span>VS Code</span>
                         </HabilidadesTech>
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <HabilidadesTech>
+                            <img src='/habilidades/PowerBI.svg' alt='Power BI' width='80' height='80' />
+                            <span>Power BI</span>
+                        </HabilidadesTech>
+                    </SwiperSlide>
+                    <SwiperSlide className='habilidades__tech'>
+                        <HabilidadesTech>
+                            <img src='/habilidades/Looker.svg' alt='Looker' width='80' height='80' />
+                            <span>Looker</span>
+                        </HabilidadesTech>
+                    </SwiperSlide>
+                    <SwiperSlide className='habilidades__tech'>
+                        <HabilidadesTech>
+                            <img src='/habilidades/SQL.svg' alt='SQL' width='80' height='80' />
+                            <span>SQL</span>
+                        </HabilidadesTech>
+                    </SwiperSlide>
+                    <SwiperSlide className='habilidades__tech'>
+                        <HabilidadesTech>
+                            <img src='/habilidades\Pyspark.svg' alt='PySpark' width='80' height='80' />
+                            <span>PySpark</span>
+                        </HabilidadesTech>
+                    </SwiperSlide>
                 </Swiper>
             </SwiperWrapper>
         </HabilidadesSection>

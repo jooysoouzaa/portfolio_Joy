@@ -4,8 +4,8 @@ export const HabilidadesSection = styled.section`
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
+    
 `;
-
 
 export const HabilidadesTitulo = styled.h2`
     max-width: 1280px;
@@ -36,6 +36,7 @@ export const SwiperWrapper = styled.div`
     height: 100%;
     overflow: hidden;
     box-sizing: border-box;
+    
 }
 
 .swiper-slide {
