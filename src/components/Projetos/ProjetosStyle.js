@@ -52,30 +52,31 @@ export const ProjetosItem = styled.div`
 
      @media only screen and (min-width: 320px) and (max-width: 440px) {
         padding: 20px;
-        height: 550px;
+        height: 488px;
     }
     @media only screen and (min-width: 441px) and (max-width: 550px) {
         padding: 20px;
-        height: 580px;
+        height: 500px;
     }
 
     @media only screen and (min-width: 551px) and (max-width: 640px) {
         padding: 20px;
-        height: 620px;
+        height: 540px;
     }
 
     @media only screen and (min-width: 641px) and (max-width: 700px) {
         padding: 20px;
-        height: 660px;
+        height: 570px;
     }
 
     @media only screen and (min-width: 701px) and (max-width: 1024px) {
         padding: 20px;
-        height: 580px;
+        height: 510px;
     }
 
     @media only screen and (min-width: 1025px) and (max-width: 1199px) {
         padding: 20px;
+        height: 550px;
     }
 `;
 

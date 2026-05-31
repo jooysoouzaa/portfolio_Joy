@@ -17,21 +17,30 @@ import {
 
 
 const projetos = [
+
     {
         id: 1,
-        imagem: '/projetos/Dashboard_de_Vendas.png',
-        titulo: 'Dashboard de Vendas',
-        tecnologias: ['Excel', 'Power BI'],
-        descricao: 'Análise de vendas — total vendido, metas alcançadas, ticket médio, vendas por produto, evolução mensal e desempenho geral. Dados tratados com Power Query e visualizados no Power BI.',
-        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmE1MWNhNTEtN2FlOC00NGU1LTgzMzctM2JhY2VkZjUwMjJiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
+        imagem: '/projetos/Dashboard_de_Análise_Financeira.png',
+        titulo: 'Dashboard de Análise Financeira',
+        tecnologias: ['Excel', 'Power BI (DAX)','Star Schema' ],
+        descricao: 'Análise financeira - receita, custos, despesas, lucro e margem. Dados tratados no Power Query, modelados em Star Schema e métricas calculadas com DAX.',
+        // verProjeto: 'https://app.powerbi.com/reportEmbed?reportId=fd15972f-2aae-49c2-82b4-f4f5d662089a&autoAuth=true&ctid=8a1ef6c3-8324-4103-bf4a-1328c5dc3653',
     },
     {
         id: 2,
+        imagem: '/projetos/Dashboard_de_Vendas.png',
+        titulo: 'Dashboard de Vendas',
+        tecnologias: ['Excel', 'Power BI'],
+        descricao: 'Análise de vendas - total vendido, metas alcançadas, ticket médio, vendas por produto, evolução mensal e desempenho geral. Dados tratados com Power Query e visualizados no Power BI.',
+        // verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmE1MWNhNTEtN2FlOC00NGU1LTgzMzctM2JhY2VkZjUwMjJiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
+    },
+    {
+        id: 3,
         imagem: '/projetos/Dashboard_de_Producao.png',
         titulo: 'Dashboard de Produção',
         tecnologias: ['Excel', 'Power BI (DAX)'],
-        descricao: 'Análise de produção – total aprovado, total reprovado, índice de qualidad e produtividade. Dados tratados no Power Query e métricas calculadas com DAX.',
-        verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZWVlZWExYzctZmZmNi00NDUyLThmMmItZDljYzFmZjZlY2VlIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
+        descricao: 'Análise de produção – total aprovado, total reprovado, índice de qualidade e produtividade. Dados tratados no Power Query e métricas calculadas com DAX.',
+        // verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZWVlZWExYzctZmZmNi00NDUyLThmMmItZDljYzFmZjZlY2VlIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
     },
 
 ];
@@ -46,7 +55,7 @@ function Projetos() {
             } else if (window.innerWidth > 700 && window.innerWidth <= 1024) {
                 setSlidesPerView(2);
             } else {
-                setSlidesPerView(3);
+                setSlidesPerView(2);
             }
         }
 
