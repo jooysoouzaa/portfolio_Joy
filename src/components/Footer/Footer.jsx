@@ -47,7 +47,7 @@ function Footer() {
                     </a>
                 </BtnTop>
                 <FooterImg src='/logotipo/logotipo.svg' width="50" height="50" />
-                <FooterCopy> &copy; {anoAtual}- Desenvolvido por <strong>Joy Sóuza</strong></FooterCopy>
+                <FooterCopy> &copy; {anoAtual}- Desenvolvido por <strong>Joy Souza</strong></FooterCopy>
             </FooterContainer>
             <div id="projeto02" ref={projetosSectionRef}></div>
         </FooterSection>

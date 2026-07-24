@@ -10,12 +10,21 @@ function Experiencias() {
             <ExperienciasTitulo>Experiências<strong>.</strong></ExperienciasTitulo>
             <ExperienciasContainer>
                 <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>Blip - Data & Analytics | Estágio</ExperienciasSubtitulo>
+                    <ExperienciasSubtitulo>Knightec Group | Analista de BI </ExperienciasSubtitulo>
                     <ExperienciasHabilidades>
-                        <li>Set/25 - Atualmente</li>
+                        <li>jun/26 - Atualmente</li>
                     </ExperienciasHabilidades>
                     <ExperienciasParagrafo>
-                        Atuação em Data & Analytics, garantindo a qualidade e confiabilidade dos dados e indicadores. Desenvolvimento e manutenção de dashboards no Looker (LookML) e Power BI, transformando métricas de negócio e custos (FinOps) em insights para suporte à tomada de decisão.
+                        Atuação em Business Intelligence para operações logísticas da Volkswagen, desenvolvendo dashboards em Power BI, monitorando KPIs, apoiando análises para tomada de decisão, identificando oportunidades de melhoria e participando da padronização e automação de processos.
+                    </ExperienciasParagrafo>
+                </ExperienciasEmpresa>
+                <ExperienciasEmpresa>
+                    <ExperienciasSubtitulo>Blip - Data & Analytics | Estágio</ExperienciasSubtitulo>
+                    <ExperienciasHabilidades>
+                        <li>Set/25 - Jun/2026</li>
+                    </ExperienciasHabilidades>
+                    <ExperienciasParagrafo>
+                        Atuação em Dados & Analytics, desenvolvendo dashboards em Looker (LookML), monitorando pipelines no Databricks e Azure Data Factory, implementando transformações no Dataform e BigQuery e apoiando iniciativas de FinOps, Governança de Dados e arquitetura analítica.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>
@@ -27,15 +36,6 @@ function Experiencias() {
                         Atuação na criação e manutenção de sites, landing pages e lojas virtuais, com foco em usabilidade,
                         performance e experiência do usuário. Desenvolvimento de identidades visuais e materiais digitais
                         a partir de briefings e levantamento de requisitos, sempre com comunicação estratégica.
-                    </ExperienciasParagrafo>
-                </ExperienciasEmpresa>
-                <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>Código Certo Coders - Front-End Developer & User Interface </ExperienciasSubtitulo>
-                    <ExperienciasHabilidades>
-                        <li>Ago/24 - Fev/25</li>
-                    </ExperienciasHabilidades>
-                    <ExperienciasParagrafo>
-                        Atuação voluntária como desenvolvedora front-end na estruturação da página institucional da empresa, com desenvolvimento de interfaces responsivas e centradas no usuário utilizando React.js, JavaScript e CSS. Prototipação das telas no Figma e colaboração ativa com a equipe em reuniões semanais de alinhamento.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>
