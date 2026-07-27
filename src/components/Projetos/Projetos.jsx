@@ -1,59 +1,30 @@
-import { useState, useEffect } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import { projetos } from "../../data/projetos";
+
 import {
     ProjetosSection,
     Container,
     Subtitulo,
     ProjetosItem,
     ProjetosTitulo,
-    ProjetosTechLabel,
-    ProjetosTechList,
-    ProjetosDescricao,
+    // ProjetosTechLabel,
+    // ProjetosTechList,
+    // ProjetosDescricao,
     ProjetosBotoes,
     ProjetosButton,
-    SwiperWrapper
-} from './ProjetosStyle';
-
-
-
-const projetos = [
-
-    {
-        id: 1,
-        imagem: '/projetos/Dashboard_de_Análise_Financeira.png',
-        titulo: 'Dashboard de Análise Financeira',
-        tecnologias: ['Excel', 'Power BI (DAX)','Star Schema' ],
-        descricao: 'Análise financeira - receita, custos, despesas, lucro e margem. Dados tratados no Power Query, modelados em Star Schema e métricas calculadas com DAX.',
-        // verProjeto: 'https://app.powerbi.com/reportEmbed?reportId=fd15972f-2aae-49c2-82b4-f4f5d662089a&autoAuth=true&ctid=8a1ef6c3-8324-4103-bf4a-1328c5dc3653',
-    },
-    {
-        id: 2,
-        imagem: '/projetos/Dashboard_de_Vendas.png',
-        titulo: 'Dashboard de Vendas',
-        tecnologias: ['Excel', 'Power BI'],
-        descricao: 'Análise de vendas - total vendido, metas alcançadas, ticket médio, vendas por produto, evolução mensal e desempenho geral. Dados tratados com Power Query e visualizados no Power BI.',
-        // verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiMmE1MWNhNTEtN2FlOC00NGU1LTgzMzctM2JhY2VkZjUwMjJiIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
-    },
-    {
-        id: 3,
-        imagem: '/projetos/Dashboard_de_Producao.png',
-        titulo: 'Dashboard de Produção',
-        tecnologias: ['Excel', 'Power BI (DAX)'],
-        descricao: 'Análise de produção – total aprovado, total reprovado, índice de qualidade e produtividade. Dados tratados no Power Query e métricas calculadas com DAX.',
-        // verProjeto: 'https://app.powerbi.com/view?r=eyJrIjoiZWVlZWExYzctZmZmNi00NDUyLThmMmItZDljYzFmZjZlY2VlIiwidCI6ImI0NmI1MDViLWNiYzgtNGI1Zi1iMzMzLTZhZTViMjFhZDc4NyJ9',
-    },
-
-];
+    SwiperWrapper,
+} from "./ProjetosStyle";
 
 function Projetos() {
-    const [slidesPerView, setSlidesPerView] = useState(3);
+    const [slidesPerView, setSlidesPerView] = useState(2);
 
     useEffect(() => {
         function handleResize() {
             if (window.innerWidth <= 700) {
                 setSlidesPerView(1);
-            } else if (window.innerWidth > 700 && window.innerWidth <= 1024) {
-                setSlidesPerView(2);
             } else {
                 setSlidesPerView(2);
             }
@@ -61,17 +32,20 @@ function Projetos() {
 
         handleResize();
 
-        window.addEventListener('resize', handleResize);
+        window.addEventListener("resize", handleResize);
 
         return () => {
-            window.removeEventListener('resize', handleResize);
+            window.removeEventListener("resize", handleResize);
         };
     }, []);
 
     return (
         <ProjetosSection id="projetos" aria-label="Projetos">
             <Container>
-                <Subtitulo>Projetos<strong>.</strong></Subtitulo>
+                <Subtitulo>
+                    Projetos<strong>.</strong>
+                </Subtitulo>
+
                 <SwiperWrapper>
                     <Swiper
                         spaceBetween={20}
@@ -84,33 +58,44 @@ function Projetos() {
                         {projetos.map((projeto) => (
                             <SwiperSlide key={projeto.id}>
                                 <ProjetosItem>
-                                    {projeto.imagem && (
+
+                                    <ProjetosTitulo>
+                                        {projeto.titulo}
+                                    </ProjetosTitulo>
+
+                                    {projeto.imagemCapa && (
                                         <img
-                                            src={projeto.imagem}
+                                            src={projeto.imagemCapa}
                                             alt={`Imagem do projeto ${projeto.titulo}`}
-                                            style={{ width: '100%', height: 'auto', borderRadius: '10px', marginBottom: '1rem' }}
+                                            style={{
+                                                width: "100%",
+                                                height: "auto",
+                                                borderRadius: "10px",
+                                                marginBottom: "1rem",
+                                            }}
                                         />
                                     )}
-                                    <ProjetosTitulo>{projeto.titulo}</ProjetosTitulo>
 
-                                    <ProjetosTechLabel>Tech utilizada:</ProjetosTechLabel>
+                                    {/* <ProjetosTechLabel>
+                                        Tech utilizada:
+                                    </ProjetosTechLabel>
+
                                     <ProjetosTechList>
-                                        {projeto.tecnologias.map((tech, index) => (
-                                            <li key={index}>{tech}</li>
+                                        {projeto.tecnologias.map((tech) => (
+                                            <li key={tech}>{tech}</li>
                                         ))}
-                                    </ProjetosTechList>
-                                    <ProjetosDescricao>{projeto.descricao}</ProjetosDescricao>
+                                    </ProjetosTechList> */}
+
+                                    {/* <ProjetosDescricao>
+                                        {projeto.resumo}
+                                    </ProjetosDescricao> */}
+
                                     <ProjetosBotoes>
-                                        {projeto.verProjeto && (
-                                            <a href={projeto.verProjeto} target="_blank" rel="noopener noreferrer">
-                                                <ProjetosButton>Ver detalhes</ProjetosButton>
-                                            </a>
-                                        )}
-                                        {projeto.github && (
-                                            <a href={projeto.github} target="_blank" rel="noopener noreferrer">
-                                                <ProjetosButton>Github</ProjetosButton>
-                                            </a>
-                                        )}
+                                        <Link to={`/projetos/${projeto.slug}`}>
+                                            <ProjetosButton>
+                                                Ver detalhes
+                                            </ProjetosButton>
+                                        </Link>
                                     </ProjetosBotoes>
                                 </ProjetosItem>
                             </SwiperSlide>

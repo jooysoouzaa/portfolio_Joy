@@ -7,26 +7,41 @@ import Experiencias from './components/Experiencias/Experiencias'
 import CallToAction from './components/CallToAction/CallToAction'
 import Footer from './components/Footer/Footer';
 
+import ProjetoDetalhes from "./pages/ProjetoDetalhes/ProjetoDetalhes";
+import { Routes, Route } from "react-router-dom";
+
 import GlobalStyle from './GlobalStyle';
 
 
 function App() {
-
-
   return (
     <>
       <GlobalStyle />
-      <Header />
-      <FaixaAnimada />
-      <Projetos />
-      <Habilidades />
-      <Sobre />
-      <Experiencias />
-      <CallToAction />
-      <Footer />
 
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <FaixaAnimada />
+              <Projetos />
+              <Habilidades />
+              <Sobre />
+              <Experiencias />
+              <CallToAction />
+              <Footer />
+            </>
+          }
+        />
+
+        <Route
+          path="/projetos/:slug"
+          element={<ProjetoDetalhes />}
+        />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -32,7 +32,7 @@ export const SobreContainer = styled.div`
     height: 50px;
     background: linear-gradient(#9b30f9,#84e);
     position: absolute;
-    top: 20px;
+    top: 36px;
     left: 0;
 };
 `;

@@ -32,7 +32,7 @@ export const ProjetosItem = styled.div`
     background: #121212;
     border: 1px solid #3d3d3d6e;
     border-radius: 10px;
-    height: 570px;
+    height: auto;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -52,41 +52,45 @@ export const ProjetosItem = styled.div`
 
      @media only screen and (min-width: 320px) and (max-width: 440px) {
         padding: 20px;
-        height: 488px;
+        height: auto
     }
     @media only screen and (min-width: 441px) and (max-width: 550px) {
         padding: 20px;
-        height: 500px;
+        height: auto;
     }
 
     @media only screen and (min-width: 551px) and (max-width: 640px) {
         padding: 20px;
-        height: 540px;
+        height: auto;
     }
 
     @media only screen and (min-width: 641px) and (max-width: 700px) {
         padding: 20px;
-        height: 570px;
+        height: auto;
     }
 
     @media only screen and (min-width: 701px) and (max-width: 1024px) {
         padding: 20px;
-        height: 510px;
+        height: auto;
     }
 
     @media only screen and (min-width: 1025px) and (max-width: 1199px) {
         padding: 20px;
-        height: 550px;
+        height: auto;
     }
 `;
 
 export const ProjetosTitulo = styled.h3`
     font-size: 1.125rem;
+    margin-bottom: 20px;
     letter-spacing: 1px;
     line-height: 1.1;
     font-weight: 600;
     color: #fef5f5;
-    margin-bottom: 10px;
+
+     @media only screen and (max-width: 768px) {
+        font-size: 0.938rem;
+    }
 `;
 
 export const ProjetosTechLabel = styled.span`
@@ -95,6 +99,10 @@ export const ProjetosTechLabel = styled.span`
     line-height: 1.1;
     font-weight: 500;
     color: #fef5f5;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 0.938rem;
+    }
 `;
 
 export const ProjetosTechList = styled.ul`
@@ -113,6 +121,10 @@ export const ProjetosTechList = styled.ul`
         background-color: #303030;
         color: #fef5f5;
         padding: 5px 10px;
+
+        @media only screen and (max-width: 768px) {
+        font-size: 0.875rem;
+    }
     }
 `;
 
@@ -123,8 +135,8 @@ export const ProjetosDescricao = styled.p`
     flex: 1;
     margin-bottom: 16px;
 
-    @media screen and (max-width: 1024px) {
-        font-size: 1rem;
+    @media only screen and (max-width: 768px) {
+        font-size: 0.938rem;
     }
 `;
 
@@ -153,10 +165,15 @@ export const ProjetosButton = styled.button`
     transition: transform 0.8s ease-out;
     width: 200px;
     padding: 16px;
+    margin-top: 20px;   
 
 
     &:hover {
         transform: scale(1.1);
+    }
+
+    @media only screen and (max-width: 768px) {
+        font-size: 0.938rem;
     }
 `;
 

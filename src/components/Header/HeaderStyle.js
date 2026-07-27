@@ -56,7 +56,7 @@ export const ButtonMobile = styled.button`
   font-size: 0.8rem;
   border: none;
   background: none;
-  color: #ffffff;
+  color: #fef5f5;
   cursor: pointer;
   gap: 0.5rem;
 
@@ -140,7 +140,7 @@ export const CloseMenuButton = styled.button`
     right: 20px;
     background: none;
     border: none;
-    color: #ffffff;
+    color: #fef5f5;
     font-size: 1.5rem;
     cursor: pointer;
   }

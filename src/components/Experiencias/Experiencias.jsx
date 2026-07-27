@@ -10,15 +10,6 @@ function Experiencias() {
             <ExperienciasTitulo>Experiências<strong>.</strong></ExperienciasTitulo>
             <ExperienciasContainer>
                 <ExperienciasEmpresa>
-                    <ExperienciasSubtitulo>Knightec Group | Analista de BI </ExperienciasSubtitulo>
-                    <ExperienciasHabilidades>
-                        <li>jun/26 - Atualmente</li>
-                    </ExperienciasHabilidades>
-                    <ExperienciasParagrafo>
-                        Atuação em Business Intelligence para operações logísticas da Volkswagen, desenvolvendo dashboards em Power BI, monitorando KPIs, apoiando análises para tomada de decisão, identificando oportunidades de melhoria e participando da padronização e automação de processos.
-                    </ExperienciasParagrafo>
-                </ExperienciasEmpresa>
-                <ExperienciasEmpresa>
                     <ExperienciasSubtitulo>Blip - Data & Analytics | Estágio</ExperienciasSubtitulo>
                     <ExperienciasHabilidades>
                         <li>Set/25 - Jun/2026</li>
@@ -36,6 +27,15 @@ function Experiencias() {
                         Atuação na criação e manutenção de sites, landing pages e lojas virtuais, com foco em usabilidade,
                         performance e experiência do usuário. Desenvolvimento de identidades visuais e materiais digitais
                         a partir de briefings e levantamento de requisitos, sempre com comunicação estratégica.
+                    </ExperienciasParagrafo>
+                </ExperienciasEmpresa>
+                <ExperienciasEmpresa>
+                    <ExperienciasSubtitulo>Código Certo - Front-End Developer & User Interface | Voluntária</ExperienciasSubtitulo>
+                    <ExperienciasHabilidades>
+                        <li>Ago/24 - Dez/24</li>
+                    </ExperienciasHabilidades>
+                    <ExperienciasParagrafo>
+                        Atuação voluntária como Dev Front-End na estruturação de página institucional. Criação de interfaces responsivas e focadas no usuário com React.js, JS, CSS e Figma, além de colaboração ativa e alinhamento de tarefas em equipe em reuniões semanais.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>
