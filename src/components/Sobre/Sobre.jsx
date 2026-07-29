@@ -21,7 +21,7 @@ function Sobre() {
                     <SobreText>
                         Meu objetivo é conectar dados, pessoas e negócio por meio de análises e visualizações que gerem impacto real.
                     </SobreText>
-                    <a href="/contato/JOYCE-DE-SOUZA-ARAUJO - CURRICULO.pdf" target="_blank">
+                    <a href="/contato/CURRICULO-JOYCE-DE-SOUZA-ARAUJO.pdf" target="_blank">
                         <ProjetosButton type="submit">Baixar CV</ProjetosButton>
                     </a>
                 </SobreParagrafo>

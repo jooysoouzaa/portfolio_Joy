@@ -84,7 +84,7 @@ function Header() {
                             </ContatoLink>
                         </ContatoItem>
                         <ContatoItem>
-                            <ContatoLink href="/contato/JOYCE-DE-SOUZA-ARAUJO - CURRICULO.pdf" target="_blank" rel="noopener noreferrer">
+                            <ContatoLink href="/contato/CURRICULO-JOYCE-DE-SOUZA-ARAUJO.pdf" target="_blank" rel="noopener noreferrer">
                                 <ContatoImg src="/contato/curriculo_icon.svg" alt="Currículo" width="50" height="50" />
                             </ContatoLink>
                         </ContatoItem>
