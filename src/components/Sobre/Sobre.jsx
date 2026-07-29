@@ -16,10 +16,13 @@ function Sobre() {
                         Minha trajetória começou no desenvolvimento Front-End e no Web Design, onde desenvolvi um forte olhar para experiência do usuário, usabilidade e comunicação visual. Essa base me permitiu compreender a importância de transformar informações complexas em experiências claras e intuitivas, habilidade que hoje aplico diretamente na área de dados.
                     </SobreText>
                     <SobreText>
-                        Hoje direciono minha carreira para Business Intelligence, Análise de Dados e Data Visualization, unindo visão analítica, comunicação visual e contexto de negócio para transformar dados em insights claros e acionáveis. Tenho experiência com ferramentas como SQL, Python para análise e manipulação de dados, Power BI, Looker, Databricks e Excel, além de conhecimentos em modelagem de dados e construção de dashboards orientados à tomada de decisão.
+                        Atualmente, direciono minha carreira para Análise de Dados e Engenharia de Dados, com interesse especial em processos de ingestão, transformação, validação e organização de dados, além da construção e sustentação de pipelines e bases analíticas. Também atuo na criação de dashboards e visualizações que facilitam o acompanhamento de indicadores e apoiam a tomada de decisão.
                     </SobreText>
                     <SobreText>
-                        Meu objetivo é conectar dados, pessoas e negócio por meio de análises e visualizações que gerem impacto real.
+                        Tenho experiência com SQL, Python, PySpark, Databricks, Azure Data Factory, BigQuery, Dataform, Power BI, Looker, LookML e Excel, além de conhecimentos em modelagem de dados, monitoramento de processamentos, identificação de falhas e inconsistências e organização de dados em diferentes camadas.
+                    </SobreText>
+                    <SobreText>
+                        Meu objetivo é atuar na conexão entre análise e engenharia, contribuindo desde a preparação e estruturação dos dados até a geração de análises, indicadores e produtos de dados confiáveis para o negócio.
                     </SobreText>
                     <a href="/contato/CURRICULO-JOYCE-DE-SOUZA-ARAUJO.pdf" target="_blank">
                         <ProjetosButton type="submit">Baixar CV</ProjetosButton>

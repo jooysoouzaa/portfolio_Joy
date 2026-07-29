@@ -23,8 +23,8 @@ export const Faixa1 = styled.div`
     margin-bottom: 46px;
     z-index: 2;
     position: relative;
-    opacity: 0.6;
-    filter: blur(1.6px);
+    opacity: 1;
+    filter: blur(1.4px);
 
     @media only screen and (max-width: 1023px) {
         margin-top: -65px;
