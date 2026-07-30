@@ -1,93 +1,67 @@
 import {
-    Faixa, Faixa1, Faixa2, TextWrapper1, TextWrapper2
+    Faixa,
+    Faixa1,
+    Faixa2,
+    TextWrapper1,
+    TextWrapper2
 } from './FaixaAnimadaStyle';
+
+const competencias = [
+    'Engenharia de Dados',
+    'Análise de Dados',
+    'Pipelines de Dados',
+    'SQL',
+    'Python',
+    'PySpark',
+    'Databricks',
+    'Azure Data Factory',
+    'ETL',
+    'ELT',
+    'Ingestão de Dados',
+    'Transformação de Dados',
+    'Qualidade de Dados',
+    'Modelagem de Dados',
+    'Data Lake',
+    'Delta Lake',
+    'Arquitetura Medalhão',
+    'BigQuery',
+    'Dataform',
+    'Monitoramento de Pipelines',
+    'Validação de Dados',
+    'Processamento de Dados',
+    'Camada Bronze',
+    'Camada Silver',
+    'Camada Gold',
+    'Power BI',
+    'Looker',
+    'LookML',
+    'Data Visualization',
+    'Dashboards',
+    'Excel',
+    'Git',
+    'Big Data',
+    'Raciocínio Analítico'
+];
+
+const renderizarCompetencias = (prefixo) =>
+    competencias.map((competencia, index) => (
+        <p key={`${prefixo}-${competencia}-${index}`}>
+            {competencia}
+        </p>
+    ));
 
 const FaixaAnimada = () => {
     return (
         <Faixa>
             <Faixa1>
                 <TextWrapper1>
-                    <p>Storytelling com Dados</p>
-                    <p>Google Sheets</p>
-                    <p>Scrum</p>
-                    <p>Design Thinking</p>
-                    <p>Produto Digital</p>
-                    <p>Business Intelligence</p>
-                    <p>Análise de Dados</p>
-                    <p>Trello</p>
-                    <p>Raciocínio Analítico</p>
-                    <p>Excel</p>
-                    <p>Power BI</p>
-                    <p>SQL</p>
-                    <p>Python</p>
-                    <p>Pyspark</p>
-                    <p>Databricks</p>
-                    <p>Hadoop</p>
-                    <p>DAX</p>
-                    <p>Dashboard</p>
-                    <p>UX Design</p>
-                    <p>Performance</p>
-                    <p>ETL</p>
-                    <p>Big Data</p>
-                    <p>Pyspark</p>
-                    <p>Databricks</p>
-                    <p>Hadoop</p>
-                    <p>Excel</p>
-                    <p>Power BI</p>
-                    <p>SQL</p>
-                    <p>Python</p>
-                    <p>DAX</p>
-                    <p>Dashboard</p>
-                    <p>Excel</p>
-                    <p>Power BI</p>
-                    <p>SQL</p>
-                    <p>Python</p>
-                    <p>DAX</p>
-                    <p>Dashboard</p>
-                    <p>ETL</p>
-                    <p>Big Data</p>
+                    {renderizarCompetencias('faixa-1')}
                 </TextWrapper1>
             </Faixa1>
+
             <Faixa2>
                 <TextWrapper2>
-                    <p>Storytelling com Dados</p>
-                    <p>Google Sheets</p>
-                    <p>Scrum</p>
-                    <p>Business Intelligence</p>
-                    <p>Análise de Dados</p>
-                    <p>Raciocínio Analítico</p>
-                    <p>Excel</p>
-                    <p>Power BI</p>
-                    <p>SQL</p>
-                    <p>Python</p>
-                    <p>Pyspark</p>
-                    <p>Databricks</p>
-                    <p>Azure</p>
-                    <p>Hadoop</p>
-                    <p>DAX</p>
-                    <p>Dashboard</p>
-                    <p>Looker</p>
-                    <p>UX Design</p>
-                    <p>Performance</p>
-                    <p>ETL</p>
-                    <p>Big Data</p>
-                    <p>Pyspark</p>
-                    <p>Databricks</p>
-                    <p>Hadoop</p>
-                    <p>Excel</p>
-                    <p>Power BI</p>
-                    <p>SQL</p>
-                    <p>Python</p>
-                    <p>DAX</p>
-                    <p>Dashboard</p>
-                    <p>Excel</p>
-                    <p>Power BI</p>
-                    <p>SQL</p>
-                    <p>Python</p>
-                    <p>DAX</p>
-                    <p>Dashboard</p>
-                    <p>ETL</p>
-                    <p>Big Data</p>
+                    {renderizarCompetencias('faixa-2')}
                 </TextWrapper2>
             </Faixa2>
         </Faixa>
