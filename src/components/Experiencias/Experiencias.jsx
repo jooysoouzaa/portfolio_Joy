@@ -15,7 +15,7 @@ function Experiencias() {
                         <li>Set/25 - Jul/2026</li>
                     </ExperienciasHabilidades>
                     <ExperienciasParagrafo>
-                        Atuação em Dados & Analytics, desenvolvendo dashboards em Looker (LookML), monitorando pipelines no Databricks e Azure Data Factory, implementando transformações no Dataform e BigQuery e apoiando iniciativas de FinOps, Governança de Dados e arquitetura analítica.
+                        Atuação em Dados & Analytics, desenvolvendo dashboards em Looker (LookML) e Power BI, monitorando pipelines no Databricks e Azure Data Factory, implementando transformações no Dataform e BigQuery e apoiando iniciativas de FinOps, Governança de Dados e arquitetura analítica.
                     </ExperienciasParagrafo>
                 </ExperienciasEmpresa>
                 <ExperienciasEmpresa>
