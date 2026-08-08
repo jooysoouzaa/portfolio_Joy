@@ -1,14 +1,15 @@
 export const projetos = [
-{
+  {
     id: 1,
     slug: 'logistics-operations-intelligence',
 
     titulo: 'Logistics Operations Intelligence',
 
-    imagemCapa: '/projetos/logistics_operations_intelligence.png',
+    imagemCapa:
+      '/projetos/logistics_operation_intelligence/logistics_operations_intelligence.png',
 
     resumo:
-      'Projeto end-to-end de Engenharia e Analytics de Dados com Databricks, PySpark, Delta Lake, arquitetura Medalhão e Governança de Dados. Veja mais em: https://github.com/jooysoouzaa/logistics-operations-intelligence ',
+      'Projeto end-to-end de Engenharia e Analytics de Dados com Databricks, PySpark e Delta Lake, estruturado em arquitetura Medalhão e com práticas de Data Quality e Governança para transformar dados operacionais em informações analíticas confiáveis.',
 
     contexto:
       'O projeto foi desenvolvido a partir de dados de operações logísticas com o objetivo de estruturar um pipeline completo, desde a ingestão dos dados brutos até a criação de tabelas analíticas para consumo e tomada de decisão.',
@@ -56,9 +57,35 @@ export const projetos = [
     aprendizados:
       'O projeto aprofundou minha prática em Engenharia de Dados, desde ingestão e transformação até modelagem analítica e governança. Também reforçou a importância de não corrigir inconsistências de forma arbitrária, preservando os dados originais e criando regras, flags e controles de qualidade para garantir rastreabilidade.',
 
-   galeria: ['/projetos/logistics_operations_intelligence.png'],
-  },
+    github: 'https://github.com/jooysoouzaa/logistics-operations-intelligence',
 
+    achados: [
+      'Foram identificadas divergências entre o indicador on_time_flag da fonte e o indicador de pontualidade recalculado, afetando 56.866 registros de eventos de entrega.',
+
+      'Foram encontradas 3.880 compras de combustível sem truck_id e 3.988 registros sem driver_id, evidenciando problemas de completude que podem limitar análises por veículo e motorista.',
+
+      'As validações confirmaram a unicidade de trip_id na camada Silver e a preservação da granularidade de uma linha por viagem nas principais tabelas analíticas da camada Gold.',
+
+      'As regras de qualidade também validaram integridade entre entidades e consistência dos custos de combustível dentro das tolerâncias definidas.',
+
+      'Os problemas encontrados foram preservados e registrados como alertas de qualidade, em vez de serem corrigidos arbitrariamente, garantindo rastreabilidade entre o dado de origem e as camadas analíticas.',
+
+      'A camada Gold consolidou indicadores operacionais e financeiros relacionados a viagens, desempenho de entregas e consumo de combustível, preparando os dados para análise e consumo por ferramentas de BI.',
+    ],
+
+    galeria: [
+      '/projetos/logistics_operation_intelligence/Estrutura do Catalog.png',
+      '/projetos/logistics_operation_intelligence/gold_trip_operations.png',
+      '/projetos/logistics_operation_intelligence/Unity Catalog Lineage.png',
+      '/projetos/logistics_operation_intelligence/Bronze_e_silver.png',
+      '/projetos/logistics_operation_intelligence/data_catalog.png',
+      '/projetos/logistics_operation_intelligence/data_quality_results.png',
+      '/projetos/logistics_operation_intelligence/data_quality_rules.png',
+      '/projetos/logistics_operation_intelligence/governance_logistics.png',
+      '/projetos/logistics_operation_intelligence/trips_bronze.png',
+      '/projetos/logistics_operation_intelligence/trips_silver.png',
+    ],
+  },
 
   {
     id: 2,
@@ -66,7 +93,7 @@ export const projetos = [
 
     titulo: 'Dashboard de Análise Financeira',
 
-    imagemCapa: '/projetos/Dashboard_de_Análise_Financeira.png',
+    imagemCapa: 'projetos/analise-financeira/visao-geral.png',
 
     video: '/projetos/analise-financeira/demonstracao.mp4',
 
@@ -93,6 +120,12 @@ export const projetos = [
 
     aprendizados:
       'O projeto reforçou meus conhecimentos em modelagem dimensional, criação de métricas com DAX e organização visual de indicadores financeiros.',
+
+    galeria: [
+      '/projetos/analise-financeira/capa.png',
+      '/projetos/analise-financeira/visao-geral.png',
+      '/projetos/analise-financeira/fluxo-de-caixa.png',
+    ],
   },
 
   {
@@ -101,12 +134,12 @@ export const projetos = [
 
     titulo: 'Dashboard de Vendas',
 
-    imagemCapa: '/projetos/Dashboard_de_Vendas.png',
+    imagemCapa: 'projetos/analise-de-vendas/Dashboard_de_Vendas.png',
 
-    video: '/projetos/demonstracao-gestao-de-vendas.mp4',
+    video: '/projetos/analise-de-vendas/demonstracao-gestao-de-vendas.mp4',
 
     resumo:
-      'Dashboard criado para acompanhar faturamento, produtos, regiões e desempenho comercial.',
+      'Dashboard desenvolvido para acompanhar o desempenho comercial por meio da análise de faturamento, produtos, marcas, regiões e evolução das vendas ao longo do tempo, facilitando a identificação de tendências e dos principais fatores que impactam os resultados.',
 
     contexto:
       'O projeto apresenta uma visão consolidada do desempenho de vendas em diferentes períodos e mercados.',
@@ -138,7 +171,7 @@ export const projetos = [
     aprendizados:
       'O projeto permitiu praticar análise comercial e desenvolvimento de visualizações voltadas para acompanhamento de vendas.',
 
-    galeria: ['/projetos/Dashboard_de_Vendas.png'],
+    galeria: ['/projetos/analise-de-vendas/Dashboard_de_Vendas.png'],
   },
 
   {
@@ -147,12 +180,12 @@ export const projetos = [
 
     titulo: 'Dashboard de Produção',
 
-    imagemCapa: '/projetos/Dashboard_de_Producao.png',
+    imagemCapa: 'projetos/analise-producao/Dashboard_de_Producao.png',
 
-    video: '/projetos/demonstracao-producao.mp4',
+    video: '/projetos/analise-producao/demonstracao-producao.mp4',
 
     resumo:
-      'Dashboard desenvolvido para analisar produtividade, qualidade, aprovação e reprovação.',
+      'Dashboard desenvolvido para acompanhar o desempenho do processo produtivo, analisando volume produzido, produtividade, qualidade, aprovação e reprovação, permitindo identificar variações e pontos de atenção na operação.',
 
     contexto:
       'O projeto foi criado para acompanhar os resultados de um processo produtivo.',
@@ -182,8 +215,6 @@ export const projetos = [
     aprendizados:
       'O projeto ajudou a desenvolver minha capacidade de transformar dados operacionais em indicadores de acompanhamento.',
 
-    galeria: ['/projetos/Dashboard_de_Producao.png'],
+    galeria: ['/projetos/analise-producao/Dashboard_de_Producao.png'],
   },
-
-  
 ];

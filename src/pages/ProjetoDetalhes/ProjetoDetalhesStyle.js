@@ -42,9 +42,6 @@ export const ProjetosBox = styled.div`
     top: 24px;
     left: 0;
   }
-
-
-  
 `;
 
 export const PaginaProjeto = styled.main`
@@ -83,8 +80,6 @@ export const CabecalhoProjeto = styled.header`
 export const ProjetoTitulo = styled.h1`
   margin-bottom: 16px;
   font-size: clamp(20px, 4vw, 40px);
-
-  
 `;
 
 export const ProjetoResumo = styled.p`
@@ -129,15 +124,14 @@ export const ImagemPrincipal = styled.img`
 
 export const SecaoProjeto = styled.section`
   max-width: 900px;
-  
 
   p {
     color: #c4c4c4;
     line-height: 1.8;
 
     @media (max-width: 1023px) {
-    margin-bottom: 20px;
-  }
+      margin-bottom: 20px;
+    }
   }
 `;
 
@@ -171,7 +165,7 @@ export const ListaProjeto = styled.ul`
     font-size: 1rem;
   }
 
-   @media (max-width: 1023px) {
+  @media (max-width: 1023px) {
     margin-bottom: 20px;
   }
 `;
@@ -241,5 +235,267 @@ export const GaleriaWrapper = styled.div`
     .swiper-button-next::after {
       font-size: 15px;
     }
+  }
+`;
+
+export const GaleriaSection = styled.section`
+  margin-top: 60px;
+  margin-bottom: 60px;
+`;
+
+export const GaleriaTitulo = styled.h2`
+  color: #fef5f5;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 30px;
+
+  strong {
+    color: #9b30f9;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 26px;
+  }
+`;
+
+export const GaleriaCarousel = styled.div`
+  width: 100%;
+  position: relative;
+
+  .swiper {
+    padding-bottom: 55px;
+  }
+
+  .swiper-slide {
+    height: auto;
+    display: flex;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    background: linear-gradient(180deg, #9b30f9, #84e);
+    color: #f5f5f5;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .swiper-pagination-bullet {
+    background: #7312fa;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #9b30f9;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 32px;
+      height: 32px;
+    }
+  }
+`;
+
+export const GaleriaItem = styled.div`
+  width: 100%;
+  background: #121212;
+  border: 1px solid #3d3d3d6e;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  cursor: zoom-in;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.02);
+  }
+
+  @media only screen and (max-width: 768px) {
+    img {
+      height: 260px;
+    }
+  }
+`;
+
+export const GaleriaModal = styled.div`
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(5px);
+
+  cursor: zoom-out;
+
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+  }
+`;
+
+export const ImagemAmpliada = styled.img`
+  display: block;
+
+  max-width: 95%;
+  max-height: 90vh;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+
+  border-radius: 10px;
+  border: 1px solid #3d3d3d;
+
+  cursor: default;
+`;
+
+export const BotaoFechar = styled.button`
+  position: absolute;
+  top: 25px;
+  right: 35px;
+
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 50%;
+
+  background: linear-gradient(180deg, #9b30f9, #84e);
+  color: #fff;
+
+  font-size: 28px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @media only screen and (max-width: 768px) {
+    top: 15px;
+    right: 15px;
+
+    width: 40px;
+    height: 40px;
+  }
+`;
+export const AchadosBox = styled.section`
+  margin-top: 50px;
+  padding: 30px;
+
+  background: #121212;
+  border: 1px solid #3d3d3d6e;
+  border-radius: 10px;
+
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+
+    width: 4px;
+    height: 50px;
+
+    background: linear-gradient(180deg, #9b30f9, #84e);
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+  }
+`;
+
+export const AchadosIntroducao = styled.p`
+  color: #bdbdbd;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 20px 0;
+`;
+
+export const ListaAchados = styled.ul`
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  padding-left: 20px;
+
+  li {
+    color: #bdbdbd;
+    font-size: 1rem;
+    line-height: 1.6;
+    list-style-type: disc;
+
+    &::marker {
+      color: #fef5f5;
+    }
+  }
+`;
+
+export const GithubArea = styled.div`
+  display: flex;
+  justify-content: center;
+
+  margin-top: 30px;
+  margin-bottom: 70px;
+`;
+
+export const GithubButton = styled.a`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 220px;
+
+  padding: 16px 24px;
+
+  background: linear-gradient(180deg, #9b30f9, #84e);
+  color: #fef5f5;
+
+  border-radius: 4px;
+
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
   }
 `;

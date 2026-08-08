@@ -10,9 +10,9 @@ import {
     Subtitulo,
     ProjetosItem,
     ProjetosTitulo,
-    // ProjetosTechLabel,
-    // ProjetosTechList,
-    // ProjetosDescricao,
+    ProjetosTechLabel,
+    ProjetosTechList,
+    ProjetosDescricao,
     ProjetosBotoes,
     ProjetosButton,
     SwiperWrapper,
@@ -76,7 +76,7 @@ function Projetos() {
                                         />
                                     )}
 
-                                    {/* <ProjetosTechLabel>
+                                    <ProjetosTechLabel>
                                         Tech utilizada:
                                     </ProjetosTechLabel>
 
@@ -84,11 +84,11 @@ function Projetos() {
                                         {projeto.tecnologias.map((tech) => (
                                             <li key={tech}>{tech}</li>
                                         ))}
-                                    </ProjetosTechList> */}
+                                    </ProjetosTechList>
 
-                                    {/* <ProjetosDescricao>
+                                    <ProjetosDescricao>
                                         {projeto.resumo}
-                                    </ProjetosDescricao> */}
+                                    </ProjetosDescricao>
 
                                     <ProjetosBotoes>
                                         <Link to={`/projetos/${projeto.slug}`}>
