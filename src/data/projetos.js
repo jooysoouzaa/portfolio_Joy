@@ -1,6 +1,67 @@
 export const projetos = [
-  {
+{
     id: 1,
+    slug: 'logistics-operations-intelligence',
+
+    titulo: 'Logistics Operations Intelligence',
+
+    imagemCapa: '/projetos/logistics_operations_intelligence.png',
+
+    resumo:
+      'Projeto end-to-end de Engenharia e Analytics de Dados com Databricks, PySpark, Delta Lake, arquitetura Medalhão e Governança de Dados. Veja mais em: https://github.com/jooysoouzaa/logistics-operations-intelligence ',
+
+    contexto:
+      'O projeto foi desenvolvido a partir de dados de operações logísticas com o objetivo de estruturar um pipeline completo, desde a ingestão dos dados brutos até a criação de tabelas analíticas para consumo e tomada de decisão.',
+
+    problema:
+      'Os dados estavam distribuídos em diferentes entidades operacionais, como viagens, cargas, rotas, motoristas, caminhões, eventos de entrega e abastecimentos. Era necessário organizar, validar e integrar essas informações, garantindo qualidade, rastreabilidade e uma estrutura preparada para análises de negócio.',
+
+    objetivo:
+      'Construir uma arquitetura de dados em camadas Bronze, Silver e Gold, aplicando transformações, regras de qualidade, modelagem analítica e práticas de Governança de Dados.',
+
+    processo: [
+      'Ingestão e persistência dos dados na camada Bronze',
+      'Padronização, validação e enriquecimento dos dados na camada Silver',
+      'Validação de unicidade, completude, integridade e consistência',
+      'Criação de métricas operacionais e financeiras com PySpark',
+      'Modelagem de tabelas analíticas na camada Gold',
+      'Implementação de catálogo, dicionário, regras e resultados de qualidade',
+      'Criação de linhagem de dados e uso do Unity Catalog',
+      'Versionamento dos notebooks com Git e GitHub',
+    ],
+
+    indicadores: [
+      'Distância e duração das viagens',
+      'Eficiência de combustível (MPG)',
+      'Tempo ocioso',
+      'Receita por viagem e por milha',
+      'Margem operacional estimada',
+      'Atrasos e antecipações',
+      'Tempo de detenção',
+      'Custo de combustível por milha',
+      'Completude e consistência dos dados',
+    ],
+
+    tecnologias: [
+      'Databricks',
+      'PySpark',
+      'Delta Lake',
+      'Unity Catalog',
+      'Arquitetura Medalhão',
+      'Data Quality',
+      'Data Governance',
+      'Git/GitHub',
+    ],
+
+    aprendizados:
+      'O projeto aprofundou minha prática em Engenharia de Dados, desde ingestão e transformação até modelagem analítica e governança. Também reforçou a importância de não corrigir inconsistências de forma arbitrária, preservando os dados originais e criando regras, flags e controles de qualidade para garantir rastreabilidade.',
+
+   galeria: ['/projetos/logistics_operations_intelligence.png'],
+  },
+
+
+  {
+    id: 2,
     slug: 'analise-financeira',
 
     titulo: 'Dashboard de Análise Financeira',
@@ -26,12 +87,7 @@ export const projetos = [
       'Construção do layout e das visualizações no Power BI',
     ],
 
-    indicadores: [
-      'Receita total',
-      'Custos',
-      'Despesas',
-      'Lucro'
-    ],
+    indicadores: ['Receita total', 'Custos', 'Despesas', 'Lucro'],
 
     tecnologias: ['Excel', 'Power Query', 'Power BI', 'DAX', 'Star Schema'],
 
@@ -40,12 +96,14 @@ export const projetos = [
   },
 
   {
-    id: 2,
+    id: 3,
     slug: 'dashboard-vendas',
 
     titulo: 'Dashboard de Vendas',
 
     imagemCapa: '/projetos/Dashboard_de_Vendas.png',
+
+    video: '/projetos/demonstracao-gestao-de-vendas.mp4',
 
     resumo:
       'Dashboard criado para acompanhar faturamento, produtos, regiões e desempenho comercial.',
@@ -84,12 +142,14 @@ export const projetos = [
   },
 
   {
-    id: 3,
+    id: 4,
     slug: 'dashboard-producao',
 
     titulo: 'Dashboard de Produção',
 
     imagemCapa: '/projetos/Dashboard_de_Producao.png',
+
+    video: '/projetos/demonstracao-producao.mp4',
 
     resumo:
       'Dashboard desenvolvido para analisar produtividade, qualidade, aprovação e reprovação.',
@@ -124,4 +184,6 @@ export const projetos = [
 
     galeria: ['/projetos/Dashboard_de_Producao.png'],
   },
+
+  
 ];
